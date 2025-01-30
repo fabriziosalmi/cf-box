@@ -1,0 +1,7 @@
+accounts:
+  - id: "1e7ed1e7e9b2dfdfb15ed609d30fbe52"
+    lists:
+      - name: "bad_ips"
+        sync_from: "https://github.com/stamparm/ipsum/raw/refs/heads/master/levels/3.txt"
+#      - name: "internal_whitelist"
+#        local_file: "whitelist.txt"
