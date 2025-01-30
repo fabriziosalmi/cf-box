@@ -4,6 +4,8 @@ from datetime import datetime
 import json
 import yaml
 from typing import Dict, List, Optional, Any
+import time
+import math
 
 def load_config(config_path: str) -> Dict[str, Any]:
     """Loads YAML configuration file."""
@@ -38,19 +40,40 @@ def get_ip_lists(account_id: str, api_token: str) -> Optional[List[Dict[str, Any
         print(f"Error fetching IP lists for {account_id}: {e}")
         return None
 
-def sync_ip_list(account_id: str, list_id: str, ip_list: List[str], api_token: str) -> bool:
-    """Syncs an IP list by replacing its content."""
-    headers = { 'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json' }
+def chunk_list(data, chunk_size):
+    """Splits a list into chunks of max chunk_size."""
+    for i in range(0, len(data), chunk_size):
+        yield data[i:i + chunk_size]
+
+def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -> bool:
+    """Syncs an IP list efficiently, respecting Cloudflare API rate limits."""
+    headers = {
+        'Authorization': f'Bearer {api_token}',
+        'Content-Type': 'application/json'
+    }
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/rules/lists/{list_id}/items"
-    
-    payload = [{"ip": ip} for ip in ip_list]
-    try:
-        response = requests.put(url, headers=headers, json=payload)
-        response.raise_for_status()
-        return response.json().get('success', False)
-    except requests.exceptions.RequestException as e:
-        print(f"Error syncing IP list {list_id}: {e}")
-        return False
+
+    chunk_size = 100  # Cloudflare allows batch updates; 100 is a safe batch size
+    max_retries = 5
+    retry_delay = 5  # Start with 5s, doubles on retry
+
+    for chunk in chunk_list(ip_list, chunk_size):
+        payload = [{"ip": ip} for ip in chunk]
+        for attempt in range(max_retries):
+            try:
+                response = requests.put(url, headers=headers, json=payload)
+                if response.status_code == 429:
+                    print(f"⚠️ Rate limited! Retrying in {retry_delay}s...")
+                    time.sleep(retry_delay)
+                    retry_delay = min(retry_delay * 2, 120)  # Max backoff: 120s
+                    continue  # Retry again
+                response.raise_for_status()
+                print(f"✅ Synced {len(chunk)} IPs to list {list_id}")
+                break  # Exit retry loop if successful
+            except requests.exceptions.RequestException as e:
+                print(f"❌ Error syncing IP list {list_id}: {e}")
+                return False
+    return True
 
 def save_markdown_report(account_data):
     """Saves a markdown report with the latest Cloudflare IP list details."""
