@@ -1,0 +1,7 @@
+accounts:
+  - id: "<your-cloudflare-account-id>"
+    lists:
+      - name: "bad_ips"
+        sync_from: "https://github.com/stamparm/ipsum/raw/refs/heads/master/levels/3.txt"
+#      - name: "internal_whitelist"
+#        local_file: "whitelist.txt"
