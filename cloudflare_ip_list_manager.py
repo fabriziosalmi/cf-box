@@ -124,32 +124,43 @@ def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -
         print(f"⚠️ IP list too large ({len(new_ips)} entries)! Trimming to 10,000.")
         new_ips = list(new_ips)[:10000]
 
-    chunk_size = 50  # 🔥 Reduce from 100 to 50 to avoid aggressive rate limits
-    max_retries = 15  # 🔥 Increase retry attempts
-    base_retry_delay = 5  # 🔥 Initial delay
-    max_retry_delay = 180  # 🔥 Cap retries at 3 minutes
+    chunk_size = 25  # 🔥 Keep small batches
+    max_retries = 10
+    base_retry_delay = 5  # 🔥 Base delay for retries
+    base_throttle = 2  # 🔥 Base delay to prevent rate limits (in seconds)
 
     for chunk in chunk_list(list(new_ips), chunk_size):
         payload = [{"ip": ip} for ip in chunk]
-        retry_delay = base_retry_delay  # Reset delay for each batch
+        retry_delay = base_retry_delay  # Reset retry delay per chunk
+        throttle_delay = base_throttle  # Reset throttle per chunk
 
         for attempt in range(max_retries):
             try:
+                # 🔹 **Throttle Requests to Avoid Hitting the API Too Fast**
+                time.sleep(throttle_delay + random.uniform(1, 3))  # 🔥 Add small random jitter
+
                 response = requests.put(url, headers=headers, json=payload)
 
                 # **Handle Rate Limiting**
                 if response.status_code == 429:
-                    retry_after = int(response.headers.get("Retry-After", retry_delay))  # Use Cloudflare-suggested delay
-                    jitter = random.uniform(2, 5)  # 🔥 Add 2-5 sec of random delay
-                    total_delay = min(retry_after + jitter, max_retry_delay)
+                    retry_after = int(response.headers.get("Retry-After", retry_delay))  # Use Cloudflare's retry time
+                    jitter = random.uniform(2, 5)  # 🔥 Add slight randomness
+                    total_delay = min(retry_after + jitter, 180)  # 🔥 Cap at 3 min
 
                     print(f"⚠️ Rate limited! Retrying in {total_delay:.2f}s...")
-                    time.sleep(total_delay)  # 🔥 Use randomized exponential backoff
-                    retry_delay = min(retry_delay + 10, max_retry_delay)  # 🔥 Increase delay gradually
+                    time.sleep(total_delay)
+
+                    # 🔥 Increase throttle for future requests to avoid hitting limits again
+                    throttle_delay = min(throttle_delay + 2, 30)  # 🔥 Gradually increase throttle up to 30s
+
                     continue  # Retry the same chunk
 
                 response.raise_for_status()
                 print(f"✅ Synced {len(chunk)} IPs to list {list_id}")
+
+                # 🔥 Adaptive Throttling: If request succeeds, slightly **reduce** the throttle delay
+                throttle_delay = max(throttle_delay - 1, base_throttle)  # 🔥 Never below base
+
                 break  # Exit retry loop if successful
             except requests.exceptions.RequestException as e:
                 print(f"❌ Error syncing IP list {list_id}: {e}")
