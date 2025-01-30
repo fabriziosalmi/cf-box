@@ -59,27 +59,37 @@ def get_current_ip_list(account_id: str, list_id: str, api_token: str) -> List[s
         print(f"❌ Error fetching current IPs for list {list_id}: {e}")
         return []
 
+def get_ip_list_from_source(source_url: str) -> List[str]:
+    """Fetches IPs from a remote source and filters valid IPv4 addresses."""
+    try:
+        response = requests.get(source_url, timeout=10)
+        response.raise_for_status()
+        ip_list = list(set(response.text.strip().split('\n')))
+        print(f"✅ Fetched {len(ip_list)} IPs from {source_url}")
+        return ip_list[:10000]  # Trim to max 10,000
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Failed to fetch IP list from {source_url}: {e}")
+        return []
+
 def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -> bool:
     """Syncs an IP list only if changes exist, enforcing max 10K entries & handling rate limits."""
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/rules/lists/{list_id}/items"
 
-    # ✅ Get existing IPs to compare
     existing_ips = set(get_current_ip_list(account_id, list_id, api_token))
     new_ips = set(ip_list)
-
+    
     if existing_ips == new_ips:
         print(f"✅ No changes detected for list {list_id}, skipping update.")
-        return True  # No update needed
-
-    # ✅ Trim list to 10,000 max entries
+        return True
+    
     if len(new_ips) > 10000:
         print(f"⚠️ IP list too large ({len(new_ips)} entries)! Trimming to 10,000.")
         new_ips = list(new_ips)[:10000]
 
-    chunk_size = 100  # Batch updates in groups of 100
+    chunk_size = 100
     max_retries = 5
-    retry_delay = 5  # Start with 5s backoff
+    retry_delay = 5
 
     for chunk in chunk_list(list(new_ips), chunk_size):
         payload = [{"ip": ip} for ip in chunk]
@@ -89,7 +99,7 @@ def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -
                 if response.status_code == 429:
                     print(f"⚠️ Rate limited! Retrying in {retry_delay}s...")
                     time.sleep(retry_delay)
-                    retry_delay = min(retry_delay * 2, 120)  # Max backoff: 120s
+                    retry_delay = min(retry_delay * 2, 120)
                     continue
                 response.raise_for_status()
                 print(f"✅ Synced {len(chunk)} IPs to list {list_id}")
@@ -98,78 +108,3 @@ def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -
                 print(f"❌ Error syncing IP list {list_id}: {e}")
                 return False
     return True
-
-
-def save_markdown_report(account_data):
-    """Saves a markdown report with the latest Cloudflare IP list details."""
-    reports_dir = "reports"
-    os.makedirs(reports_dir, exist_ok=True)
-
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    report_path = os.path.join(reports_dir, f"cf_ip_report_{timestamp}.md")
-
-    with open(report_path, "w") as f:
-        f.write(f"# Cloudflare IP List Report ({timestamp})\n\n")
-        for account_id, details in account_data.items():
-            f.write(f"## Account: {details['name']} (ID: {account_id})\n\n")
-            for ip_list in details["lists"]:
-                f.write(f"### {ip_list['name']} ({ip_list['kind']})\n")
-                f.write(f"- **Items:** {ip_list['num_items']}\n")
-                f.write(f"- **Last Modified:** {ip_list['modified_on']}\n\n")
-
-    print(f"✅ Markdown report saved: {report_path}")
-
-def main():
-    api_token = os.getenv("CLOUDFLARE_API_TOKEN")
-    config = load_config("config.yaml")
-    
-    if not api_token:
-        raise EnvironmentError("CLOUDFLARE_API_TOKEN not set")
-    
-    accounts = get_cloudflare_accounts(api_token)
-    if not accounts:
-        print("Failed to retrieve Cloudflare accounts. Exiting.")
-        return
-    
-    for account in accounts:
-        account_id = account.get('id')
-        account_name = account.get('name', 'Unknown Account')
-        
-        print(f"Managing IP lists for {account_name} (ID: {account_id})")
-        ip_lists = get_ip_lists(account_id, api_token)
-        
-        if not ip_lists:
-            print(f"No IP lists found for account {account_name}")
-            continue
-        
-        for list_entry in config.get('accounts', []):
-            if list_entry['id'] == account_id:
-                for target_list in list_entry.get('lists', []):
-                    list_name = target_list['name']
-                    ip_source = target_list.get('sync_from') or target_list.get('local_file')
-                    
-                    cf_list = next((l for l in ip_lists if l['name'] == list_name), None)
-                    if not cf_list:
-                        print(f"IP list {list_name} not found in account {account_name}")
-                        continue
-                    
-                    ip_data = []
-                    if 'sync_from' in target_list:
-                        try:
-                            ip_data = requests.get(target_list['sync_from']).text.strip().split('\n')
-                        except requests.exceptions.RequestException:
-                            print(f"Failed to fetch remote IPs from {target_list['sync_from']}")
-                    elif 'local_file' in target_list:
-                        try:
-                            with open(target_list['local_file'], 'r') as f:
-                                ip_data = f.read().strip().split('\n')
-                        except FileNotFoundError:
-                            print(f"Local file {target_list['local_file']} not found")
-                    
-                    if ip_data and sync_ip_list(account_id, cf_list['id'], ip_data, api_token):
-                        print(f"Updated IP list {list_name} in {account_name}")
-                    else:
-                        print(f"Failed to update IP list {list_name} in {account_name}")
-
-if __name__ == "__main__":
-    main()
