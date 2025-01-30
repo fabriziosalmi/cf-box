@@ -45,19 +45,43 @@ def chunk_list(data, chunk_size):
     for i in range(0, len(data), chunk_size):
         yield data[i:i + chunk_size]
 
+def get_current_ip_list(account_id: str, list_id: str, api_token: str) -> List[str]:
+    """Fetch the existing IPs in a Cloudflare list to avoid unnecessary updates."""
+    headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/rules/lists/{list_id}/items"
+    
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        return [item['ip'] for item in data.get('result', [])]  # Extract IPs
+    except requests.exceptions.RequestException as e:
+        print(f"❌ Error fetching current IPs for list {list_id}: {e}")
+        return []
+
 def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -> bool:
-    """Syncs an IP list efficiently, respecting Cloudflare API rate limits."""
-    headers = {
-        'Authorization': f'Bearer {api_token}',
-        'Content-Type': 'application/json'
-    }
+    """Syncs an IP list only if changes exist, enforcing max 10K entries & handling rate limits."""
+    headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
     url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/rules/lists/{list_id}/items"
 
-    chunk_size = 100  # Cloudflare allows batch updates; 100 is a safe batch size
-    max_retries = 5
-    retry_delay = 5  # Start with 5s, doubles on retry
+    # ✅ Get existing IPs to compare
+    existing_ips = set(get_current_ip_list(account_id, list_id, api_token))
+    new_ips = set(ip_list)
 
-    for chunk in chunk_list(ip_list, chunk_size):
+    if existing_ips == new_ips:
+        print(f"✅ No changes detected for list {list_id}, skipping update.")
+        return True  # No update needed
+
+    # ✅ Trim list to 10,000 max entries
+    if len(new_ips) > 10000:
+        print(f"⚠️ IP list too large ({len(new_ips)} entries)! Trimming to 10,000.")
+        new_ips = list(new_ips)[:10000]
+
+    chunk_size = 100  # Batch updates in groups of 100
+    max_retries = 5
+    retry_delay = 5  # Start with 5s backoff
+
+    for chunk in chunk_list(list(new_ips), chunk_size):
         payload = [{"ip": ip} for ip in chunk]
         for attempt in range(max_retries):
             try:
@@ -66,14 +90,15 @@ def sync_ip_list(account_id: str, list_id: str, ip_list: list, api_token: str) -
                     print(f"⚠️ Rate limited! Retrying in {retry_delay}s...")
                     time.sleep(retry_delay)
                     retry_delay = min(retry_delay * 2, 120)  # Max backoff: 120s
-                    continue  # Retry again
+                    continue
                 response.raise_for_status()
                 print(f"✅ Synced {len(chunk)} IPs to list {list_id}")
-                break  # Exit retry loop if successful
+                break
             except requests.exceptions.RequestException as e:
                 print(f"❌ Error syncing IP list {list_id}: {e}")
                 return False
     return True
+
 
 def save_markdown_report(account_data):
     """Saves a markdown report with the latest Cloudflare IP list details."""
