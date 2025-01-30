@@ -2,12 +2,13 @@ name: Cloudflare IP List Auto-Update
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs once per day at midnight UTC
-  workflow_dispatch:  # Manual trigger
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   update-ip-lists:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -23,13 +24,15 @@ jobs:
       - name: Run Cloudflare IP List Manager
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: |
-          python -u cloudflare_ip_list_manager.py
-    
+        run: python -u cloudflare_ip_list_manager.py  # `-u` ensures live logs
+
+      - name: Ensure Reports Folder Exists
+        run: mkdir -p reports
+
       - name: Commit & Push Reports
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add reports/
-          git commit -m "📄 Auto-generated IP list report"
+          git commit -m "📄 Auto-generated IP list report" || echo "No changes to commit"
           git push || echo "No changes to commit"
