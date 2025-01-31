@@ -5,10 +5,14 @@ import json
 import time
 import random
 import yaml
+import sqlite3
+import pandas as pd
 from datetime import datetime
 from typing import Dict, List, Optional, Any
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
-# Ensure export directory exists
+
 EXPORT_DIR = "exports"
 os.makedirs(EXPORT_DIR, exist_ok=True)
 
@@ -17,20 +21,19 @@ def load_config(config_path: str) -> Dict[str, Any]:
     with open(config_path, 'r') as file:
         return yaml.safe_load(file)
 
-# Read previous data if available, handling empty/corrupt files
+# Read previous data for incremental updates
 def load_previous_export(filename):
     path = os.path.join(EXPORT_DIR, filename)
     if os.path.exists(path):
         try:
             with open(path, "r") as f:
-                data = json.load(f)
-                return data if isinstance(data, list) else []
+                return json.load(f)
         except (json.JSONDecodeError, ValueError):
-            print(f"⚠️ Warning: Previous export {filename} is empty or corrupted. Resetting file.")
+            print(f"⚠️ Warning: {filename} is empty or corrupted. Resetting file.")
             return []
     return []
 
-# Save JSON export only if changed
+# Save JSON if changed
 def save_json_if_changed(data, filename):
     path = os.path.join(EXPORT_DIR, filename)
     previous_data = load_previous_export(filename)
@@ -44,18 +47,12 @@ def save_json_if_changed(data, filename):
     print(f"✅ JSON exported: {path}")
     return True
 
-# Save CSV export dynamically, handling extra/missing fields
+# Save CSV dynamically
 def save_csv_if_changed(data, filename):
     path = os.path.join(EXPORT_DIR, filename)
     previous_data = load_previous_export(filename)
 
-    # Dynamically determine headers from the data
-    all_keys = set()
-    for record in data:
-        all_keys.update(record.keys())
-
-    # Convert set to sorted list (consistent order)
-    headers = sorted(list(all_keys))
+    headers = sorted({key for record in data for key in record.keys()})
 
     if data == previous_data:
         print(f"✅ No changes detected in {filename}, skipping write.")
@@ -68,7 +65,93 @@ def save_csv_if_changed(data, filename):
     print(f"✅ CSV exported: {path}")
     return True
 
-# Rate-limit handling with retries
+# Save XLS
+def save_xls(data, filename):
+    path = os.path.join(EXPORT_DIR, filename)
+    df = pd.DataFrame(data)
+    df.to_excel(path, index=False)
+    print(f"✅ XLS exported: {path}")
+
+# Save PDF
+def save_pdf(data, filename):
+    path = os.path.join(EXPORT_DIR, filename)
+    c = canvas.Canvas(path, pagesize=letter)
+    c.setFont("Helvetica", 10)
+
+    margin = 40
+    y_position = 750
+
+    c.drawString(margin, y_position, f"Cloudflare Data Export - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    y_position -= 20
+
+    for section, items in data.items():
+        c.drawString(margin, y_position, f"Section: {section}")
+        y_position -= 20
+
+        for item in items[:5]:  # Avoid overflowing PDF (first 5 items)
+            c.drawString(margin + 10, y_position, json.dumps(item, indent=2)[:100])
+            y_position -= 15
+            if y_position < 50:
+                c.showPage()
+                y_position = 750
+
+    c.save()
+    print(f"✅ PDF exported: {path}")
+
+# Convert lists/dicts to JSON strings for database storage
+def clean_data_for_sql(data):
+    for row in data:
+        for key, value in row.items():
+            if isinstance(value, (dict, list)):
+                row[key] = json.dumps(value)
+    return data
+
+# Save to SQLite
+def save_to_sqlite(data, filename, table_name):
+    if not data:
+        print(f"⚠️ No data to save for {table_name}, skipping SQLite export.")
+        return
+
+    path = os.path.join(EXPORT_DIR, filename)
+    conn = sqlite3.connect(path)
+
+    data = clean_data_for_sql(data)
+
+    df = pd.DataFrame(data)
+    df.to_sql(table_name, conn, if_exists="replace", index=False)
+
+    conn.close()
+    print(f"✅ SQLite exported: {path} (Table: {table_name})")
+
+# Save to MySQL (as file)
+def save_to_mysql_file(data, filename, table_name):
+    if not data:
+        print(f"⚠️ No data to save for {table_name}, skipping MySQL export.")
+        return
+
+    path = os.path.join(EXPORT_DIR, filename)
+
+    all_keys = set()
+    for record in data:
+        all_keys.update(record.keys())
+    columns = sorted(list(all_keys))
+
+    data = clean_data_for_sql(data)
+
+    with open(path, "w") as f:
+        f.write(f"CREATE TABLE IF NOT EXISTS `{table_name}` (\n")
+        f.write(",\n".join([f"`{col}` TEXT" for col in columns]))
+        f.write("\n);\n\n")
+
+        for record in data:
+            values = [json.dumps(record.get(col, "")) if isinstance(record.get(col), (dict, list)) else record.get(col, "") for col in columns]
+            values_escaped = ', '.join(f"'{str(v).replace("'", "''")}'" for v in values)
+
+            f.write(f"INSERT INTO `{table_name}` ({', '.join(f'`{col}`' for col in columns)}) VALUES ({values_escaped});\n")
+
+    print(f"✅ MySQL export saved: {path}")
+
+# Handle rate limits
 def request_with_retries(url, headers, method="GET", payload=None, max_retries=5):
     for attempt in range(max_retries):
         try:
@@ -85,18 +168,18 @@ def request_with_retries(url, headers, method="GET", payload=None, max_retries=5
 
         except requests.exceptions.RequestException as e:
             print(f"❌ Error in request: {e}")
-            time.sleep(random.uniform(5, 15))  # Randomized backoff
+            time.sleep(random.uniform(5, 15))
 
     print("❌ Max retries reached, skipping request.")
     return None
 
-# Auto-pagination helper
+# Fetch all paginated data
 def fetch_all_pages(url, headers, per_page=50):
     page = 1
     all_results = []
 
     while True:
-        paginated_url = f"{url}?per_page={per_page}&page={page}" if "?" not in url else f"{url}&per_page={per_page}&page={page}"
+        paginated_url = f"{url}?per_page={per_page}&page={page}" if "?" not in url else f"{url}&per_page={per_page}"
         data = request_with_retries(paginated_url, headers)
 
         if not data or not data.get('success') or not data.get('result'):
@@ -105,36 +188,14 @@ def fetch_all_pages(url, headers, per_page=50):
         all_results.extend(data['result'])
 
         if len(data['result']) < per_page:
-            break  # Last page reached
+            break
 
-        page += 1  # Move to next page
+        page += 1
 
     return all_results
 
-# Fetch all accounts with pagination
-def get_cloudflare_accounts(api_token: str) -> Optional[List[Dict[str, Any]]]:
-    headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
-    url = "https://api.cloudflare.com/client/v4/accounts"
-
-    return fetch_all_pages(url, headers, per_page=50)
-
-# Fetch all zones for an account with pagination
-def get_cloudflare_zones(account_id: str, api_token: str) -> Optional[List[Dict[str, Any]]]:
-    headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
-    url = f"https://api.cloudflare.com/client/v4/zones?account.id={account_id}"
-
-    return fetch_all_pages(url, headers, per_page=200)
-
-# Fetch all DNS records for a zone with pagination
-def get_dns_records(zone_id: str, api_token: str) -> Optional[List[Dict[str, Any]]]:
-    headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
-    url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
-
-    return fetch_all_pages(url, headers, per_page=100)
-
 # Anonymization Helpers
 def anonymize_email(email: str) -> str:
-    """Anonymizes an email address by masking part of it."""
     if "@" not in email:
         return email
     name, domain = email.split("@")
@@ -143,11 +204,9 @@ def anonymize_email(email: str) -> str:
     return f"{masked_name}@{masked_domain}"
 
 def anonymize_account_id(account_id: str) -> str:
-    """Anonymizes an account ID by keeping only the first and last 6 characters."""
-    return f"{account_id[:6]}...{account_id[-6:]}"
+    return f"{account_id[:6]}...{account_id[-6:]}" if isinstance(account_id, str) else account_id
 
 def anonymize_data(data, anonymize_flag=True):
-    """Applies anonymization to emails and account IDs if enabled."""
     if not anonymize_flag:
         return data
 
@@ -164,6 +223,9 @@ def export_cloudflare_data():
         print("❌ CLOUDFLARE_API_TOKEN is not set.")
         return
 
+    config = load_config("config.yaml")
+    anonymize_flag = config.get("anonymize", True)
+
     print("📌 Fetching Cloudflare data...")
 
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
@@ -176,7 +238,12 @@ def export_cloudflare_data():
 
     for account in all_data["accounts"]:
         account_id = account["id"]
-        print(f"📌 Exporting data for account: {anonymize_email(account['name'])} (ID: {anonymize_account_id(account_id)})")
+        account_name = account.get("name", "Unknown")
+
+        anonymized_id = anonymize_account_id(account_id)
+        anonymized_name = anonymize_email(account_name)
+
+        print(f"📌 Exporting data for account: {anonymized_name} (ID: {anonymized_id})")
 
         zones = fetch_all_pages(f"https://api.cloudflare.com/client/v4/zones?account.id={account_id}", headers)
         all_data["zones"].extend(zones)
@@ -186,16 +253,12 @@ def export_cloudflare_data():
             dns_records = fetch_all_pages(f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records", headers)
             all_data["dns_records"].extend(dns_records)
 
-    # 🔥 Apply Incremental Updates + Anonymization
-    anonymized_data = anonymize_data(all_data)
+    anonymized_data = anonymize_data(all_data, anonymize_flag)
 
-    changed_json = save_json_if_changed(anonymized_data, "cloudflare_export.json")
-    changed_csv = save_csv_if_changed(anonymized_data["dns_records"], "cloudflare_dns_records.csv")
-
-    if changed_json or changed_csv:
-        print("✅ Changes detected, export updated.")
-    else:
-        print("✅ No changes detected, skipping unnecessary exports.")
+    save_json_if_changed(anonymized_data, "cloudflare_export.json")
+    save_csv_if_changed(anonymized_data["dns_records"], "cloudflare_dns_records.csv")
+    save_xls(anonymized_data["dns_records"], "cloudflare_dns_records.xlsx")
+    save_pdf(anonymized_data, "cloudflare_export.pdf")
 
 if __name__ == "__main__":
     export_cloudflare_data()
