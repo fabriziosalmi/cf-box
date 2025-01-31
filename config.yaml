@@ -1,8 +1,9 @@
+# Cloudflare IP List Sync Configuration
 accounts:
   - id: "1e7ed1e7e9b2dfdfb15ed609d30fbe52"
     name: "Yet Another Cloudflare Account"
     lists:
-      # --- Major Cloud Providers (Only AWS & Azure Active) ---
+      # --- Major Cloud Providers (Uncomment if needed) ---
       # - name: "trusted_aws_ips"
       #   sync_from: "https://raw.githubusercontent.com/lord-alfred/ipranges/main/aws.json"
       #   type: "json"
@@ -19,7 +20,7 @@ accounts:
       #   sync_from: "https://raw.githubusercontent.com/lord-alfred/ipranges/main/oracle.json"
       #   type: "json"
 
-      # --- CDN and Edge Providers (Only Cloudflare Active) ---
+      # --- CDN and Edge Providers (Uncomment if needed) ---
       # - name: "trusted_cloudflare_ips"
       #   sync_from: "https://raw.githubusercontent.com/lord-alfred/ipranges/main/cloudflare.json"
       #   type: "json"
@@ -43,3 +44,9 @@ accounts:
       
     notifications:
       webhook: "https://yet-another-webhook-url.com"
+
+# --- Global Settings ---
+anonymize: true  # Set to false if you want full emails & account IDs in reports
+reporting:
+  enabled: true   # Set to false if you don't need Markdown reports
+  output_dir: "reports"  # Change folder if neede
