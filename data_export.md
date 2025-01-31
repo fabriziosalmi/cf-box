@@ -1,4 +1,4 @@
-## 📌 Data Export**
+## 📌 Data Export
 Comprehensive Export Tool for Cloudflare Accounts, Zones & DNS Records.
 
 This script **exports Cloudflare data** (Accounts, Zones, DNS Records) in multiple **formats**:  
