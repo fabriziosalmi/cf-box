@@ -65,7 +65,7 @@ python cloudflare_ip_list_manager.py
 ## Cloudflare API Rate Limit Handling
 - **Cloudflare limits API requests** to ~1,200 per 5 minutes per account.
 - The script **uses a single bulk update instead of multiple small updates**.
-- Implements **adaptive backoff when rate-limited**, using `Retry-After` if available.
+- Implements **300-600s backoff when rate-limited**.
 
 ## Contributing
 Feel free to submit pull requests and improve the project.
