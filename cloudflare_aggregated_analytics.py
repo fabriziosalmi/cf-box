@@ -101,6 +101,31 @@ def fetch_graphql_data(account_tag: str, start_time: str, end_time: str, max_ret
 
 # ✅ Process Data
 def process_data(data):
+    """
+    Extracts useful insights from Cloudflare's GraphQL response.
+    Args:
+        data (dict): The GraphQL response data from Cloudflare.
+    Returns:
+        tuple: A tuple containing:
+            - results (list of dict): A list of dictionaries with detailed statistics per zone.
+            - account_totals (dict): A dictionary with aggregated totals per account.
+    The `results` list contains dictionaries with the following keys:
+        - account_name (str): The name of the account.
+        - zone (str): The name of the zone.
+        - country (str): The country of the client.
+        - method (str): The HTTP method used by the client.
+        - requests (int): The number of requests.
+        - cached_requests (int): The number of cached requests.
+        - bytes (int): The number of bytes transferred.
+        - waf_events (int): The number of WAF events.
+        - rate_limited_requests (int): The number of rate-limited requests.
+    The `account_totals` dictionary contains the following keys for each account:
+        - requests (int): The total number of requests.
+        - cachedRequests (int): The total number of cached requests.
+        - bytes (int): The total number of bytes transferred.
+        - wafEvents (int): The total number of WAF events.
+        - rateLimitedRequests (int): The total number of rate-limited requests.
+    """
     """Extracts useful insights from Cloudflare's GraphQL response."""
     if not data or "data" not in data:
         print("⚠️ No data available to process. Skipping export.")
