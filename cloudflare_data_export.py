@@ -17,15 +17,65 @@ def load_config(config_path: str) -> Dict[str, Any]:
     with open(config_path, 'r') as file:
         return yaml.safe_load(file)
 
+# Read previous data if available, handling empty/corrupt files
+def load_previous_export(filename):
+    path = os.path.join(EXPORT_DIR, filename)
+    if os.path.exists(path):
+        try:
+            with open(path, "r") as f:
+                data = json.load(f)
+                return data if isinstance(data, list) else []
+        except (json.JSONDecodeError, ValueError):
+            print(f"⚠️ Warning: Previous export {filename} is empty or corrupted. Resetting file.")
+            return []
+    return []
+
+# Save JSON export only if changed
+def save_json_if_changed(data, filename):
+    path = os.path.join(EXPORT_DIR, filename)
+    previous_data = load_previous_export(filename)
+
+    if data == previous_data:
+        print(f"✅ No changes detected in {filename}, skipping write.")
+        return False
+
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"✅ JSON exported: {path}")
+    return True
+
+# Save CSV export dynamically, handling extra/missing fields
+def save_csv_if_changed(data, filename):
+    path = os.path.join(EXPORT_DIR, filename)
+    previous_data = load_previous_export(filename)
+
+    # Dynamically determine headers from the data
+    all_keys = set()
+    for record in data:
+        all_keys.update(record.keys())
+
+    # Convert set to sorted list (consistent order)
+    headers = sorted(list(all_keys))
+
+    if data == previous_data:
+        print(f"✅ No changes detected in {filename}, skipping write.")
+        return False
+
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+        writer.writerows(data)
+    print(f"✅ CSV exported: {path}")
+    return True
+
 # Rate-limit handling with retries
 def request_with_retries(url, headers, method="GET", payload=None, max_retries=5):
-    """Handles rate-limiting and retries requests."""
     for attempt in range(max_retries):
         try:
             response = requests.request(method, url, headers=headers, json=payload)
 
             if response.status_code == 429:
-                retry_after = int(response.headers.get("Retry-After", random.uniform(5, 15)))
+                retry_after = int(response.headers.get("Retry-After", random.uniform(5, 10)))
                 print(f"⚠️ Rate limited! Retrying in {retry_after}s...")
                 time.sleep(retry_after)
                 continue
@@ -42,7 +92,6 @@ def request_with_retries(url, headers, method="GET", payload=None, max_retries=5
 
 # Auto-pagination helper
 def fetch_all_pages(url, headers, per_page=50):
-    """Fetch all paginated results from Cloudflare API."""
     page = 1
     all_results = []
 
@@ -66,61 +115,24 @@ def fetch_all_pages(url, headers, per_page=50):
 def get_cloudflare_accounts(api_token: str) -> Optional[List[Dict[str, Any]]]:
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
     url = "https://api.cloudflare.com/client/v4/accounts"
+
     return fetch_all_pages(url, headers, per_page=50)
 
 # Fetch all zones for an account with pagination
 def get_cloudflare_zones(account_id: str, api_token: str) -> Optional[List[Dict[str, Any]]]:
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
     url = f"https://api.cloudflare.com/client/v4/zones?account.id={account_id}"
-    return fetch_all_pages(url, headers, per_page=200)  # Max 200 per request
+
+    return fetch_all_pages(url, headers, per_page=200)
 
 # Fetch all DNS records for a zone with pagination
 def get_dns_records(zone_id: str, api_token: str) -> Optional[List[Dict[str, Any]]]:
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
     url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
+
     return fetch_all_pages(url, headers, per_page=100)
 
-# Save JSON export
-def save_json(data, filename):
-    path = os.path.join(EXPORT_DIR, filename)
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
-    print(f"✅ JSON exported: {path}")
-
-# Save CSV export
-def save_csv(data, filename):
-    if not data:
-        print(f"⚠️ No data for {filename}, skipping export.")
-        return
-
-    # Dynamically extract all unique headers to prevent missing fields
-    all_keys = set()
-    for entry in data:
-        all_keys.update(entry.keys())
-
-    headers = list(all_keys)  # Convert to list for CSV writer
-
-    path = os.path.join(EXPORT_DIR, filename)
-    with open(path, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=headers)
-        writer.writeheader()
-        writer.writerows(data)
-    
-    print(f"✅ CSV exported: {path}")
-
-# Save Markdown export
-def save_markdown(data, filename):
-    path = os.path.join(EXPORT_DIR, filename)
-    with open(path, "w") as f:
-        f.write(f"# Cloudflare Data Export ({datetime.now().strftime('%Y-%m-%d %H:%M:%S')})\n\n")
-        for section, items in data.items():
-            f.write(f"## {section.capitalize()}\n")
-            for item in items:
-                f.write(f"- {json.dumps(item, indent=2)}\n")
-            f.write("\n")
-    print(f"✅ Markdown exported: {path}")
-
-# Anonymization functions
+# Anonymization Helpers
 def anonymize_email(email: str) -> str:
     """Anonymizes an email address by masking part of it."""
     if "@" not in email:
@@ -134,19 +146,14 @@ def anonymize_account_id(account_id: str) -> str:
     """Anonymizes an account ID by keeping only the first and last 6 characters."""
     return f"{account_id[:6]}...{account_id[-6:]}"
 
-def anonymize_data(data):
-    """Applies anonymization to accounts, zones, and records."""
-    for account in data.get("accounts", []):
-        account["id"] = anonymize_account_id(account["id"])
+def anonymize_data(data, anonymize_flag=True):
+    """Applies anonymization to emails and account IDs if enabled."""
+    if not anonymize_flag:
+        return data
+
+    for account in data["accounts"]:
         account["name"] = anonymize_email(account["name"])
-
-    for zone in data.get("zones", []):
-        zone["account"]["id"] = anonymize_account_id(zone["account"]["id"])
-        zone["account"]["name"] = anonymize_email(zone["account"]["name"])
-
-    for record in data.get("dns_records", []):
-        record["account_id"] = anonymize_account_id(record.get("account_id", ""))
-        record["name"] = anonymize_email(record.get("name", ""))
+        account["id"] = anonymize_account_id(account["id"])
 
     return data
 
@@ -162,7 +169,7 @@ def export_cloudflare_data():
     headers = {'Authorization': f'Bearer {api_token}', 'Content-Type': 'application/json'}
 
     all_data = {
-        "accounts": get_cloudflare_accounts(api_token),
+        "accounts": fetch_all_pages("https://api.cloudflare.com/client/v4/accounts", headers),
         "zones": [],
         "dns_records": []
     }
@@ -171,23 +178,24 @@ def export_cloudflare_data():
         account_id = account["id"]
         print(f"📌 Exporting data for account: {anonymize_email(account['name'])} (ID: {anonymize_account_id(account_id)})")
 
-        zones = get_cloudflare_zones(account_id, api_token)
+        zones = fetch_all_pages(f"https://api.cloudflare.com/client/v4/zones?account.id={account_id}", headers)
         all_data["zones"].extend(zones)
 
         for zone in zones:
             zone_id = zone["id"]
-            dns_records = get_dns_records(zone_id, api_token)
+            dns_records = fetch_all_pages(f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records", headers)
             all_data["dns_records"].extend(dns_records)
 
-    # Apply Anonymization BEFORE exporting
+    # 🔥 Apply Incremental Updates + Anonymization
     anonymized_data = anonymize_data(all_data)
 
-    # Save all exports
-    save_json(anonymized_data, "cloudflare_export.json")
-    save_markdown(anonymized_data, "cloudflare_export.md")
-    save_csv(anonymized_data["dns_records"], "cloudflare_dns_records.csv")
+    changed_json = save_json_if_changed(anonymized_data, "cloudflare_export.json")
+    changed_csv = save_csv_if_changed(anonymized_data["dns_records"], "cloudflare_dns_records.csv")
 
-    print("✅ All exports completed.")
+    if changed_json or changed_csv:
+        print("✅ Changes detected, export updated.")
+    else:
+        print("✅ No changes detected, skipping unnecessary exports.")
 
 if __name__ == "__main__":
     export_cloudflare_data()
