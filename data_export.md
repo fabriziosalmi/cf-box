@@ -9,6 +9,18 @@ This script **exports Cloudflare data** (Accounts, Zones, DNS Records) in multip
 
 It supports **pagination, rate-limiting handling, and anonymization** to protect sensitive data.
 
+```
+cf-box % python3 cloudflare_data_export.py
+📌 Fetching Cloudflare data...
+📌 Exporting data for account: F************i@g****.com's Account (ID: 1e7ed1...0fbe52)
+📌 Exporting data for account: L********o@g****.com's Account (ID: b2f381...099a43)
+✅ JSON exported: exports/cloudflare_export.json
+⚠️ Warning: cloudflare_dns_records.csv is empty or corrupted. Resetting file.
+✅ CSV exported: exports/cloudflare_dns_records.csv
+✅ XLS exported: exports/cloudflare_dns_records.xlsx
+✅ PDF exported: exports/cloudflare_export.pdf
+```
+
 ---
 
 ## ⚙️ **Installation**
