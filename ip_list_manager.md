@@ -9,7 +9,7 @@ cf-box % python3 cloudflare_ip_list_manager.py
 ```
 
 > [!WARNING]
-> Set your GitHub repository visibility to **private** before to populate config.yaml and execute the runner. Note that you can store zone ids as GitHub Actions secrets. You can also woould like to remove the -u option in the workflow to remove sensitive data in debug logs.
+> Set your GitHub repository visibility to **private** before to populate config.yaml and execute the runner. Note that you can store zone ids as GitHub Actions secrets. To avoid e-mail logged on debug logs delete the `-u` option in the workflow code.
 
 ## Features
 - ✅ **Automatic IP list synchronization** with Cloudflare's API.
