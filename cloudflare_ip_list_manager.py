@@ -26,8 +26,17 @@ def anonymize_email(email: str) -> str:
     return f"{masked_name}@{masked_domain}"
 
 def anonymize_account_id(account_id: str) -> str:
-    """Anonymizes an account ID by keeping only the first and last 6 characters."""
-    return f"{account_id[:6]}...{account_id[-6:]}"
+    """
+    Anonymizes a given account ID by keeping the first 6 and last 4 characters,
+    replacing the middle characters with ellipsis (...).
+
+    Args:
+        account_id (str): The account ID to be anonymized.
+
+    Returns:
+        str: The anonymized account ID if the input is a string, otherwise returns the input as is.
+    """
+    return f"{account_id[:6]}...{account_id[-4:]}" if isinstance(account_id, str) else account_id
 
 def anonymize(text: str, anonymize_flag: bool) -> str:
     """Anonymizes text based on the user setting."""

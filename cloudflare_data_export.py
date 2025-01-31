@@ -204,7 +204,7 @@ def anonymize_email(email: str) -> str:
     return f"{masked_name}@{masked_domain}"
 
 def anonymize_account_id(account_id: str) -> str:
-    return f"{account_id[:6]}...{account_id[-6:]}" if isinstance(account_id, str) else account_id
+    return f"{account_id[:6]}...{account_id[-4:]}" if isinstance(account_id, str) else account_id
 
 def anonymize_data(data, anonymize_flag=True):
     if not anonymize_flag:
