@@ -30,21 +30,16 @@ Ensure you have **Python 3.12+** and required dependencies installed.
 pip install requests pandas openpyxl reportlab pyyaml
 ```
 
----
-
 ## 🔑 **Environment Variables**
 Set your **Cloudflare API Token**:
 ```bash
 export CLOUDFLARE_API_TOKEN="your-cloudflare-api-token"
 ```
 
----
-
 ## 📜 **Configuration (`config.yaml`)**
 ```yaml
 anonymize: true  # Set to 'false' if you want full email/account ID visibility
 ```
----
 
 ## 🛠️ **Usage**
 Run the script:
@@ -52,7 +47,6 @@ Run the script:
 python3 cloudflare_data_export.py
 ```
 
----
 
 ## 🔍 **Features**
 ### ✅ **Supports Large Exports**
@@ -77,6 +71,3 @@ python3 cloudflare_data_export.py
 | **CSV** | `exports/cloudflare_dns_records.csv` | Easy-to-read tabular format |
 | **XLS (Excel)** | `exports/cloudflare_dns_records.xlsx` | Spreadsheet analysis |
 | **PDF** | `exports/cloudflare_export.pdf` | Printable summary report |
-
-
-
