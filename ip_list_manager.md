@@ -1,8 +1,16 @@
 ## IP List Manager
 IP List Manager is a tool that automates tasks the synchronization of [IP lists](https://developers.cloudflare.com/waf/tools/lists/custom-lists/) across multiple Cloudflare accounts. It is designed to help Cloudflare users efficiently manage allowlists, blocklists, and trusted IP ranges.
 
+```
+cf-box % python3 cloudflare_ip_list_manager.py
+📌 Managing IP lists for -- REDACTED -- Account (ID: -- REDACTED --)
+✅ Fetched 8491 IPs from https://github.com/stamparm/ipsum/raw/refs/heads/master/levels/3.txt
+✅ Successfully updated IP list 3f2ce1bd8ff3479d8d86367257f8d15c with 8491 entries
+📌 Managing IP lists for -- REDACTED -- Account (ID: -- REDACTED --)
+```
+
 > [!WARNING]
-> Set your GitHub repository visibility to **private** before to populate config.yaml and execute the runner. Note that you can store zone ids as GitHub Actions secrets too, not just the Cloudflare API token.
+> Set your GitHub repository visibility to **private** before to populate config.yaml and execute the runner. Note that you can store zone ids as GitHub Actions secrets. You can also woould like to remove the -u option in the workflow to remove sensitive data in debug logs.
 
 ## Features
 - ✅ **Automatic IP list synchronization** with Cloudflare's API.
