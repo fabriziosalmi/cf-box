@@ -1,0 +1,34 @@
+name: Cloudflare Data Export
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # Runs daily at 03:00 UTC
+  workflow_dispatch:  # Allows manual execution
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Cloudflare Data Export
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: python3 cloudflare_data_export.py
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add exports/
+          git diff --quiet && git diff --staged --quiet || git commit -m "📄 Auto-update Cloudflare export"
+          git push || echo "No changes to commit"
