@@ -218,6 +218,27 @@ def anonymize_data(data, anonymize_flag=True):
 
 # Main export function
 def export_cloudflare_data():
+    """
+    Export Cloudflare data including accounts, zones, and DNS records.
+
+    This function fetches data from the Cloudflare API using the provided API token,
+    anonymizes the data if specified in the configuration, and saves the data in
+    multiple formats (JSON, CSV, XLS, PDF).
+
+    Steps:
+    1. Load the Cloudflare API token from environment variables.
+    2. Load configuration from 'config.yaml'.
+    3. Fetch all accounts associated with the API token.
+    4. For each account, fetch associated zones and DNS records.
+    5. Anonymize the data if the anonymize flag is set in the configuration.
+    6. Save the anonymized data in JSON, CSV, XLS, and PDF formats.
+
+    Raises:
+        EnvironmentError: If the CLOUDFLARE_API_TOKEN environment variable is not set.
+
+    Returns:
+        None
+    """
     api_token = os.getenv("CLOUDFLARE_API_TOKEN")
     if not api_token:
         print("❌ CLOUDFLARE_API_TOKEN is not set.")
