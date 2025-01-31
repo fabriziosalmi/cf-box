@@ -24,7 +24,7 @@ jobs:
       - name: Run Cloudflare IP List Manager
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        run: python -u cloudflare_ip_list_manager.py  # `-u` ensures live logs
+        run: python -u cloudflare_ip_list_manager.py
 
       - name: Ensure Reports Folder Exists
         run: mkdir -p reports
