@@ -6,7 +6,6 @@ cf-box % python3 cloudflare_ip_list_manager.py
 📌 Managing IP lists for -- REDACTED -- Account (ID: -- REDACTED --)
 ✅ Fetched 8491 IPs from https://github.com/stamparm/ipsum/raw/refs/heads/master/levels/3.txt
 ✅ Successfully updated IP list 3f2ce1bd8ff3479d8d86367257f8d15c with 8491 entries
-📌 Managing IP lists for -- REDACTED -- Account (ID: -- REDACTED --)
 ```
 
 > [!WARNING]
