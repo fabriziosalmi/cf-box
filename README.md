@@ -73,6 +73,6 @@ Feel free to submit pull requests and improve the project.
 ## License
 This project is licensed under the MIT License.
 
-> [!INFO] Disclaimer
+## Disclaimer
 > This tool is not affiliated with or officially supported by Cloudflare.
 
