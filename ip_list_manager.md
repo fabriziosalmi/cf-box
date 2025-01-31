@@ -3,9 +3,9 @@ IP List Manager is a tool that automates tasks the synchronization of [IP lists]
 
 ```
 cf-box % python3 cloudflare_ip_list_manager.py
-📌 Managing IP lists for -- REDACTED -- Account (ID: -- REDACTED --)
-✅ Fetched 8491 IPs from https://github.com/stamparm/ipsum/raw/refs/heads/master/levels/3.txt
-✅ Successfully updated IP list 3f2ce1bd8ff3479d8d86367257f8d15c with 8491 entries
+📌 Managing IP lists for F************i@g****.com's Account (ID: 1e7ed1...0fbe52)
+📌 Managing IP lists for L********o@g****.com's Account (ID: b2f381...099a43)
+📄 Report saved: reports/cf_sync_2025-01-31_11-29-56.md
 ```
 
 > [!WARNING]
