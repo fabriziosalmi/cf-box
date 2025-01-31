@@ -9,7 +9,7 @@ IP List Manager is a tool that automates tasks the synchronization of [IP lists]
 - ✅ **Supports multiple accounts and IP lists** via a YAML configuration.
 - ✅ **Fetches IPs from external sources** (JSON and plaintext).
 - ✅ **Caches IP lists locally** to avoid unnecessary API requests.
-- ✅ **Optimized batch updates** to avoid concurrent modification limits.
+- ✅ **Optimized bulk update** to avoid multiple requests for rulesets endpoints.
 
 ## Requirements
 - Python 3.7+
