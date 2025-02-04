@@ -6,3 +6,4 @@
 - [WAF Control](https://github.com/fabriziosalmi/wafcontrol)
 - [Zone Control](https://github.com/fabriziosalmi/zonecontrol)
 - [mTLS with AWS](https://github.com/fabriziosalmi/cloudflare-aws)
+- [DNS redundancy with dnscontrol](https://github.com/fabriziosalmi/dnscontrol-actions)
