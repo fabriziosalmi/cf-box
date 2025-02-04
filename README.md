@@ -4,3 +4,4 @@
 - [Data Export](https://github.com/fabriziosalmi/cf-box/blob/main/data_export.md)
 - [Backup Actions](https://github.com/fabriziosalmi/cloudflare-backup-actions) 
 - [WAF Control](https://github.com/fabriziosalmi/wafcontrol)
+- [Zone Control](https://github.com/fabriziosalmi/zonecontrol)
