@@ -101,45 +101,25 @@ def fetch_graphql_data(account_tag: str, start_time: str, end_time: str, max_ret
 
 # ✅ Process Data
 def process_data(data):
-    """
-    Extracts useful insights from Cloudflare's GraphQL response.
-    Args:
-        data (dict): The GraphQL response data from Cloudflare.
-    Returns:
-        tuple: A tuple containing:
-            - results (list of dict): A list of dictionaries with detailed statistics per zone.
-            - account_totals (dict): A dictionary with aggregated totals per account.
-    The `results` list contains dictionaries with the following keys:
-        - account_name (str): The name of the account.
-        - zone (str): The name of the zone.
-        - country (str): The country of the client.
-        - method (str): The HTTP method used by the client.
-        - requests (int): The number of requests.
-        - cached_requests (int): The number of cached requests.
-        - bytes (int): The number of bytes transferred.
-        - waf_events (int): The number of WAF events.
-        - rate_limited_requests (int): The number of rate-limited requests.
-    The `account_totals` dictionary contains the following keys for each account:
-        - requests (int): The total number of requests.
-        - cachedRequests (int): The total number of cached requests.
-        - bytes (int): The total number of bytes transferred.
-        - wafEvents (int): The total number of WAF events.
-        - rateLimitedRequests (int): The total number of rate-limited requests.
-    """
     """Extracts useful insights from Cloudflare's GraphQL response."""
     if not data or "data" not in data:
         print("⚠️ No data available to process. Skipping export.")
         return [], {}
 
+    # Initialize results and totals
     results = []
     account_totals = {}
 
-    accounts = data["data"].get("viewer", {}).get("accounts", [])
+    # Extract viewer data
+    viewer_data = data["data"].get("viewer", {})
+    accounts = viewer_data.get("accounts", [])
+
     for account in accounts:
         account_name = account["name"]
-        
-        # Per-account total counters
-        account_totals[account_name] = {
+        zones = account.get("zones", [])
+
+        # Initialize per-account total counters
+        totals = {
             "requests": 0,
             "cachedRequests": 0,
             "bytes": 0,
@@ -147,30 +127,43 @@ def process_data(data):
             "rateLimitedRequests": 0
         }
 
-        for zone in account.get("zones", []):
-            for entry in zone.get("httpRequests1dGroups", []):
-                stats = entry["sum"]
-                country = entry["dimensions"].get("clientCountryName", "Unknown")
-                method = entry["dimensions"].get("clientRequestHTTPMethodName", "Unknown")
+        for zone in zones:
+            zone_name = zone["name"]
+            httpRequestsGroups = zone.get("httpRequests1dGroups", [])
 
+            for entry in httpRequestsGroups:
+                dimensions = entry["dimensions"]
+                stats = entry["sum"]
+
+                country = dimensions.get("clientCountryName", "Unknown")
+                method = dimensions.get("clientRequestHTTPMethodName", "Unknown")
+                requests = stats["requests"]
+                cached_requests = stats["cachedRequests"]
+                bytes_transferred = stats["bytes"]
+                waf_events = stats["wafEvents"]
+                rate_limited_requests = stats["rateLimitedRequests"]
+
+                # Append zone details to results
                 results.append({
                     "account_name": account_name,
-                    "zone": zone["name"],
+                    "zone": zone_name,
                     "country": country,
                     "method": method,
-                    "requests": stats["requests"],
-                    "cached_requests": stats["cachedRequests"],
-                    "bytes": stats["bytes"],
-                    "waf_events": stats["wafEvents"],
-                    "rate_limited_requests": stats["rateLimitedRequests"]
+                    "requests": requests,
+                    "cached_requests": cached_requests,
+                    "bytes": bytes_transferred,
+                    "waf_events": waf_events,
+                    "rate_limited_requests": rate_limited_requests
                 })
 
                 # Aggregate totals per account
-                account_totals[account_name]["requests"] += stats["requests"]
-                account_totals[account_name]["cachedRequests"] += stats["cachedRequests"]
-                account_totals[account_name]["bytes"] += stats["bytes"]
-                account_totals[account_name]["wafEvents"] += stats["wafEvents"]
-                account_totals[account_name]["rateLimitedRequests"] += stats["rateLimitedRequests"]
+                totals["requests"] += requests
+                totals["cachedRequests"] += cached_requests
+                totals["bytes"] += bytes_transferred
+                totals["wafEvents"] += waf_events
+                totals["rateLimitedRequests"] += rate_limited_requests
+
+        account_totals[account_name] = totals
 
     return results, account_totals
 
