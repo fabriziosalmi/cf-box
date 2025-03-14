@@ -4,4 +4,4 @@ pandas
 mysql-connector-python
 openpyxl
 reportlab
-sqlite3
+
