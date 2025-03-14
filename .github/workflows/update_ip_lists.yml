@@ -34,5 +34,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add reports/
-          git commit -m "📄 Auto-generated IP list report" || echo "No changes to commit"
-          git push || echo "No changes to commit"
+          git diff --quiet --exit-code || git commit -m "📄 Auto-generated IP list report"
+          git push origin || echo "No changes to commit"
