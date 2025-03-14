@@ -1,0 +1,3541 @@
+{
+  "accounts": [
+    {
+      "id": "1e7ed1...be52",
+      "name": "F************i@g****.com's Account",
+      "type": "standard",
+      "settings": {
+        "enforce_twofactor": false,
+        "api_access_enabled": null,
+        "access_approval_expiry": null,
+        "use_account_custom_ns_by_default": false,
+        "default_nameservers": "cloudflare.standard",
+        "abuse_contact_email": null
+      },
+      "legacy_flags": {
+        "enterprise_zone_quota": {
+          "maximum": 0,
+          "current": 0,
+          "available": 0
+        }
+      },
+      "created_on": "2013-02-20T23:52:04.436730Z"
+    },
+    {
+      "id": "b2f381...9a43",
+      "name": "L********o@g****.com's Account",
+      "type": "standard",
+      "settings": {
+        "enforce_twofactor": false,
+        "api_access_enabled": null,
+        "access_approval_expiry": null,
+        "use_account_custom_ns_by_default": false,
+        "default_nameservers": "cloudflare.standard",
+        "abuse_contact_email": null
+      },
+      "legacy_flags": {
+        "enterprise_zone_quota": {
+          "maximum": 0,
+          "current": 0,
+          "available": 0
+        }
+      },
+      "created_on": "2024-09-21T12:15:49.010403Z"
+    }
+  ],
+  "zones": [
+    {
+      "id": "89138fdb929b183b831d77190c638733",
+      "name": "audiolibri.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -82251662,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns1mpz.name.com",
+        "ns4ksy.name.com",
+        "ns2knz.name.com",
+        "ns3fhx.name.com"
+      ],
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-05T23:27:53.292653Z",
+      "created_on": "2017-06-03T22:48:55.801089Z",
+      "activated_on": "2017-06-03T22:51:26.775410Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "9d679bd23967edb7541edc3ae316ef7e",
+      "name": "cfguru.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "melinda.ns.cloudflare.com",
+        "venkat.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2023-12-17T18:06:49.950843Z",
+      "created_on": "2023-12-17T13:14:55.947063Z",
+      "activated_on": "2023-12-17T13:31:25.674362Z",
+      "meta": {
+        "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "d56769f7d1ffa410d2a237666f136be1",
+      "name": "domainsblacklists.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -50426414,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-05T14:27:18.867011Z",
+      "created_on": "2023-07-29T12:38:57.013587Z",
+      "activated_on": "2023-07-29T12:38:58.167687Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "c4227e56857d24e7c4e0e8ee1791f90b",
+      "name": "domenicosmargiassi.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-06T09:09:34.171070Z",
+      "created_on": "2023-11-29T16:29:11.131900Z",
+      "activated_on": "2023-11-29T16:29:12.138054Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "b441db6e139659910adc1155990213e2",
+      "name": "freesubnet.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-09-26T08:35:19.632197Z",
+      "created_on": "2023-04-20T16:39:50.478832Z",
+      "activated_on": "2023-04-20T16:39:52.038651Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "e4488c84ea98f68403033959a3326505",
+      "name": "free-tekno.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -114729670,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2024-06-05T14:04:01.402368Z",
+      "created_on": "2021-06-27T11:16:30.826240Z",
+      "activated_on": "2021-06-27T11:17:39.760547Z",
+      "meta": {
+        "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "0e358e921b20f41682e068a9aba3d804",
+      "name": "freeundergroundtekno.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -114048498,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "DNS2.TECHNORAIL.COM",
+        "DNS.TECHNORAIL.COM",
+        "DNS3.ARUBADNS.NET",
+        "DNS4.ARUBADNS.CZ"
+      ],
+      "original_registrar": "TUCOWS",
+      "original_dnshost": null,
+      "modified_on": "2024-06-06T03:34:06.584767Z",
+      "created_on": "2013-06-16T11:34:20.865828Z",
+      "activated_on": "2013-06-16T11:55:55.593312Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "76862ea9f4d3dea775ad12204389b321",
+      "name": "irrazionale.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -124208780,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns1mpz.name.com",
+        "ns4ksy.name.com",
+        "ns2knz.name.com",
+        "ns3fhx.name.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2022-03-14T21:05:54.490194Z",
+      "created_on": "2021-04-06T14:59:57.864632Z",
+      "activated_on": "2021-04-06T15:01:43.159433Z",
+      "meta": {
+        "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "7b5ab03447f975b89496289c929123bc",
+      "name": "italiacdn.net",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-08-01T08:22:47.863419Z",
+      "created_on": "2024-08-01T08:22:45.204053Z",
+      "activated_on": "2024-08-01T08:22:47.727688Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "522253a7732d45fd808342e60e26dbdf",
+      "name": "italiadns.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-04T16:05:59.696147Z",
+      "created_on": "2023-07-20T09:22:34.940681Z",
+      "activated_on": "2023-07-20T09:22:37.200820Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "fd02ae7e9d0ea003cf2870bd81238ad1",
+      "name": "italiadns.net",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-08-01T08:24:33.279375Z",
+      "created_on": "2024-08-01T08:24:30.552892Z",
+      "activated_on": "2024-08-01T08:24:33.166700Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "1a72fe9605a1752948b51dbfaeb7f505",
+      "name": "kisstube.tv",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": -232363518,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "NS1MPZ.NAME.COM",
+        "NS2KNZ.NAME.COM",
+        "NS3FHX.NAME.COM",
+        "NS4KSY.NAME.COM"
+      ],
+      "original_registrar": "NAME.COM, INC.",
+      "original_dnshost": null,
+      "modified_on": "2023-06-03T00:58:11.951408Z",
+      "created_on": "2016-07-06T09:46:28.971475Z",
+      "activated_on": "2023-06-03T00:58:11.951408Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "50f3f9a9c13476185106ff4623757ca5",
+      "name": "linuxwebservices.net",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-09-26T08:35:25.171332Z",
+      "created_on": "2024-08-28T18:55:59.641033Z",
+      "activated_on": "2024-08-28T18:56:03.154859Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "0bee38e4ee522407d6bb2822d3b5fe0d",
+      "name": "linuxwebservices.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-08-28T18:56:48.913186Z",
+      "created_on": "2024-08-28T18:56:46.043661Z",
+      "activated_on": "2024-08-28T18:56:48.765321Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "9d2f420507907ce5c3955eab667f86a3",
+      "name": "llmarchive.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-04-23T20:16:12.323233Z",
+      "created_on": "2024-04-23T20:16:09.021533Z",
+      "activated_on": "2024-04-23T20:16:12.187821Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "b5e9c7787293ca0d9831a3c766f2225b",
+      "name": "rivoluzioneinformatica.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns1mpz.name.com",
+        "ns4ksy.name.com",
+        "ns2knz.name.com",
+        "ns3fhx.name.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2023-06-02T21:02:56.361133Z",
+      "created_on": "2022-01-07T12:54:53.784858Z",
+      "activated_on": "2023-06-02T21:02:56.361133Z",
+      "meta": {
+        "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "9121a68c1d0c023340afbb66731e713e",
+      "name": "smartwaf.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-20T22:24:02.828437Z",
+      "created_on": "2023-06-10T14:00:39.115650Z",
+      "activated_on": "2023-06-10T14:00:41.050603Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "fc81b8f3c108449883c260f3e5e1ea69",
+      "name": "uglyfeed.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-11T13:24:34.317526Z",
+      "created_on": "2024-05-29T15:06:44.973070Z",
+      "activated_on": "2024-05-29T15:06:47.583762Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "7fed3596093a80bce73dbbaf9aea5564",
+      "name": "videodioggi.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-06T07:04:48.895542Z",
+      "created_on": "2017-11-25T10:38:59.638831Z",
+      "activated_on": "2017-11-25T10:41:14.693849Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "6aa578c4ea04e18f14254c56d98eadf0",
+      "name": "webtek.live",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns4ksy.name.com",
+        "ns1mpz.name.com",
+        "ns3fhx.name.com",
+        "ns2knz.name.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2023-02-16T22:04:16.698563Z",
+      "created_on": "2020-11-03T14:53:18.029711Z",
+      "activated_on": "2020-11-03T15:02:20.219366Z",
+      "meta": {
+        "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "af0967157b1e51a629c44daa8342d95d",
+      "name": "youknowwhataimean.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-06-06T08:31:02.209932Z",
+      "created_on": "2023-10-05T14:08:56.337876Z",
+      "activated_on": "2023-10-05T14:08:58.265755Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "77808f783fcd1b90e579a64a7eda8e80",
+      "name": "transversalpuntozero.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "fish.ns.cloudflare.com",
+        "jaime.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2024-10-10T20:29:15.166600Z",
+      "created_on": "2024-10-04T15:38:21.813850Z",
+      "activated_on": "2024-10-04T15:38:25.224854Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "b2f381f339d95c9be9f09bd9cb099a43",
+        "name": "Ldm4techno@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    }
+  ],
+  "dns_records": [
+    {
+      "id": "9f0d186658e67682dd6fc821f048bbe3",
+      "name": "audiolibri.org",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": "was 185.199.108.153 - 2.34.27.169",
+      "tags": [],
+      "created_on": "2022-05-28T20:03:08.90702Z",
+      "modified_on": "2024-08-01T22:05:04.408687Z",
+      "comment_modified_on": "2024-08-01T22:02:56.215873Z"
+    },
+    {
+      "id": "87b7692406e3371b3d7488bff3d9a0f2",
+      "name": "test.audiolibri.org",
+      "type": "A",
+      "content": "185.190.210.2",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-09-13T21:15:57.818873Z",
+      "modified_on": "2024-09-14T09:49:38.555093Z"
+    },
+    {
+      "id": "f9a11b71ec7dcf73bb3910e53eaaf4d7",
+      "name": "_24bc74214160960f4d12dd6fbff201f1.audiolibri.org",
+      "type": "CNAME",
+      "content": "b2c17ba6004759ccb8c9a77d014a29a0.6f845f21928b6cae571ad9b0c6abc9df.d43d56d38a87d9f.comodoca.com",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-05-03T14:21:45.203592Z",
+      "modified_on": "2023-05-03T14:22:05.697231Z"
+    },
+    {
+      "id": "71c65415c2aced7763afe2d2c61de57f",
+      "name": "hugo.audiolibri.org",
+      "type": "CNAME",
+      "content": "73e3a861-551e-4bdf-ad7a-a2ca6fe63e80.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-12-15T13:28:21.769261Z",
+      "modified_on": "2024-12-15T13:28:21.769261Z"
+    },
+    {
+      "id": "b3331100fb4b9053f9ea9dde42e5babc",
+      "name": "audiolibri.org",
+      "type": "MX",
+      "content": "o6wcxcfitqtebrzpn756dnwexqr6vbcpbkj7nq5hixj4uzn2eswq.mx-verification.google.com",
+      "priority": 15,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2017-11-01T19:18:31.093932Z",
+      "modified_on": "2017-11-01T19:18:31.093932Z"
+    },
+    {
+      "id": "0d46d10a289881e17aeaea972e3bc4e4",
+      "name": "audiolibri.org",
+      "type": "MX",
+      "content": "aspmx.l.google.com",
+      "priority": 1,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2017-11-01T19:18:14.785126Z",
+      "modified_on": "2017-11-01T19:18:14.785126Z"
+    },
+    {
+      "id": "c4b015ebb6540fa1c64482131c937ad9",
+      "name": "audiolibri.org",
+      "type": "TXT",
+      "content": "v=spf1 include:audiolibri.org -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-01-24T18:09:26.735522Z",
+      "modified_on": "2022-01-24T18:09:26.735522Z"
+    },
+    {
+      "id": "8123b69792536eda89581575fc5e6501",
+      "name": "_dmarc.audiolibri.org",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; rua=mailto:fabrizio.salmi@gmail.com",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-01-24T18:09:38.385312Z",
+      "modified_on": "2022-01-24T18:09:38.385312Z"
+    },
+    {
+      "id": "f7cedd17785f7e80f46f70b4c2592ef8",
+      "name": "_github-pages-challenge-fabriziosalmi.audiolibri.org",
+      "type": "TXT",
+      "content": "a2d349f948218278c16896b4854e7e",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-28T20:00:29.610113Z",
+      "modified_on": "2022-05-28T20:00:29.610113Z"
+    },
+    {
+      "id": "bdeca83d3f52cd29a0461c8c328e7eb8",
+      "name": "cfguru.org",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-12-17T13:15:33.42644Z",
+      "modified_on": "2023-12-17T13:22:36.5376Z"
+    },
+    {
+      "id": "3c7558d6d766ea8ee23519dc6b3c6fcb",
+      "name": "get.domainsblacklists.com",
+      "type": "A",
+      "content": "93.186.251.28",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:48:06.891684Z",
+      "modified_on": "2023-07-29T12:48:06.891684Z"
+    },
+    {
+      "id": "90854dd1388fe82242ce0109dfec5c88",
+      "name": "review.domainsblacklists.com",
+      "type": "A",
+      "content": "93.186.251.28",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-08-30T11:38:30.653586Z",
+      "modified_on": "2023-08-30T11:38:30.653586Z"
+    },
+    {
+      "id": "c292f89526841ffe14bf72950e566b00",
+      "name": "www.domainsblacklists.com",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-01-07T12:46:47.09149Z",
+      "modified_on": "2024-01-07T12:47:11.363311Z"
+    },
+    {
+      "id": "c357c5667fdc1f5189ff62d9127c5b66",
+      "name": "adguard.domainsblacklists.com",
+      "type": "CNAME",
+      "content": "d353b979-da9d-4992-9e5c-3b2d3fb34888.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-08-11T14:30:49.889256Z",
+      "modified_on": "2023-08-11T14:30:49.889256Z"
+    },
+    {
+      "id": "8b834fd2fd544e045645fac878b84f55",
+      "name": "api-ipres.domainsblacklists.com",
+      "type": "CNAME",
+      "content": "8743e1c1-51d3-4bf8-ba49-c84defa95d06.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-08-18T17:52:42.610086Z",
+      "modified_on": "2023-08-18T17:52:42.610086Z"
+    },
+    {
+      "id": "dfe1bcabcf091b40abb6b049a8192442",
+      "name": "changedetection.domainsblacklists.com",
+      "type": "CNAME",
+      "content": "3eec4402-ad54-45de-bf9b-926b6e88a159.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-09-13T18:26:54.071Z",
+      "modified_on": "2023-09-13T18:26:54.071Z"
+    },
+    {
+      "id": "c776f79530a239242078e5a3cb5d11d2",
+      "name": "req.domainsblacklists.com",
+      "type": "CNAME",
+      "content": "d353b979-da9d-4992-9e5c-3b2d3fb34888.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-09-10T12:21:43.338698Z",
+      "modified_on": "2023-09-10T12:21:43.338698Z"
+    },
+    {
+      "id": "2f418611b09ffd2e435cea99583e9480",
+      "name": "domainsblacklists.com",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 39,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:50:26.397174Z",
+      "modified_on": "2023-07-29T12:50:26.397174Z"
+    },
+    {
+      "id": "a5a312e4dbaaaec1eabfe1b9a5c17055",
+      "name": "domainsblacklists.com",
+      "type": "MX",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 93,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:50:26.389737Z",
+      "modified_on": "2023-07-29T12:50:26.389737Z"
+    },
+    {
+      "id": "376df1b8131105ac8a7209306e22b59c",
+      "name": "domainsblacklists.com",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 93,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:50:26.382045Z",
+      "modified_on": "2023-07-29T12:50:26.382045Z"
+    },
+    {
+      "id": "92388a78ff6bc640e36a75e31b30977a",
+      "name": "cf2024-1._domainkey.domainsblacklists.com",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-01T22:59:01.091354Z",
+      "modified_on": "2025-02-01T22:59:01.091354Z"
+    },
+    {
+      "id": "b1f7c2007e82e1af53a8ec6061b331f8",
+      "name": "_dmarc.domainsblacklists.com",
+      "type": "TXT",
+      "content": "v=DMARC1;  p=none; rua=mailto:9c70ea076036494c93d766dfefd2def1@dmarc-reports.cloudflare.net",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:50:10.919349Z",
+      "modified_on": "2023-07-29T12:50:10.919349Z"
+    },
+    {
+      "id": "519f3626ce2ea9a6dad71afe898ce796",
+      "name": "domainsblacklists.com",
+      "type": "TXT",
+      "content": "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-29T12:50:26.404775Z",
+      "modified_on": "2023-07-29T12:50:26.404775Z"
+    },
+    {
+      "id": "4dd327c64e78f584c16dc531a13ec1ec",
+      "name": "proxmox-test-1.freesubnet.com",
+      "type": "A",
+      "content": "37.183.16.191",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-28T19:51:23.923255Z",
+      "modified_on": "2024-07-28T19:51:23.923255Z"
+    },
+    {
+      "id": "ec12d53bf42e7bc2c950d7f4d4eb60e4",
+      "name": "rp.freesubnet.com",
+      "type": "A",
+      "content": "18.102.76.90",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-05-03T13:52:38.28258Z",
+      "modified_on": "2023-05-03T16:25:08.617872Z"
+    },
+    {
+      "id": "9bdd5da061a0b3543fb74847be092a31",
+      "name": "test.freesubnet.com",
+      "type": "A",
+      "content": "37.183.16.191",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-24T12:42:57.795531Z",
+      "modified_on": "2024-07-28T13:17:47.159096Z"
+    },
+    {
+      "id": "13b2a5129e5f7772daa7f0f70e349a26",
+      "name": "waf.freesubnet.com",
+      "type": "CNAME",
+      "content": "rp.freesubnet.com",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-05-03T13:53:22.545371Z",
+      "modified_on": "2023-05-03T16:25:02.924302Z"
+    },
+    {
+      "id": "77c251b8488617268d91ee1ebd51ede5",
+      "name": "free-tekno.com",
+      "type": "A",
+      "content": "207.180.193.100",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-07-23T08:58:49.378112Z",
+      "modified_on": "2021-07-23T12:56:39.987386Z"
+    },
+    {
+      "id": "dd673c4571ae6ec6ea4517da4047fa5f",
+      "name": "listen.free-tekno.com",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-07T20:32:13.606665Z",
+      "modified_on": "2022-02-07T20:32:43.921656Z"
+    },
+    {
+      "id": "de47139d99158674daebfa2bcc46381b",
+      "name": "radio.free-tekno.com",
+      "type": "A",
+      "content": "161.97.120.130",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-06-27T11:17:21.364442Z",
+      "modified_on": "2022-02-16T15:58:36.261027Z"
+    },
+    {
+      "id": "5acccdfb3c59cd49cacd28e83e48d221",
+      "name": "www.free-tekno.com",
+      "type": "A",
+      "content": "161.97.120.130",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-07T16:41:14.791288Z",
+      "modified_on": "2022-02-07T16:41:14.791288Z"
+    },
+    {
+      "id": "ac7c113f029bd912a9b6fe78dffe02a5",
+      "name": "mp3.free-tekno.com",
+      "type": "CNAME",
+      "content": "freetekno.free.nf",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-04T19:53:02.363162Z",
+      "modified_on": "2023-07-04T19:53:02.363162Z"
+    },
+    {
+      "id": "9450bd2c3778824d44882bf3a36c136a",
+      "name": "free-tekno.com",
+      "type": "MX",
+      "content": "poste.rivoluzioneinformatica.org",
+      "priority": 10,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-16T15:14:24.531147Z",
+      "modified_on": "2022-02-16T15:14:24.531147Z"
+    },
+    {
+      "id": "ec58d36579ccf292f4a659648d6a9c19",
+      "name": "_dmarc.free-tekno.com",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; rua=mailto:cloud@free-tekno.com;",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-16T15:36:47.274766Z",
+      "modified_on": "2022-02-16T15:36:47.274766Z"
+    },
+    {
+      "id": "f82cb05f0c7bd0ee554dc7a7e68481c2",
+      "name": "free-tekno.com",
+      "type": "TXT",
+      "content": "v=spf1 mx ip4:161.97.120.130/32 a:mail.rivoluzioneinformatica.org a:poste.rivoluzioneinformatica.org -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-16T12:57:13.550913Z",
+      "modified_on": "2022-02-16T15:47:18.346287Z"
+    },
+    {
+      "id": "15a4efde5824a7f870270570f044bf6a",
+      "name": "free-tekno.com",
+      "type": "TXT",
+      "content": "google-site-verification=u1RtWKENUcJYrh_iqqGrIQMTts0ipS2LpFZjtt7T-Nk",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-07-25T02:01:05.324193Z",
+      "modified_on": "2021-07-25T02:01:05.324193Z"
+    },
+    {
+      "id": "6f78e130390aca374862016649566194",
+      "name": "s20220216247._domainkey.free-tekno.com",
+      "type": "TXT",
+      "content": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA25fjdBEzCOeoRC5460U3HHjYEIjqtI4wkAVXidP5ynP9anEQ5i2+bW/lKh+xa5WKGjPofy/qxsnjuLE40ZnivPy7wfOwU3uOFf4CD5cen08xi/76vrqj3r1F29j8v+jJqB9+Z5RCOxCuu0Zx99okko+BaBej+O9W4Eh70d4PAb1TwrwNoBD47GnSLG3xu2b1NuXyWbuAEoQQ43/1+M689TJt7azAmG3yqft4J/7Oo0B7Wyk5V8Al2bpt6GYEoSV48HPrUC+MudIxgxVtR3O5oIVq9tHm7+jg5EY0GZpyk6yVJFlAXFJzt0OIKe4KvCngW0vHQSISmy0tgmZ8j38+uQIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-16T12:55:09.214302Z",
+      "modified_on": "2022-02-16T12:55:09.214302Z"
+    },
+    {
+      "id": "54e5f74cd09ee8a8c9729c9cdb0397b6",
+      "name": "freesounds-selfhosted.freeundergroundtekno.org",
+      "type": "CNAME",
+      "content": "54a3646c-9701-4a8b-b6b0-e8b9f08e297f.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-10T19:31:31.948543Z",
+      "modified_on": "2022-12-10T19:31:31.948543Z"
+    },
+    {
+      "id": "f2d988c340f9edd8b38f1dcd778bb88a",
+      "name": "mp3.freeundergroundtekno.org",
+      "type": "CNAME",
+      "content": "7544e2f1-de2b-411b-9eed-4a6c28bf46ac.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-10T20:18:13.753251Z",
+      "modified_on": "2022-12-10T20:18:13.753251Z"
+    },
+    {
+      "id": "7d449cbba90883fa8a14389f9a18a7a6",
+      "name": "radio.freeundergroundtekno.org",
+      "type": "CNAME",
+      "content": "1e58dbc4-7d4f-4d5c-bf27-f801381a4fce.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-06-08T18:04:10.985475Z",
+      "modified_on": "2024-06-08T18:04:10.985475Z"
+    },
+    {
+      "id": "b24f98873ca6f73f11bb06015e03a3d1",
+      "name": "_acme-challenge.sound.freeundergroundtekno.org",
+      "type": "TXT",
+      "content": "4bHK_Yi224RlQPT3GaNFHfWNtm2reTuFAJitGpMFgM8",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2018-08-07T16:10:03.300043Z",
+      "modified_on": "2018-08-07T16:10:03.300043Z"
+    },
+    {
+      "id": "e302bd7fb84138a3a709507e25855226",
+      "name": "freeundergroundtekno.org",
+      "type": "TXT",
+      "content": "google-site-verification=UoPqDBPRj-_7eqBxrBhGViVVv41rzy51Zb_ZCmftsq0",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-03-25T22:28:21.998451Z",
+      "modified_on": "2024-03-25T22:28:21.998451Z"
+    },
+    {
+      "id": "737420529070901f1b0cd444ebf396fd",
+      "name": "baserow.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:23:37.038965Z",
+      "modified_on": "2025-02-07T16:23:37.038965Z"
+    },
+    {
+      "id": "081907c20660bf785f8a99b15f7ae6fa",
+      "name": "cloud.irrazionale.org",
+      "type": "CNAME",
+      "content": "379e723b-0e63-4ee0-aabe-5009125009c9.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-11T16:25:07.205868Z",
+      "modified_on": "2022-12-11T16:25:07.205868Z"
+    },
+    {
+      "id": "d0e96bb2faf9ed17182c357e39b68779",
+      "name": "coolify.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-09T22:15:14.34368Z",
+      "modified_on": "2025-02-09T22:15:14.34368Z"
+    },
+    {
+      "id": "911a85c4a4a11c6e7c594788937a2456",
+      "name": "dell.irrazionale.org",
+      "type": "CNAME",
+      "content": "4e789f43-bcab-410e-a7c8-9c7bd88fd294.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-12-01T12:39:10.88625Z",
+      "modified_on": "2023-12-01T12:39:10.88625Z"
+    },
+    {
+      "id": "60d0a2d1367b6b64c398aa37848efae3",
+      "name": "docker.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:29:08.840612Z",
+      "modified_on": "2025-02-07T16:29:08.840612Z"
+    },
+    {
+      "id": "08d407943ed4067865b5a819494093df",
+      "name": "freesounds.irrazionale.org",
+      "type": "CNAME",
+      "content": "86cfa504-c90d-46fd-a7f9-8c8d7a74ec1b.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-29T10:34:39.700377Z",
+      "modified_on": "2022-05-29T10:34:39.700377Z"
+    },
+    {
+      "id": "41be2e667e4654c8425c3747809eaf4b",
+      "name": "git.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-09T17:43:27.673327Z",
+      "modified_on": "2025-02-09T17:43:27.673327Z"
+    },
+    {
+      "id": "216f28a4197e4846265257d9a19df44a",
+      "name": "jellyfin.irrazionale.org",
+      "type": "CNAME",
+      "content": "ecb8d351-a34c-4b72-829d-9e0ef5726b65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-12-01T16:34:33.145093Z",
+      "modified_on": "2023-12-01T16:34:33.145093Z"
+    },
+    {
+      "id": "a294caebd6eeaa83278ae5e170afa4a7",
+      "name": "lf.irrazionale.org",
+      "type": "CNAME",
+      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-04-25T08:35:09.947241Z",
+      "modified_on": "2024-04-25T08:35:09.947241Z"
+    },
+    {
+      "id": "f4dca49d67d59d15ae0d95d59da4e1bc",
+      "name": "mt-link.irrazionale.org",
+      "type": "CNAME",
+      "content": "t.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:34:57.894134Z",
+      "modified_on": "2023-07-06T15:34:57.894134Z"
+    },
+    {
+      "id": "3d3ea0a30645f9869829e88faee2503f",
+      "name": "mtvcz748l8xjyyn1.irrazionale.org",
+      "type": "CNAME",
+      "content": "smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:33:25.6031Z",
+      "modified_on": "2023-07-06T15:33:25.6031Z"
+    },
+    {
+      "id": "0f265f5f7fc8993d0ab2639cf54dd5da",
+      "name": "ollama.irrazionale.org",
+      "type": "CNAME",
+      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-04-20T14:38:22.706136Z",
+      "modified_on": "2024-04-20T14:38:22.706136Z"
+    },
+    {
+      "id": "4a64c597d17da513e052355df93bbc58",
+      "name": "powerdns.irrazionale.org",
+      "type": "CNAME",
+      "content": "5aa9a43c-0d36-4ba4-aeae-bbd15b710672.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-07-28T21:04:04.261466Z",
+      "modified_on": "2022-07-28T21:04:04.261466Z"
+    },
+    {
+      "id": "4bd65cc8d342c16851d7e90462f78579",
+      "name": "proxmox.irrazionale.org",
+      "type": "CNAME",
+      "content": "b07e1b74-56b3-479f-a59f-ee5c153f9ad5.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:35:38.19329Z",
+      "modified_on": "2025-02-07T16:35:38.19329Z"
+    },
+    {
+      "id": "bcecbb8389554f8c10dcbe5342f07c71",
+      "name": "proxmox-ssh.irrazionale.org",
+      "type": "CNAME",
+      "content": "b07e1b74-56b3-479f-a59f-ee5c153f9ad5.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:36:02.480326Z",
+      "modified_on": "2025-02-07T16:36:02.480326Z"
+    },
+    {
+      "id": "4df15e68dd88bfa0ecd696b2dd67008e",
+      "name": "rwmt1._domainkey.irrazionale.org",
+      "type": "CNAME",
+      "content": "rwmt1.dkim.smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:34:03.879259Z",
+      "modified_on": "2023-07-06T15:34:03.879259Z"
+    },
+    {
+      "id": "04d14cb456a1976f403ee148eca05cc8",
+      "name": "rwmt2._domainkey.irrazionale.org",
+      "type": "CNAME",
+      "content": "rwmt2.dkim.smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:34:18.717224Z",
+      "modified_on": "2023-07-06T15:34:18.717224Z"
+    },
+    {
+      "id": "8ee0fa4fe49caa8b43660be5e1d1c512",
+      "name": "s3.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:30:35.386852Z",
+      "modified_on": "2025-02-07T16:30:35.386852Z"
+    },
+    {
+      "id": "0ce0da84393eb2e44a959deb2116cce5",
+      "name": "s3ui.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:30:54.891274Z",
+      "modified_on": "2025-02-07T16:30:54.891274Z"
+    },
+    {
+      "id": "f1d8eb95f42108e4b07e86388c8670e7",
+      "name": "search.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-09T15:52:15.13208Z",
+      "modified_on": "2025-02-09T15:52:15.13208Z"
+    },
+    {
+      "id": "d136067486f9bfd1260a66e04c217624",
+      "name": "webcheck.irrazionale.org",
+      "type": "CNAME",
+      "content": "6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-07T16:26:34.171441Z",
+      "modified_on": "2025-02-07T16:26:34.171441Z"
+    },
+    {
+      "id": "095deb0b6f4f0327cf9d1e1abc53e523",
+      "name": "irrazionale.org",
+      "type": "MX",
+      "content": "mail.irrazionale.org",
+      "priority": 1,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-07-15T07:14:33.759478Z",
+      "modified_on": "2022-07-15T07:14:33.759478Z"
+    },
+    {
+      "id": "5e61f46e73d33d23b901c830c11d05e5",
+      "name": "irrazionale.org",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 73,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-03-21T23:21:47.93845Z",
+      "modified_on": "2022-03-21T23:21:47.93845Z"
+    },
+    {
+      "id": "4a187b659dadf78253cb30054350314c",
+      "name": "irrazionale.org",
+      "type": "MX",
+      "content": "route2mx.cloudflare.net",
+      "priority": 99,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-03-21T23:21:36.591334Z",
+      "modified_on": "2022-03-21T23:21:36.591334Z"
+    },
+    {
+      "id": "8f14619268c7a453f27c0cc292f5bdf6",
+      "name": "irrazionale.org",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 89,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-03-21T23:21:22.978524Z",
+      "modified_on": "2022-03-21T23:21:22.978524Z"
+    },
+    {
+      "id": "bb6fca1069dfef36eac3160ec423215a",
+      "name": "safe.irrazionale.org",
+      "type": "NS",
+      "content": "dnsafe.irrazionale.org",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-03-25T12:14:53.694611Z",
+      "modified_on": "2022-03-25T12:14:53.694611Z"
+    },
+    {
+      "id": "3a04124b47167ef39224aa1b60a8fe25",
+      "name": "_acme-challenge.mail.irrazionale.org",
+      "type": "TXT",
+      "content": "UqWxLrUNf7_wrvKMrtVQqMz-Nl_UtRVF6pbE8tsHdzE",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-17T14:04:00.295343Z",
+      "modified_on": "2022-05-17T14:04:00.295343Z"
+    },
+    {
+      "id": "1d8156b40d6aacadc2dbd965cdddf5a2",
+      "name": "_dmarc.irrazionale.org",
+      "type": "TXT",
+      "content": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-04-17T09:09:11.011539Z",
+      "modified_on": "2024-04-17T09:09:11.011539Z"
+    },
+    {
+      "id": "c931695adebdf9cc13b66924f8d442a2",
+      "name": "_dmarc.irrazionale.org",
+      "type": "TXT",
+      "content": "v=DMARC1; p=none; rua=mailto:dmarc@smtp.mailtrap.live; ruf=mailto:dmarc@smtp.mailtrap.live; rf=afrf; pct=100",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:34:35.980156Z",
+      "modified_on": "2023-07-06T15:34:35.980156Z"
+    },
+    {
+      "id": "5674a44427225f44209d188901e7e212",
+      "name": "_dmarc.irrazionale.org",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; sp=reject; rua=mailto:weqc8axy@ag.eu.dmarcian.com",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-07-15T07:15:44.35849Z",
+      "modified_on": "2022-07-15T07:15:44.35849Z"
+    },
+    {
+      "id": "575daba57b52a33ae44441e93e44ad93",
+      "name": "irrazionale.org",
+      "type": "TXT",
+      "content": "brevo-code:6f4f7efb6520b5418b28b67f298c9b52",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-04-17T09:08:34.680551Z",
+      "modified_on": "2024-04-17T09:08:34.680551Z"
+    },
+    {
+      "id": "8ae5f18920790fbc1ac6e57676db376b",
+      "name": "irrazionale.org",
+      "type": "TXT",
+      "content": "v=spf1 ip4:185.182.185.194 include:_spf.smtp.mailtrap.live -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-06T15:33:42.660644Z",
+      "modified_on": "2023-07-06T15:33:42.660644Z"
+    },
+    {
+      "id": "5f752add42e06a88468c1b1203a5241c",
+      "name": "irrazionale.org",
+      "type": "TXT",
+      "content": "zone-ownership-verification-58c91853bd399630f635536dca469de68c690b6a4b62aa2e95ceecc9de895f73",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-06-12T10:59:14.29918Z",
+      "modified_on": "2023-06-12T10:59:14.29918Z"
+    },
+    {
+      "id": "0f26a20e5f4dd405e38ae5978d278e3d",
+      "name": "irrazionale.org",
+      "type": "TXT",
+      "content": "v=spf1 ip4:185.182.185.194 -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-07-15T07:16:37.604542Z",
+      "modified_on": "2022-07-15T07:16:37.604542Z"
+    },
+    {
+      "id": "96bf76d43d32043fc586f04d28efe912",
+      "name": "mail._domainkey.irrazionale.org",
+      "type": "TXT",
+      "content": "k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-04-17T09:08:52.915406Z",
+      "modified_on": "2024-04-17T09:08:52.915406Z"
+    },
+    {
+      "id": "6aa7d6d1576b8790519602102e390beb",
+      "name": "s20220715915._domainkey.irrazionale.org",
+      "type": "TXT",
+      "content": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyNn2hzqOisuAb2kxl2iqzi7+latoU5BIcqzoLq2IF5PSw8F/ThnpADmyJEoBqDjvPyFpsJAor3lVVE9hE0PnJkDoKmVGyrFTWQxdZr0bUEJd6Tv/3+0yqBxyV4r6t0x6HuUIFERXl2tXBCog5asMqOoYlFjUSagQV7T8r00essEI8KFvMYRE9ec9CumhoosbtHHYZ3mX/HwL6CEZKi3glJymgoxl3W9AeINn+93qsSzIAekLaTEmnlKbrLWBcyhLPR/20xSSaUOJslfn7ucV8OabomN44BJi3lWxQvoHoM6BLHhs48k8jOzROLn/Svdv51TuM25xPuyAKfapJpZEIQIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-07-15T07:12:54.583273Z",
+      "modified_on": "2022-07-15T07:12:54.583273Z"
+    },
+    {
+      "id": "f07372fefe2aeec92ba78a42ee921960",
+      "name": "s20221212161._domainkey.irrazionale.org",
+      "type": "TXT",
+      "content": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAofbiDgrsqmp59MqGRDqdglbPZnE5MfHcQxLrCU/3szYwS5JfZBBqS/HMvejGoVlgb3uH+CHuSdGgu8gQzuDob8ULjskAQA93FFpob8MvygixtZQITuiAFl6W4nFzebxN2Tg6zO9oS+eeGQsqq95jp2YWLjlvYcpw2dZU0sdmGJw3VlUrPqJh4+Qp8P5vvGhYHiPykVuZSqd91TqX7OuEzpOabt2uas32ea0AquzzUgpbjbxv7GJdCdccmD5tYBW7Sm6VcWvPXSo42N2gYMQ5R+24tN3QViBOcbBUgX+1K91d2Yad3GqTttoJZ7mt4oiR/t15BcavS9yzutzCeR7b2QIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-12T15:43:59.509606Z",
+      "modified_on": "2022-12-12T15:43:59.509606Z"
+    },
+    {
+      "id": "17b3527cd02d347865e9850e278e68d1",
+      "name": "vpn.italiacdn.net",
+      "type": "CNAME",
+      "content": "19ccacfd-5678-4b66-99ae-ee25848d03fe.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-08-09T08:47:18.593613Z",
+      "modified_on": "2024-08-09T08:47:18.593613Z"
+    },
+    {
+      "id": "a49ade48a5be45f002d5417140f370a0",
+      "name": "adinsp9sqvzxue8n.italiadns.com",
+      "type": "CNAME",
+      "content": "smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T13:37:34.938024Z",
+      "modified_on": "2024-07-31T13:38:29.779921Z"
+    },
+    {
+      "id": "57267997534d7cf452997a9c191591ee",
+      "name": "mt-link.italiadns.com",
+      "type": "CNAME",
+      "content": "t.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T13:27:32.020186Z",
+      "modified_on": "2024-07-31T13:27:32.020186Z"
+    },
+    {
+      "id": "3a7c851242dbc15ea213945d901512b9",
+      "name": "rwmt1._domainkey.italiadns.com",
+      "type": "CNAME",
+      "content": "rwmt1.dkim.smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T12:40:48.527918Z",
+      "modified_on": "2024-07-31T12:40:48.527918Z"
+    },
+    {
+      "id": "f06b6c37872df6a52852ee0d128d45ee",
+      "name": "rwmt2._domainkey.italiadns.com",
+      "type": "CNAME",
+      "content": "rwmt2.dkim.smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T12:41:04.319914Z",
+      "modified_on": "2024-07-31T12:41:04.319914Z"
+    },
+    {
+      "id": "41fd60824243d4f2538de3c3c29b7736",
+      "name": "w1y139ns251ah6gc.italiadns.com",
+      "type": "CNAME",
+      "content": "smtp.mailtrap.live",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T12:40:29.695093Z",
+      "modified_on": "2024-07-31T12:40:29.695093Z"
+    },
+    {
+      "id": "a38c7cb5dce002e6fa5326111beba54f",
+      "name": "italiadns.com",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 61,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-20T09:24:21.51429Z",
+      "modified_on": "2023-07-20T09:24:21.51429Z"
+    },
+    {
+      "id": "f5ba2bca6c00c93674036cf5d49b0523",
+      "name": "italiadns.com",
+      "type": "MX",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 14,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-20T09:24:21.506037Z",
+      "modified_on": "2023-07-20T09:24:21.506037Z"
+    },
+    {
+      "id": "6c5bf0b471503f7060c852986b55b0e0",
+      "name": "italiadns.com",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 3,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-20T09:24:21.498021Z",
+      "modified_on": "2023-07-20T09:24:21.498021Z"
+    },
+    {
+      "id": "e6da0cedff625c31979aecd06ce463d4",
+      "name": "cf2024-1._domainkey.italiadns.com",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-02-01T23:21:21.67206Z",
+      "modified_on": "2025-02-01T23:21:21.67206Z"
+    },
+    {
+      "id": "98ed2139a5df7fb42d178b73688e8fa1",
+      "name": "_dmarc.italiadns.com",
+      "type": "TXT",
+      "content": "v=DMARC1;  p=none; rua=mailto:cadbf2dc4b9e4b52be30114a34d30ad7@dmarc-reports.cloudflare.net",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-07-20T10:48:55.291431Z",
+      "modified_on": "2023-07-20T10:48:55.291431Z"
+    },
+    {
+      "id": "129ae399ff1f816f521c481aa58251a7",
+      "name": "italiadns.com",
+      "type": "TXT",
+      "content": "v=spf1 include:_spf.smtp.mailtrap.live -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-07-31T12:41:30.706502Z",
+      "modified_on": "2024-08-19T08:39:22.495623Z"
+    },
+    {
+      "id": "c0f4b4c2ad85a76c92a692cda9b07f2f",
+      "name": "aws.italiadns.net",
+      "type": "NS",
+      "content": "ns-1683.awsdns-18.co.uk",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-03-03T11:17:51.528649Z",
+      "modified_on": "2025-03-03T11:17:51.528649Z"
+    },
+    {
+      "id": "4131e3d65c1df20458045bfa612298e9",
+      "name": "aws.italiadns.net",
+      "type": "NS",
+      "content": "ns-1303.awsdns-34.org",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-03-03T11:17:34.736768Z",
+      "modified_on": "2025-03-03T11:17:34.736768Z"
+    },
+    {
+      "id": "03da4898b7afbb1408bfdd51f42e5936",
+      "name": "kisstube.tv",
+      "type": "TXT",
+      "content": "google-site-verification=6DRoK-0kxVjTkrYzq-kCZy3nDRa1dBHfsCcbAzm1dYw",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2015-05-25T23:39:18.201448Z",
+      "modified_on": "2015-05-25T23:39:18.201448Z"
+    },
+    {
+      "id": "fd06957f7e745e10c388665bb8be096a",
+      "name": "kisstube.tv",
+      "type": "TXT",
+      "content": "google-site-verification=39ep5VoK19J3GTzqrCZ3wKSPlg5bQXkFsuFQy0mtLeA",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2014-06-23T19:34:28.649657Z",
+      "modified_on": "2014-06-23T19:34:28.649657Z"
+    },
+    {
+      "id": "ccf7ca30f014519f55993c5bc5846c1a",
+      "name": "kisstube.tv",
+      "type": "TXT",
+      "content": "v=spf1 a mx ~all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2014-06-23T19:34:28.647128Z",
+      "modified_on": "2014-06-23T19:34:28.647128Z"
+    },
+    {
+      "id": "c7df12561d64e4e680c6b0859c123f99",
+      "name": "imap.rivoluzioneinformatica.org",
+      "type": "A",
+      "content": "185.182.185.194",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-22T11:08:51.308823Z",
+      "modified_on": "2022-05-22T11:08:51.308823Z"
+    },
+    {
+      "id": "e95c85414a6c93e847a2755df7c16cf0",
+      "name": "mail.rivoluzioneinformatica.org",
+      "type": "A",
+      "content": "185.182.185.194",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-22T10:15:04.05472Z",
+      "modified_on": "2022-05-22T10:15:04.05472Z"
+    },
+    {
+      "id": "6834f98896056a837138409566211327",
+      "name": "smtp.rivoluzioneinformatica.org",
+      "type": "A",
+      "content": "185.182.185.194",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-22T11:08:43.086179Z",
+      "modified_on": "2022-05-22T11:08:43.086179Z"
+    },
+    {
+      "id": "ba18f2da24401c4bc0c2ed6444470ab3",
+      "name": "webmail.rivoluzioneinformatica.org",
+      "type": "A",
+      "content": "185.182.185.194",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-22T08:24:00.700773Z",
+      "modified_on": "2022-05-22T08:24:00.700773Z"
+    },
+    {
+      "id": "37bbd8bcff79b84679e1be20a97fbd4f",
+      "name": "git.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "b98dd568-bdbf-415a-8894-f30bb5bbbf91.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-01-29T00:26:34.637101Z",
+      "modified_on": "2025-01-29T00:26:34.637101Z"
+    },
+    {
+      "id": "eb220c9fb1df30719c788ef51fe312f6",
+      "name": "npm.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "692501dc-d195-4f10-b0a7-11a71a4cef78.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-09T11:43:38.114483Z",
+      "modified_on": "2022-02-09T11:43:38.114483Z"
+    },
+    {
+      "id": "9feadf111b5434fd8dd2b41f8008ca09",
+      "name": "proxmox.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "4436d941-eff4-4134-91a8-c5400be27423.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-12T15:18:23.651021Z",
+      "modified_on": "2022-12-12T15:18:23.651021Z"
+    },
+    {
+      "id": "236f1b867d3720d5dd29c6af49782d62",
+      "name": "rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "www.rivoluzioneinformatica.org",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-11-10T15:34:50.070177Z",
+      "modified_on": "2023-11-10T15:34:50.070177Z"
+    },
+    {
+      "id": "7c6da25c8e1e486da458cd5373402382",
+      "name": "vpn.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "faa2f03f-72a7-4812-a2f9-18c9db40c328.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-02-11T13:51:31.288382Z",
+      "modified_on": "2023-02-11T13:51:31.288382Z"
+    },
+    {
+      "id": "3045396196bc00b6e05726f94825c6bd",
+      "name": "www.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-08-17T08:57:50.756388Z",
+      "modified_on": "2022-08-17T08:59:41.92016Z"
+    },
+    {
+      "id": "25f714bcbfe5ff8215c314a503379edc",
+      "name": "xmq.rivoluzioneinformatica.org",
+      "type": "CNAME",
+      "content": "faa2f03f-72a7-4812-a2f9-18c9db40c328.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-02-07T20:14:06.346543Z",
+      "modified_on": "2023-02-07T20:14:06.346543Z"
+    },
+    {
+      "id": "3a2fa8fe309047db5c79bf90a17c2580",
+      "name": "rivoluzioneinformatica.org",
+      "type": "MX",
+      "content": "amir.mx.cloudflare.net",
+      "priority": 40,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-06-12T11:01:48.035723Z",
+      "modified_on": "2023-06-12T11:01:48.035723Z"
+    },
+    {
+      "id": "177c0d9e3950bcc6a4ede7696aacb0a7",
+      "name": "rivoluzioneinformatica.org",
+      "type": "MX",
+      "content": "linda.mx.cloudflare.net",
+      "priority": 90,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-06-12T11:01:48.026902Z",
+      "modified_on": "2023-06-12T11:01:48.026902Z"
+    },
+    {
+      "id": "bcd73d5a0e03a2593be162cd5259a678",
+      "name": "rivoluzioneinformatica.org",
+      "type": "MX",
+      "content": "isaac.mx.cloudflare.net",
+      "priority": 97,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-06-12T11:01:48.018567Z",
+      "modified_on": "2023-06-12T11:01:48.018567Z"
+    },
+    {
+      "id": "e6ffaf786ff743b47650f73557b07b66",
+      "name": "cf2024-1._domainkey.rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-03-13T15:24:01.244511Z",
+      "modified_on": "2025-03-13T15:24:01.244511Z"
+    },
+    {
+      "id": "6bad42a7eedda28b7979d37d8e66d6d8",
+      "name": "_dmarc.rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; sp=reject; rua=mailto:weqc8axy@ag.eu.dmarcian.com",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-02-07T15:43:39.763425Z",
+      "modified_on": "2022-05-22T11:09:18.092063Z"
+    },
+    {
+      "id": "2a74f92cf716979d913217d640655261",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "openai-domain-verification=dv-LwNd6wuOrll7KNwSnOzMAlPT",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-11-09T20:49:42.435335Z",
+      "modified_on": "2023-11-09T20:49:42.435335Z"
+    },
+    {
+      "id": "db8ada7f22832e3e4f352d5bd7829a4f",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "v=spf1 include:_spf.mx.cloudflare.net ~all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-06-12T11:01:48.044476Z",
+      "modified_on": "2023-06-12T11:01:48.044476Z"
+    },
+    {
+      "id": "47bb0eec812c7e5f3961cb9079727d80",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "google-site-verification=IjTuC9rcrlAzy_NPt27HTlWxytX_NsTAR_FnpyT3VZI",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-08-17T11:49:34.320428Z",
+      "modified_on": "2022-08-17T11:49:34.320428Z"
+    },
+    {
+      "id": "9abd161d29cb47ce6cfa783657e67723",
+      "name": "s20220522816._domainkey.rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx3UfU+JrN8hQLHmMKQb4fVNTDP7rN7m0qzh0T/PV9xgHuuyckzIjqjG+elA1+Fn7Wo+DHFpGimlwVH2npG9Csbn2vAVcjydIsH17wqjqz0QSGoKoEXc3D0oTL4t2Lclz5gkRU/fo4578PmNZL6zPUZRwSGChTGNHG2R5I0W3HfIEYzULppN8DqsRbWxO/T5aGhhd+MMQt9gGMrNgW9BeeKQmOmIimuVozfLCW4rKLEREwOLYD75vhqTY0deCi3NnEXfap4Cqf7gI9F4MSXUoUiYBVRLqWSlDWH6uErQciiJZ8sw64fIZCQxpgYt9pXr5OOtThYiRWRrAXE5DTHEI1wIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-05-13T21:13:25.301942Z",
+      "modified_on": "2022-05-22T10:18:49.411362Z"
+    },
+    {
+      "id": "40834d23224c0eb0f3ae2f6cb80411fa",
+      "name": "s20221212131._domainkey.rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0rb2uVzRTT2zZeqCpsJfX/nINuSJuyfV8CFWiDFXiQjrUHnVGg9dit2iQOVK+3opfQ+IG8OIAogmGWL4MUcqgLIF5t1mQKImdh/Ni1D7WGNpFvXNcohczpvMmGSVXOn9QY2sg+KmkSDO1qwS2WIuXQDxEGJ+iZVMMgMy37vtVyk3bw7bqOKgGEEC2pBpJU4E4tdA6gI8/ZLuBp4ejmT3ZKRS4Z2tyq91qAF9R+tRspMxSEMeI+OiBhYiB+wms2CvGCS8YtfC2mq7YwXfvTTg7eEdS6UU+0gCZWL0e8gl7edsY1wnZmM3lp+SY3WXbiONYy0/T96Xdg9kxCcr/1mBaQIDAQAB",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2022-12-12T15:42:56.669675Z",
+      "modified_on": "2022-12-12T15:42:56.669675Z"
+    },
+    {
+      "id": "904b0a528a01b0dd8370295ce305d3da",
+      "name": "demo.uglyfeed.com",
+      "type": "CNAME",
+      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-06-11T13:11:54.727338Z",
+      "modified_on": "2024-06-11T13:11:54.727338Z"
+    },
+    {
+      "id": "1b7333a979fa92816324f0e9be6a564a",
+      "name": "xml.uglyfeed.com",
+      "type": "CNAME",
+      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-06-13T14:01:29.398752Z",
+      "modified_on": "2024-06-13T14:01:29.398752Z"
+    },
+    {
+      "id": "6c874506c8ce87bd95aeb7af511402a4",
+      "name": "cf2024-1._domainkey.videodioggi.com",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-03-14T01:50:15.254316Z",
+      "modified_on": "2025-03-14T01:50:15.254316Z"
+    },
+    {
+      "id": "d745f5935c526f8ec4c18455bb114e2c",
+      "name": "_dmarc.videodioggi.com",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-12-12T16:20:23.516418Z",
+      "modified_on": "2021-12-12T16:20:23.516418Z"
+    },
+    {
+      "id": "174e7c363d39762d0e764dca9d4f83fe",
+      "name": "*._domainkey.videodioggi.com",
+      "type": "TXT",
+      "content": "v=DKIM1; p=",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-12-12T16:20:23.509152Z",
+      "modified_on": "2021-12-12T16:20:23.509152Z"
+    },
+    {
+      "id": "af815c727d2b5518ef3190a388afbce1",
+      "name": "videodioggi.com",
+      "type": "TXT",
+      "content": "v=spf1 -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2021-12-12T16:20:23.51106Z",
+      "modified_on": "2021-12-12T16:20:23.51106Z"
+    },
+    {
+      "id": "cd8e879f3c9881e570af82269bcd0477",
+      "name": "dasdsadsadasdasdasdasasas.webtek.live",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-03-30T09:59:11.98058Z",
+      "modified_on": "2023-03-30T09:59:12.228482Z"
+    },
+    {
+      "id": "203ca5160347df21edeb2dcfafacdbf8",
+      "name": "test2.webtek.live",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-03-28T08:34:29.902515Z",
+      "modified_on": "2023-03-28T08:34:30.164318Z"
+    },
+    {
+      "id": "432df2553b443742f9f905e155878536",
+      "name": "test.webtek.live",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-03-24T11:44:15.078812Z",
+      "modified_on": "2023-03-24T11:44:15.367412Z"
+    },
+    {
+      "id": "0f6431cd01ce8d23f5e6116a84799b6d",
+      "name": "webtek.live",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-02-17T23:14:39.792808Z",
+      "modified_on": "2023-02-17T23:14:39.792808Z"
+    },
+    {
+      "id": "e02587466a80086957e4f19a05760dec",
+      "name": "youknowwhataimean.com",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-10-06T11:52:31.670164Z",
+      "modified_on": "2023-10-06T12:04:32.454791Z"
+    },
+    {
+      "id": "7982468ab5963924b1a08dedcac6892b",
+      "name": "_dmarc.youknowwhataimean.com",
+      "type": "TXT",
+      "content": "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-10-05T14:13:27.963225Z",
+      "modified_on": "2023-10-05T14:13:27.963225Z"
+    },
+    {
+      "id": "406b6f469b58a98c0cb2acb3abbccdcd",
+      "name": "*._domainkey.youknowwhataimean.com",
+      "type": "TXT",
+      "content": "v=DKIM1; p=",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-10-05T14:13:27.93815Z",
+      "modified_on": "2023-10-05T14:13:27.93815Z"
+    },
+    {
+      "id": "c6cef2dc26f42a4852a4006685bc06fa",
+      "name": "youknowwhataimean.com",
+      "type": "TXT",
+      "content": "v=spf1 -all",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2023-10-05T14:13:27.931067Z",
+      "modified_on": "2023-10-05T14:13:27.931067Z"
+    },
+    {
+      "id": "add653a25af3cf87d882f89eb8c305c0",
+      "name": "transversalpuntozero.org",
+      "type": "CNAME",
+      "content": "transversalpuntozero.pages.dev",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2024-11-03T08:47:11.475444Z",
+      "modified_on": "2024-11-03T08:47:11.475444Z"
+    }
+  ]
+}
