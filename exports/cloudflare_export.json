@@ -50,7 +50,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -82578226,
+      "development_mode": -82664592,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -178,7 +178,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -50752978,
+      "development_mode": -50839344,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -358,7 +358,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -115056234,
+      "development_mode": -115142600,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -114375062,
+      "development_mode": -114461428,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -486,7 +486,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -124535344,
+      "development_mode": -124621710,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -731,7 +731,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -232690082,
+      "development_mode": -232776448,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2678,7 +2678,7 @@
       "modified_on": "2022-12-12T15:43:59.509606Z"
     },
     {
-      "id": "868b4cabc8c6415f29c34b34bfa72210",
+      "id": "25f1985f805e21184de23f5dd6f43ea9",
       "name": "bin.italiacdn.net",
       "type": "CNAME",
       "content": "62012bb4-9a36-4017-b533-489f1e455049.cfargotunnel.com",
@@ -2691,11 +2691,28 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-03-17T21:43:23.250682Z",
-      "modified_on": "2025-03-17T21:43:23.250682Z"
+      "created_on": "2025-03-18T20:26:37.20432Z",
+      "modified_on": "2025-03-18T20:26:37.20432Z"
     },
     {
-      "id": "17b3527cd02d347865e9850e278e68d1",
+      "id": "35b29e9d5ed68e0541ae38a785efe1ce",
+      "name": "logs.italiacdn.net",
+      "type": "CNAME",
+      "content": "00f31d96-6439-42a2-b318-a67a0c4a3185.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-03-18T23:39:26.579932Z",
+      "modified_on": "2025-03-18T23:39:26.579932Z"
+    },
+    {
+      "id": "3f675bb7dfbfea17e4c7b970c12c90c4",
       "name": "vpn.italiacdn.net",
       "type": "CNAME",
       "content": "19ccacfd-5678-4b66-99ae-ee25848d03fe.cfargotunnel.com",
@@ -2708,8 +2725,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2024-08-09T08:47:18.593613Z",
-      "modified_on": "2024-08-09T08:47:18.593613Z"
+      "created_on": "2025-03-18T20:26:37.148167Z",
+      "modified_on": "2025-03-18T20:26:37.148167Z"
     },
     {
       "id": "a49ade48a5be45f002d5417140f370a0",
