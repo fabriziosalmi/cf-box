@@ -51,6 +51,7 @@ was 185.199.108.153 - 2.34.27.169,2024-08-01T22:02:56.215873Z,185.199.108.153,20
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-09T17:43:27.673327Z,41be2e667e4654c8425c3747809eaf4b,{},2025-02-09T17:43:27.673327Z,git.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,ecb8d351-a34c-4b72-829d-9e0ef5726b65.cfargotunnel.com,2023-12-01T16:34:33.145093Z,216f28a4197e4846265257d9a19df44a,{},2023-12-01T16:34:33.145093Z,jellyfin.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com,2024-04-25T08:35:09.947241Z,a294caebd6eeaa83278ae5e170afa4a7,{},2024-04-25T08:35:09.947241Z,lf.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
+,,05dcfc0e-c6f7-45c8-9c51-04d3ea300b3c.cfargotunnel.com,2025-03-26T09:51:19.730468Z,b3c12f8816422fb6e017703c896aa4eb,{},2025-03-26T09:51:19.730468Z,localhost.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,t.mailtrap.live,2023-07-06T15:34:57.894134Z,f4dca49d67d59d15ae0d95d59da4e1bc,{},2023-07-06T15:34:57.894134Z,mt-link.irrazionale.org,,True,False,{'flatten_cname': False},[],1,CNAME
 ,,smtp.mailtrap.live,2023-07-06T15:33:25.6031Z,3d3ea0a30645f9869829e88faee2503f,{},2023-07-06T15:33:25.6031Z,mtvcz748l8xjyyn1.irrazionale.org,,True,False,{'flatten_cname': False},[],1,CNAME
 ,,98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com,2024-04-20T14:38:22.706136Z,0f265f5f7fc8993d0ab2639cf54dd5da,{},2024-04-20T14:38:22.706136Z,ollama.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
@@ -61,6 +62,7 @@ was 185.199.108.153 - 2.34.27.169,2024-08-01T22:02:56.215873Z,185.199.108.153,20
 ,,rwmt2.dkim.smtp.mailtrap.live,2023-07-06T15:34:18.717224Z,04d14cb456a1976f403ee148eca05cc8,{},2023-07-06T15:34:18.717224Z,rwmt2._domainkey.irrazionale.org,,True,False,{'flatten_cname': False},[],1,CNAME
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-07T16:30:35.386852Z,8ee0fa4fe49caa8b43660be5e1d1c512,{},2025-02-07T16:30:35.386852Z,s3.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-07T16:30:54.891274Z,0ce0da84393eb2e44a959deb2116cce5,{},2025-02-07T16:30:54.891274Z,s3ui.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
+,,20dc8c4c-6a80-4cc7-be33-cc9e43dbea4c.cfargotunnel.com,2025-03-26T09:46:23.862818Z,5a8bf821d63cc1869542ffd4dac042ef,{},2025-03-26T09:46:23.862818Z,sci-fi.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-09T15:52:15.13208Z,f1d8eb95f42108e4b07e86388c8670e7,{},2025-02-09T15:52:15.13208Z,search.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-07T16:26:34.171441Z,d136067486f9bfd1260a66e04c217624,{},2025-02-07T16:26:34.171441Z,webcheck.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,mail.irrazionale.org,2022-07-15T07:14:33.759478Z,095deb0b6f4f0327cf9d1e1abc53e523,{},2022-07-15T07:14:33.759478Z,irrazionale.org,1,False,False,{},[],1,MX
