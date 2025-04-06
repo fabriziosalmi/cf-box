@@ -50,7 +50,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -84133424,
+      "development_mode": -84220029,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -178,7 +178,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -52308176,
+      "development_mode": -52394781,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -358,7 +358,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -116611432,
+      "development_mode": -116698037,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -115930260,
+      "development_mode": -116016865,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -486,7 +486,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126090542,
+      "development_mode": -126177147,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -731,7 +731,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -234245280,
+      "development_mode": -234331885,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1418,23 +1418,8 @@
       "comment": "was 185.199.108.153 - 2.34.27.169",
       "tags": [],
       "created_on": "2022-05-28T20:03:08.90702Z",
-      "modified_on": "2024-08-01T22:05:04.408687Z",
+      "modified_on": "2025-04-05T11:26:15.517306Z",
       "comment_modified_on": "2024-08-01T22:02:56.215873Z"
-    },
-    {
-      "id": "87b7692406e3371b3d7488bff3d9a0f2",
-      "name": "test.audiolibri.org",
-      "type": "A",
-      "content": "185.190.210.2",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-09-13T21:15:57.818873Z",
-      "modified_on": "2024-09-14T09:49:38.555093Z"
     },
     {
       "id": "f9a11b71ec7dcf73bb3910e53eaaf4d7",
@@ -1452,23 +1437,6 @@
       "tags": [],
       "created_on": "2023-05-03T14:21:45.203592Z",
       "modified_on": "2023-05-03T14:22:05.697231Z"
-    },
-    {
-      "id": "71c65415c2aced7763afe2d2c61de57f",
-      "name": "hugo.audiolibri.org",
-      "type": "CNAME",
-      "content": "73e3a861-551e-4bdf-ad7a-a2ca6fe63e80.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-12-15T13:28:21.769261Z",
-      "modified_on": "2024-12-15T13:28:21.769261Z"
     },
     {
       "id": "b3331100fb4b9053f9ea9dde42e5babc",
