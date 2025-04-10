@@ -50,7 +50,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -84479189,
+      "development_mode": -84565602,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -178,7 +178,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -52653941,
+      "development_mode": -52740354,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -358,7 +358,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -116957197,
+      "development_mode": -117043610,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -116276025,
+      "development_mode": -116362438,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -486,7 +486,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126436307,
+      "development_mode": -126522720,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -731,7 +731,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -234591045,
+      "development_mode": -234677458,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -927,6 +927,66 @@
       "modified_on": "2024-04-23T20:16:12.323233Z",
       "created_on": "2024-04-23T20:16:09.021533Z",
       "activated_on": "2024-04-23T20:16:12.187821Z",
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "8e7e2e5e654fa87f0bb4a4751764bcdd",
+      "name": "repolizer.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2025-04-09T08:23:40.599140Z",
+      "created_on": "2025-04-09T08:23:37.021944Z",
+      "activated_on": "2025-04-09T08:23:40.462279Z",
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -3002,6 +3062,51 @@
       "tags": [],
       "created_on": "2014-06-23T19:34:28.647128Z",
       "modified_on": "2014-06-23T19:34:28.647128Z"
+    },
+    {
+      "id": "ae3d4333d59bdaf8bd1422fa455dce2e",
+      "name": "arena.repolizer.com",
+      "type": "CNAME",
+      "content": "a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-04-09T08:36:52.625051Z",
+      "modified_on": "2025-04-09T08:36:52.625051Z"
+    },
+    {
+      "id": "b738ae8c910e28345612400cb8a6e23e",
+      "name": "ssh.repolizer.com",
+      "type": "CNAME",
+      "content": "a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-04-09T08:29:51.295021Z",
+      "modified_on": "2025-04-09T08:29:51.295021Z"
+    },
+    {
+      "id": "f243341ae6695c4a95ea6e21d06ef471",
+      "name": "stats.repolizer.com",
+      "type": "CNAME",
+      "content": "a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-04-09T08:36:33.043311Z",
+      "modified_on": "2025-04-09T08:36:33.043311Z"
     },
     {
       "id": "c7df12561d64e4e680c6b0859c123f99",
