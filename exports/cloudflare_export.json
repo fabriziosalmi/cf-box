@@ -46,7 +46,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -85688897,
+      "development_mode": -85775328,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -174,7 +174,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -53863649,
+      "development_mode": -53950080,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -354,7 +354,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -118166905,
+      "development_mode": -118253336,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -417,7 +417,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -117485733,
+      "development_mode": -117572164,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -482,7 +482,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -127646015,
+      "development_mode": -127732446,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -727,7 +727,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -235800753,
+      "development_mode": -235887184,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -980,7 +980,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-04-09T08:23:40.599140Z",
+      "modified_on": "2025-04-23T08:26:06.289977Z",
       "created_on": "2025-04-09T08:23:37.021944Z",
       "activated_on": "2025-04-09T08:23:40.462279Z",
       "meta": {
@@ -3105,21 +3105,6 @@
       "modified_on": "2014-06-23T19:34:28.647128Z"
     },
     {
-      "id": "ae3d4333d59bdaf8bd1422fa455dce2e",
-      "name": "arena.repolizer.com",
-      "type": "CNAME",
-      "content": "a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-04-09T08:36:52.625051Z",
-      "modified_on": "2025-04-09T08:36:52.625051Z"
-    },
-    {
       "id": "b738ae8c910e28345612400cb8a6e23e",
       "name": "ssh.repolizer.com",
       "type": "CNAME",
@@ -3135,8 +3120,8 @@
       "modified_on": "2025-04-09T08:29:51.295021Z"
     },
     {
-      "id": "f243341ae6695c4a95ea6e21d06ef471",
-      "name": "stats.repolizer.com",
+      "id": "bfd43018c9b1cd41cc29efc4c62c6d8c",
+      "name": "www.repolizer.com",
       "type": "CNAME",
       "content": "a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com",
       "proxiable": true,
@@ -3146,8 +3131,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-04-09T08:36:33.043311Z",
-      "modified_on": "2025-04-09T08:36:33.043311Z"
+      "created_on": "2025-04-23T08:30:24.446765Z",
+      "modified_on": "2025-04-23T08:34:01.380912Z"
     },
     {
       "id": "c7df12561d64e4e680c6b0859c123f99",
