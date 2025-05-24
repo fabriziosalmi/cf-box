@@ -7,6 +7,7 @@ was 185.199.108.153 - 2.34.27.169,2024-08-01T22:02:56.215873Z,185.190.210.1,2022
 ,,v=DMARC1; p=reject; rua=mailto:fabrizio.salmi@gmail.com,2022-01-24T18:09:38.385312Z,8123b69792536eda89581575fc5e6501,{},2022-01-24T18:09:38.385312Z,_dmarc.audiolibri.org,,False,False,{},[],1,TXT
 ,,a2d349f948218278c16896b4854e7e,2022-05-28T20:00:29.610113Z,f7cedd17785f7e80f46f70b4c2592ef8,{},2022-05-28T20:00:29.610113Z,_github-pages-challenge-fabriziosalmi.audiolibri.org,,False,False,{},[],1,TXT
 ,,185.199.108.153,2023-12-17T13:15:33.42644Z,bdeca83d3f52cd29a0461c8c328e7eb8,{},2023-12-17T13:22:36.5376Z,cfguru.org,,True,True,{},[],1,A
+,,185.199.110.153,2025-05-23T07:08:03.816887Z,6473c95616aa9ef1dcb17dacef169db4,{},2025-05-23T07:23:56.302349Z,challenged.cfguru.org,,True,True,{},[],1,A
 ,,93.186.251.28,2023-07-29T12:48:06.891684Z,3c7558d6d766ea8ee23519dc6b3c6fcb,{},2023-07-29T12:48:06.891684Z,get.domainsblacklists.com,,True,True,{},[],1,A
 ,,93.186.251.28,2023-08-30T11:38:30.653586Z,90854dd1388fe82242ce0109dfec5c88,{},2023-08-30T11:38:30.653586Z,review.domainsblacklists.com,,True,True,{},[],1,A
 ,,185.199.108.153,2024-01-07T12:46:47.09149Z,c292f89526841ffe14bf72950e566b00,{},2024-01-07T12:47:11.363311Z,www.domainsblacklists.com,,True,True,{},[],1,A

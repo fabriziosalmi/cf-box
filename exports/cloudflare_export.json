@@ -46,7 +46,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -88281109,
+      "development_mode": -88367420,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -174,7 +174,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -56455861,
+      "development_mode": -56542172,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -354,7 +354,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -120759117,
+      "development_mode": -120845428,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -417,7 +417,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -120077945,
+      "development_mode": -120164256,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -482,7 +482,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130238227,
+      "development_mode": -130324538,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -727,7 +727,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -238392965,
+      "development_mode": -238479276,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -920,7 +920,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2024-04-23T20:16:12.323233Z",
+      "modified_on": "2025-05-23T04:05:14.379718Z",
       "created_on": "2024-04-23T20:16:09.021533Z",
       "activated_on": "2024-04-23T20:16:12.187821Z",
       "meta": {
@@ -1583,6 +1583,21 @@
       "tags": [],
       "created_on": "2023-12-17T13:15:33.42644Z",
       "modified_on": "2023-12-17T13:22:36.5376Z"
+    },
+    {
+      "id": "6473c95616aa9ef1dcb17dacef169db4",
+      "name": "challenged.cfguru.org",
+      "type": "A",
+      "content": "185.199.110.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-05-23T07:08:03.816887Z",
+      "modified_on": "2025-05-23T07:23:56.302349Z"
     },
     {
       "id": "3c7558d6d766ea8ee23519dc6b3c6fcb",
