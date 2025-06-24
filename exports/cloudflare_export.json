@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -90960059,
+      "development_mode": -91046179,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -176,7 +176,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -59134811,
+      "development_mode": -59220931,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -356,7 +356,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123438067,
+      "development_mode": -123524187,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -419,7 +419,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -122756895,
+      "development_mode": -122843015,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -132917177,
+      "development_mode": -133003297,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -729,7 +729,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -241071915,
+      "development_mode": -241158035,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1469,14 +1469,14 @@
       "type": "A",
       "content": "185.190.210.1",
       "proxiable": true,
-      "proxied": false,
+      "proxied": true,
       "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": "was 185.199.108.153 - 2.34.27.169",
       "tags": [],
       "created_on": "2022-05-28T20:03:08.90702Z",
-      "modified_on": "2025-05-13T06:10:50.128085Z",
+      "modified_on": "2025-06-23T19:27:00.019706Z",
       "comment_modified_on": "2024-08-01T22:02:56.215873Z"
     },
     {
