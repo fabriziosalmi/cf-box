@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -91046179,
+      "development_mode": -91132653,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -176,7 +176,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -59220931,
+      "development_mode": -59307405,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -356,7 +356,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123524187,
+      "development_mode": -123610661,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -419,7 +419,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -122843015,
+      "development_mode": -122929489,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133003297,
+      "development_mode": -133089771,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -729,7 +729,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -241158035,
+      "development_mode": -241244509,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1469,14 +1469,14 @@
       "type": "A",
       "content": "185.190.210.1",
       "proxiable": true,
-      "proxied": true,
+      "proxied": false,
       "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": "was 185.199.108.153 - 2.34.27.169",
       "tags": [],
       "created_on": "2022-05-28T20:03:08.90702Z",
-      "modified_on": "2025-06-23T19:27:00.019706Z",
+      "modified_on": "2025-06-24T07:12:14.786532Z",
       "comment_modified_on": "2024-08-01T22:02:56.215873Z"
     },
     {
@@ -1540,6 +1540,36 @@
       "tags": [],
       "created_on": "2017-11-01T19:18:14.785126Z",
       "modified_on": "2017-11-01T19:18:14.785126Z"
+    },
+    {
+      "id": "98615a1b925f8a53052a3744ee0a7bb4",
+      "name": "_acme-challenge.audiolibri.org",
+      "type": "TXT",
+      "content": "vgmGWms_dQKaoDQQBDmiIDwGo43gwQ-Rav0ifnAdbMs",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-06-24T06:37:32.587791Z",
+      "modified_on": "2025-06-24T06:37:32.587791Z"
+    },
+    {
+      "id": "eb9d358e9f430b94014063e8676f0e86",
+      "name": "_acme-challenge.audiolibri.org",
+      "type": "TXT",
+      "content": "yakDUwFPKE2PxTEDTtumVZ6ShvAAp6-aU5uJymKhh50",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-06-24T06:37:30.348717Z",
+      "modified_on": "2025-06-24T06:37:30.348717Z"
     },
     {
       "id": "c4b015ebb6540fa1c64482131c937ad9",
