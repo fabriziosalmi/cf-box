@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -91132653,
+      "development_mode": -91218993,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -176,7 +176,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -59307405,
+      "development_mode": -59393745,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -356,7 +356,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123610661,
+      "development_mode": -123697001,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -419,7 +419,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -122929489,
+      "development_mode": -123015829,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133089771,
+      "development_mode": -133176111,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -729,7 +729,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -241244509,
+      "development_mode": -241330849,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2323,6 +2323,21 @@
       "modified_on": "2025-03-26T09:51:19.730468Z"
     },
     {
+      "id": "59f655ac3982f7c3d6318c237aada804",
+      "name": "mixpost.irrazionale.org",
+      "type": "CNAME",
+      "content": "07122097-0310-42ba-b8c6-ea15e3b8612e.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-06-25T19:29:40.179134Z",
+      "modified_on": "2025-06-25T19:29:40.179134Z"
+    },
+    {
       "id": "f4dca49d67d59d15ae0d95d59da4e1bc",
       "name": "mt-link.irrazionale.org",
       "type": "CNAME",
@@ -2396,6 +2411,21 @@
       "tags": [],
       "created_on": "2025-04-14T15:30:12.902487Z",
       "modified_on": "2025-04-14T15:30:12.902487Z"
+    },
+    {
+      "id": "7131e78a346aea946d969f014c2cb1e9",
+      "name": "postiz.irrazionale.org",
+      "type": "CNAME",
+      "content": "8212a2e4-846e-4096-bd97-3349c9da4269.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-06-25T07:43:38.264549Z",
+      "modified_on": "2025-06-25T07:43:38.264549Z"
     },
     {
       "id": "4a64c597d17da513e052355df93bbc58",
