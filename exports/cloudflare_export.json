@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -91651385,
+      "development_mode": -91737453,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -66,6 +66,71 @@
       "activated_on": "2017-06-03T22:51:26.775410Z",
       "meta": {
         "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "deb25adc3361ff31cb81ba458e03a68b",
+      "name": "certmate.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns1mpz.name.com",
+        "ns2knz.name.com",
+        "ns3fhx.name.com",
+        "ns4ksy.name.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2025-07-01T16:48:40.038665Z",
+      "created_on": "2025-07-01T09:02:08.953756Z",
+      "activated_on": "2025-07-01T09:11:49.008276Z",
+      "meta": {
+        "step": 2,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
@@ -176,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -59826137,
+      "development_mode": -59912205,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -356,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -124129393,
+      "development_mode": -124215461,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -419,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123448221,
+      "development_mode": -123534289,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +549,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133608503,
+      "development_mode": -133694571,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -729,7 +794,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -241763241,
+      "development_mode": -241849309,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1615,6 +1680,171 @@
       "tags": [],
       "created_on": "2022-05-28T20:00:29.610113Z",
       "modified_on": "2022-05-28T20:00:29.610113Z"
+    },
+    {
+      "id": "8a036c1d5ddf43f61d7d48e78f41f72c",
+      "name": "www.certmate.org",
+      "type": "A",
+      "content": "185.199.109.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T16:44:05.723652Z",
+      "modified_on": "2025-07-01T16:47:41.146282Z"
+    },
+    {
+      "id": "9a0c1ea7682256e45af5f83341fb113e",
+      "name": "certmate.org",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 34,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:19:12.571955Z",
+      "modified_on": "2025-07-01T21:19:12.571955Z"
+    },
+    {
+      "id": "aecf0cef3bc28aa58695c24be19d992c",
+      "name": "certmate.org",
+      "type": "MX",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 19,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:19:12.566821Z",
+      "modified_on": "2025-07-01T21:19:12.566821Z"
+    },
+    {
+      "id": "fd67f08c9417a7d074fabd7e5513f715",
+      "name": "certmate.org",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 58,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:19:12.555505Z",
+      "modified_on": "2025-07-01T21:19:12.555505Z"
+    },
+    {
+      "id": "14ecb7082a212233d816e345eea11668",
+      "name": "test.certmate.org",
+      "type": "NS",
+      "content": "ns-858.awsdns-43.net",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:29:05.514677Z",
+      "modified_on": "2025-07-01T21:29:05.514677Z"
+    },
+    {
+      "id": "0b4d1e1437d207800341e642f54e492f",
+      "name": "test.certmate.org",
+      "type": "NS",
+      "content": "ns-8.awsdns-01.com",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:28:53.126097Z",
+      "modified_on": "2025-07-01T21:28:53.126097Z"
+    },
+    {
+      "id": "9c2a6ed018afd465d2a5ce93c4894ef1",
+      "name": "test.certmate.org",
+      "type": "NS",
+      "content": "ns-1790.awsdns-31.co.uk",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:28:33.857419Z",
+      "modified_on": "2025-07-01T21:28:33.857419Z"
+    },
+    {
+      "id": "759120960fb1797f3ceb20a074397a60",
+      "name": "test.certmate.org",
+      "type": "NS",
+      "content": "ns-1479.awsdns-56.org",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:28:13.948625Z",
+      "modified_on": "2025-07-01T21:28:13.948625Z"
+    },
+    {
+      "id": "abd1e138555a9935af96e12e735ae62e",
+      "name": "certmate.org",
+      "type": "TXT",
+      "content": "\"v=spf1 include:_spf.mx.cloudflare.net ~all\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:19:12.576866Z",
+      "modified_on": "2025-07-01T21:19:12.576866Z"
+    },
+    {
+      "id": "646969ffbd1d8c388fcb28dd08e4b889",
+      "name": "cf2024-1._domainkey.certmate.org",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-07-01T21:19:12.582969Z",
+      "modified_on": "2025-07-01T21:19:12.582969Z"
     },
     {
       "id": "bdeca83d3f52cd29a0461c8c328e7eb8",

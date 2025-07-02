@@ -9,6 +9,16 @@ was 185.199.108.153 - 2.34.27.169,2024-08-01T22:02:56.215873Z,185.190.210.1,2022
 ,,v=spf1 include:audiolibri.org -all,2022-01-24T18:09:26.735522Z,c4b015ebb6540fa1c64482131c937ad9,{},2022-01-24T18:09:26.735522Z,audiolibri.org,,False,False,{},[],1,TXT
 ,,v=DMARC1; p=reject; rua=mailto:fabrizio.salmi@gmail.com,2022-01-24T18:09:38.385312Z,8123b69792536eda89581575fc5e6501,{},2022-01-24T18:09:38.385312Z,_dmarc.audiolibri.org,,False,False,{},[],1,TXT
 ,,a2d349f948218278c16896b4854e7e,2022-05-28T20:00:29.610113Z,f7cedd17785f7e80f46f70b4c2592ef8,{},2022-05-28T20:00:29.610113Z,_github-pages-challenge-fabriziosalmi.audiolibri.org,,False,False,{},[],1,TXT
+,,185.199.109.153,2025-07-01T16:44:05.723652Z,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
+,,route3.mx.cloudflare.net,2025-07-01T21:19:12.571955Z,9a0c1ea7682256e45af5f83341fb113e,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.571955Z,certmate.org,34,False,False,{},[],1,MX
+,,route2.mx.cloudflare.net,2025-07-01T21:19:12.566821Z,aecf0cef3bc28aa58695c24be19d992c,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.566821Z,certmate.org,19,False,False,{},[],1,MX
+,,route1.mx.cloudflare.net,2025-07-01T21:19:12.555505Z,fd67f08c9417a7d074fabd7e5513f715,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.555505Z,certmate.org,58,False,False,{},[],1,MX
+,,ns-858.awsdns-43.net,2025-07-01T21:29:05.514677Z,14ecb7082a212233d816e345eea11668,{},2025-07-01T21:29:05.514677Z,test.certmate.org,,False,False,{},[],1,NS
+,,ns-8.awsdns-01.com,2025-07-01T21:28:53.126097Z,0b4d1e1437d207800341e642f54e492f,{},2025-07-01T21:28:53.126097Z,test.certmate.org,,False,False,{},[],1,NS
+,,ns-1790.awsdns-31.co.uk,2025-07-01T21:28:33.857419Z,9c2a6ed018afd465d2a5ce93c4894ef1,{},2025-07-01T21:28:33.857419Z,test.certmate.org,,False,False,{},[],1,NS
+,,ns-1479.awsdns-56.org,2025-07-01T21:28:13.948625Z,759120960fb1797f3ceb20a074397a60,{},2025-07-01T21:28:13.948625Z,test.certmate.org,,False,False,{},[],1,NS
+,,"""v=spf1 include:_spf.mx.cloudflare.net ~all""",2025-07-01T21:19:12.576866Z,abd1e138555a9935af96e12e735ae62e,{},2025-07-01T21:19:12.576866Z,certmate.org,,False,False,{},[],1,TXT
+,,"""v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k"" ""m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB""",2025-07-01T21:19:12.582969Z,646969ffbd1d8c388fcb28dd08e4b889,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.582969Z,cf2024-1._domainkey.certmate.org,,False,False,{},[],1,TXT
 ,,185.199.108.153,2023-12-17T13:15:33.42644Z,bdeca83d3f52cd29a0461c8c328e7eb8,{},2023-12-17T13:22:36.5376Z,cfguru.org,,True,True,{},[],1,A
 ,,185.199.110.153,2025-05-23T07:08:03.816887Z,6473c95616aa9ef1dcb17dacef169db4,{},2025-05-23T07:23:56.302349Z,challenged.cfguru.org,,True,True,{},[],1,A
 ,,93.186.251.28,2023-07-29T12:48:06.891684Z,3c7558d6d766ea8ee23519dc6b3c6fcb,{},2023-07-29T12:48:06.891684Z,get.domainsblacklists.com,,True,True,{},[],1,A
