@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -93379443,
+      "development_mode": -93465720,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -61554195,
+      "development_mode": -61640472,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125857451,
+      "development_mode": -125943728,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125176279,
+      "development_mode": -125262556,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -549,7 +549,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -135336561,
+      "development_mode": -135422838,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -794,7 +794,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -243491299,
+      "development_mode": -243577576,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1221,7 +1221,7 @@
     {
       "id": "fc81b8f3c108449883c260f3e5e1ea69",
       "name": "uglyfeed.com",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -1232,7 +1232,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-07-08T04:11:14.722919Z",
+      "modified_on": "2025-07-22T03:29:37.411214Z",
       "created_on": "2024-05-29T15:06:44.973070Z",
       "activated_on": "2024-05-29T15:06:47.583762Z",
       "meta": {
