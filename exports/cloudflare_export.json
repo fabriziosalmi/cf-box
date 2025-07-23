@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -93465720,
+      "development_mode": -93552142,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -61640472,
+      "development_mode": -61726894,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125943728,
+      "development_mode": -126030150,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125262556,
+      "development_mode": -125348978,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -549,7 +549,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -135422838,
+      "development_mode": -135509260,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -794,7 +794,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -243577576,
+      "development_mode": -243663998,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1552,7 +1552,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -1567,7 +1569,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -1929,7 +1933,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -1944,7 +1950,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -1959,7 +1967,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -1974,7 +1984,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2139,7 +2151,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2214,7 +2228,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2305,7 +2321,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2320,7 +2338,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2335,7 +2355,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2380,7 +2402,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2395,7 +2419,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2410,7 +2436,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2425,7 +2453,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2440,7 +2470,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2455,7 +2487,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2470,7 +2504,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2485,7 +2521,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2500,7 +2538,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2515,7 +2555,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2530,7 +2572,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2545,7 +2589,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2560,7 +2606,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2575,7 +2623,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2590,7 +2640,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2605,7 +2657,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2620,7 +2674,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2635,7 +2691,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2650,7 +2708,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2665,7 +2725,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2680,7 +2742,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2695,7 +2759,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2710,7 +2776,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2725,7 +2793,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2740,7 +2810,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2755,7 +2827,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2770,7 +2844,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2785,7 +2861,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -2800,7 +2878,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3074,7 +3154,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3089,7 +3171,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3104,7 +3188,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3119,7 +3205,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3134,7 +3222,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3149,7 +3239,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3179,7 +3271,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3194,7 +3288,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3209,7 +3305,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3224,7 +3322,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3239,7 +3339,9 @@
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3434,7 +3536,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3449,7 +3553,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3524,7 +3630,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3539,7 +3647,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3554,7 +3664,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3569,7 +3681,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3584,7 +3698,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3599,7 +3715,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3614,7 +3732,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3794,7 +3914,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -3809,7 +3931,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
@@ -4007,7 +4131,9 @@
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
       "comment": null,
       "tags": [],
