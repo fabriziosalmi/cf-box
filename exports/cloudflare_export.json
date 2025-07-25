@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -93638529,
+      "development_mode": -93724921,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -61813281,
+      "development_mode": -61899673,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -358,7 +358,7 @@
     {
       "id": "b441db6e139659910adc1155990213e2",
       "name": "freesubnet.com",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -369,7 +369,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-07-04T04:05:23.576981Z",
+      "modified_on": "2025-07-25T03:06:51.895325Z",
       "created_on": "2023-04-20T16:39:50.478832Z",
       "activated_on": "2023-04-20T16:39:52.038651Z",
       "meta": {
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126116537,
+      "development_mode": -126202929,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125435365,
+      "development_mode": -125521757,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -549,7 +549,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -135595647,
+      "development_mode": -135682039,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -794,7 +794,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -243750385,
+      "development_mode": -243836777,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -976,7 +976,7 @@
     {
       "id": "9d2f420507907ce5c3955eab667f86a3",
       "name": "llmarchive.org",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -987,7 +987,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-07-07T04:11:47.745187Z",
+      "modified_on": "2025-07-25T02:06:46.351727Z",
       "created_on": "2024-04-23T20:16:09.021533Z",
       "activated_on": "2024-04-23T20:16:12.187821Z",
       "meta": {
