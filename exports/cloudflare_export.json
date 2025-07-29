@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -93984255,
+      "development_mode": -94070759,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -62159007,
+      "development_mode": -62245511,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -421,7 +421,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126462263,
+      "development_mode": -126548767,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +484,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125781091,
+      "development_mode": -125867595,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -549,7 +549,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -135941373,
+      "development_mode": -136027877,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -794,7 +794,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -244096111,
+      "development_mode": -244182615,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1175,66 +1175,6 @@
       "modified_on": "2025-07-25T06:28:04.603721Z",
       "created_on": "2023-06-10T14:00:39.115650Z",
       "activated_on": "2023-06-10T14:00:41.050603Z",
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "fc81b8f3c108449883c260f3e5e1ea69",
-      "name": "uglyfeed.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-07-22T03:29:37.411214Z",
-      "created_on": "2024-05-29T15:06:44.973070Z",
-      "activated_on": "2024-05-29T15:06:47.583762Z",
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -3905,40 +3845,6 @@
       "tags": [],
       "created_on": "2022-12-12T15:42:56.669675Z",
       "modified_on": "2022-12-12T15:42:56.669675Z"
-    },
-    {
-      "id": "904b0a528a01b0dd8370295ce305d3da",
-      "name": "demo.uglyfeed.com",
-      "type": "CNAME",
-      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-06-11T13:11:54.727338Z",
-      "modified_on": "2024-06-11T13:11:54.727338Z"
-    },
-    {
-      "id": "1b7333a979fa92816324f0e9be6a564a",
-      "name": "xml.uglyfeed.com",
-      "type": "CNAME",
-      "content": "98741367-c2d6-4791-adc2-f20eee96e6c3.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-06-13T14:01:29.398752Z",
-      "modified_on": "2024-06-13T14:01:29.398752Z"
     },
     {
       "id": "6c874506c8ce87bd95aeb7af511402a4",
