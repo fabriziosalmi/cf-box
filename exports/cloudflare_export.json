@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -94243448,
+      "development_mode": -94330190,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -62418200,
+      "development_mode": -62504942,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -356,72 +356,12 @@
       }
     },
     {
-      "id": "b441db6e139659910adc1155990213e2",
-      "name": "freesubnet.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-07-25T03:06:51.895325Z",
-      "created_on": "2023-04-20T16:39:50.478832Z",
-      "activated_on": "2023-04-20T16:39:52.038651Z",
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
       "id": "e4488c84ea98f68403033959a3326505",
       "name": "free-tekno.com",
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126721456,
+      "development_mode": -126808198,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -484,7 +424,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126040284,
+      "development_mode": -126127026,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -549,7 +489,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136200566,
+      "development_mode": -136287308,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -794,7 +734,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -244355304,
+      "development_mode": -244442046,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -930,66 +870,6 @@
       "modified_on": "2024-08-28T18:56:48.913186Z",
       "created_on": "2024-08-28T18:56:46.043661Z",
       "activated_on": "2024-08-28T18:56:48.765321Z",
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "9d2f420507907ce5c3955eab667f86a3",
-      "name": "llmarchive.org",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-07-25T02:06:46.351727Z",
-      "created_on": "2024-04-23T20:16:09.021533Z",
-      "activated_on": "2024-04-23T20:16:12.187821Z",
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -2037,68 +1917,6 @@
       "tags": [],
       "created_on": "2023-07-29T12:50:26.404775Z",
       "modified_on": "2023-07-29T12:50:26.404775Z"
-    },
-    {
-      "id": "4dd327c64e78f584c16dc531a13ec1ec",
-      "name": "proxmox-test-1.freesubnet.com",
-      "type": "A",
-      "content": "37.183.16.191",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-28T19:51:23.923255Z",
-      "modified_on": "2024-07-28T19:51:23.923255Z"
-    },
-    {
-      "id": "ec12d53bf42e7bc2c950d7f4d4eb60e4",
-      "name": "rp.freesubnet.com",
-      "type": "A",
-      "content": "18.102.76.90",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-05-03T13:52:38.28258Z",
-      "modified_on": "2023-05-03T16:25:08.617872Z"
-    },
-    {
-      "id": "9bdd5da061a0b3543fb74847be092a31",
-      "name": "test.freesubnet.com",
-      "type": "A",
-      "content": "37.183.16.191",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-24T12:42:57.795531Z",
-      "modified_on": "2024-07-28T13:17:47.159096Z"
-    },
-    {
-      "id": "13b2a5129e5f7772daa7f0f70e349a26",
-      "name": "waf.freesubnet.com",
-      "type": "CNAME",
-      "content": "rp.freesubnet.com",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-05-03T13:53:22.545371Z",
-      "modified_on": "2023-05-03T16:25:02.924302Z"
     },
     {
       "id": "77c251b8488617268d91ee1ebd51ede5",
