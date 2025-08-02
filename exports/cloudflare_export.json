@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -94330190,
+      "development_mode": -94416108,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -62504942,
+      "development_mode": -62590860,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -361,7 +361,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126808198,
+      "development_mode": -126894116,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -424,7 +424,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126127026,
+      "development_mode": -126212944,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -489,7 +489,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136287308,
+      "development_mode": -136373226,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -734,7 +734,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -244442046,
+      "development_mode": -244527964,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -997,66 +997,6 @@
       "activated_on": "2023-06-02T21:02:56.361133Z",
       "meta": {
         "step": 2,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "9121a68c1d0c023340afbb66731e713e",
-      "name": "smartwaf.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-07-25T06:28:04.603721Z",
-      "created_on": "2023-06-10T14:00:39.115650Z",
-      "activated_on": "2023-06-10T14:00:41.050603Z",
-      "meta": {
-        "step": 4,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
