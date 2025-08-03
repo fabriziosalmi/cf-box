@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -94416108,
+      "development_mode": -94502818,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -241,7 +241,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -62590860,
+      "development_mode": -62677570,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -361,7 +361,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126894116,
+      "development_mode": -126980826,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -424,7 +424,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126212944,
+      "development_mode": -126299654,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -489,7 +489,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136373226,
+      "development_mode": -136459936,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -734,7 +734,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -244527964,
+      "development_mode": -244614674,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
