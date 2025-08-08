@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -94848284,
+      "development_mode": -94934631,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -64,6 +64,8 @@
       "modified_on": "2024-06-05T23:27:53.292653Z",
       "created_on": "2017-06-03T22:48:55.801089Z",
       "activated_on": "2017-06-03T22:51:26.775410Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -129,6 +131,8 @@
       "modified_on": "2025-07-05T11:41:23.351217Z",
       "created_on": "2025-07-01T09:02:08.953756Z",
       "activated_on": "2025-07-01T09:11:49.008276Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -192,6 +196,8 @@
       "modified_on": "2023-12-17T18:06:49.950843Z",
       "created_on": "2023-12-17T13:14:55.947063Z",
       "activated_on": "2023-12-17T13:31:25.674362Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -241,7 +247,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -63023036,
+      "development_mode": -63109383,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -252,6 +258,8 @@
       "modified_on": "2024-06-05T14:27:18.867011Z",
       "created_on": "2023-07-29T12:38:57.013587Z",
       "activated_on": "2023-07-29T12:38:58.167687Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -312,6 +320,8 @@
       "modified_on": "2024-06-06T09:09:34.171070Z",
       "created_on": "2023-11-29T16:29:11.131900Z",
       "activated_on": "2023-11-29T16:29:12.138054Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -361,7 +371,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -127326292,
+      "development_mode": -127412639,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -375,6 +385,8 @@
       "modified_on": "2024-06-05T14:04:01.402368Z",
       "created_on": "2021-06-27T11:16:30.826240Z",
       "activated_on": "2021-06-27T11:17:39.760547Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -424,7 +436,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126645120,
+      "development_mode": -126731467,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -440,6 +452,8 @@
       "modified_on": "2024-06-06T03:34:06.584767Z",
       "created_on": "2013-06-16T11:34:20.865828Z",
       "activated_on": "2013-06-16T11:55:55.593312Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -489,7 +503,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136805402,
+      "development_mode": -136891749,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,6 +519,8 @@
       "modified_on": "2022-03-14T21:05:54.490194Z",
       "created_on": "2021-04-06T14:59:57.864632Z",
       "activated_on": "2021-04-06T15:01:43.159433Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -565,6 +581,8 @@
       "modified_on": "2025-03-17T21:51:24.779105Z",
       "created_on": "2024-08-01T08:22:45.204053Z",
       "activated_on": "2024-08-01T08:22:47.727688Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -625,6 +643,8 @@
       "modified_on": "2024-06-04T16:05:59.696147Z",
       "created_on": "2023-07-20T09:22:34.940681Z",
       "activated_on": "2023-07-20T09:22:37.200820Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -685,6 +705,8 @@
       "modified_on": "2024-08-01T08:24:33.279375Z",
       "created_on": "2024-08-01T08:24:30.552892Z",
       "activated_on": "2024-08-01T08:24:33.166700Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -734,7 +756,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -244960140,
+      "development_mode": -245046487,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -750,6 +772,8 @@
       "modified_on": "2023-06-03T00:58:11.951408Z",
       "created_on": "2016-07-06T09:46:28.971475Z",
       "activated_on": "2023-06-03T00:58:11.951408Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -810,6 +834,8 @@
       "modified_on": "2024-09-26T08:35:25.171332Z",
       "created_on": "2024-08-28T18:55:59.641033Z",
       "activated_on": "2024-08-28T18:56:03.154859Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -870,6 +896,8 @@
       "modified_on": "2024-08-28T18:56:48.913186Z",
       "created_on": "2024-08-28T18:56:46.043661Z",
       "activated_on": "2024-08-28T18:56:48.765321Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -930,6 +958,8 @@
       "modified_on": "2025-04-23T08:26:06.289977Z",
       "created_on": "2025-04-09T08:23:37.021944Z",
       "activated_on": "2025-04-09T08:23:40.462279Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -995,6 +1025,8 @@
       "modified_on": "2023-06-02T21:02:56.361133Z",
       "created_on": "2022-01-07T12:54:53.784858Z",
       "activated_on": "2023-06-02T21:02:56.361133Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -1058,6 +1090,8 @@
       "modified_on": "2024-06-06T07:04:48.895542Z",
       "created_on": "2017-11-25T10:38:59.638831Z",
       "activated_on": "2017-11-25T10:41:14.693849Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
@@ -1123,6 +1157,8 @@
       "modified_on": "2023-02-16T22:04:16.698563Z",
       "created_on": "2020-11-03T14:53:18.029711Z",
       "activated_on": "2020-11-03T15:02:20.219366Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
         "custom_certificate_quota": 0,
@@ -1183,8 +1219,75 @@
       "modified_on": "2024-06-06T08:31:02.209932Z",
       "created_on": "2023-10-05T14:08:56.337876Z",
       "activated_on": "2023-10-05T14:08:58.265755Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "73b30ae7427b0b58bca9b05fac8faa3b",
+      "name": "zitto.net",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "melinda.ns.cloudflare.com",
+        "venkat.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_registrar": "name.com, inc. (id: 625)",
+      "original_dnshost": null,
+      "modified_on": "2025-08-07T22:49:15.665068Z",
+      "created_on": "2025-08-07T22:47:28.335004Z",
+      "activated_on": "2025-08-07T22:49:15.665068Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 2,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
@@ -1243,6 +1346,8 @@
       "modified_on": "2024-10-10T20:29:15.166600Z",
       "created_on": "2024-10-04T15:38:21.813850Z",
       "activated_on": "2024-10-04T15:38:25.224854Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
         "custom_certificate_quota": 0,
