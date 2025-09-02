@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -97007981,
+      "development_mode": -97093794,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -247,7 +247,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -65182733,
+      "development_mode": -65268546,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -371,7 +371,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -129485989,
+      "development_mode": -129571802,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -436,7 +436,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -128804817,
+      "development_mode": -128890630,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -503,7 +503,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -138965099,
+      "development_mode": -139050912,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -629,7 +629,7 @@
     {
       "id": "522253a7732d45fd808342e60e26dbdf",
       "name": "italiadns.com",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -640,7 +640,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-08-29T04:04:46.319047Z",
+      "modified_on": "2025-09-02T01:16:25.666321Z",
       "created_on": "2023-07-20T09:22:34.940681Z",
       "activated_on": "2023-07-20T09:22:37.200820Z",
       "vanity_name_servers": [],
@@ -756,7 +756,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -247119837,
+      "development_mode": -247205650,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
