@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -97612202,
+      "development_mode": -97698417,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -247,7 +247,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -65786954,
+      "development_mode": -65873169,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -371,7 +371,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130090210,
+      "development_mode": -130176425,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -436,7 +436,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -129409038,
+      "development_mode": -129495253,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -503,7 +503,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -139569320,
+      "development_mode": -139655535,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,68 +627,6 @@
       }
     },
     {
-      "id": "522253a7732d45fd808342e60e26dbdf",
-      "name": "italiadns.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-09-02T01:16:25.666321Z",
-      "created_on": "2023-07-20T09:22:34.940681Z",
-      "activated_on": "2023-07-20T09:22:37.200820Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
       "id": "fd02ae7e9d0ea003cf2870bd81238ad1",
       "name": "italiadns.net",
       "status": "active",
@@ -756,7 +694,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -247724058,
+      "development_mode": -247810273,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3065,196 +3003,6 @@
       "tags": [],
       "created_on": "2025-03-19T10:11:55.275773Z",
       "modified_on": "2025-03-19T10:11:55.275773Z"
-    },
-    {
-      "id": "a49ade48a5be45f002d5417140f370a0",
-      "name": "adinsp9sqvzxue8n.italiadns.com",
-      "type": "CNAME",
-      "content": "smtp.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T13:37:34.938024Z",
-      "modified_on": "2024-07-31T13:38:29.779921Z"
-    },
-    {
-      "id": "57267997534d7cf452997a9c191591ee",
-      "name": "mt-link.italiadns.com",
-      "type": "CNAME",
-      "content": "t.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T13:27:32.020186Z",
-      "modified_on": "2024-07-31T13:27:32.020186Z"
-    },
-    {
-      "id": "3a7c851242dbc15ea213945d901512b9",
-      "name": "rwmt1._domainkey.italiadns.com",
-      "type": "CNAME",
-      "content": "rwmt1.dkim.smtp.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T12:40:48.527918Z",
-      "modified_on": "2024-07-31T12:40:48.527918Z"
-    },
-    {
-      "id": "f06b6c37872df6a52852ee0d128d45ee",
-      "name": "rwmt2._domainkey.italiadns.com",
-      "type": "CNAME",
-      "content": "rwmt2.dkim.smtp.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T12:41:04.319914Z",
-      "modified_on": "2024-07-31T12:41:04.319914Z"
-    },
-    {
-      "id": "41fd60824243d4f2538de3c3c29b7736",
-      "name": "w1y139ns251ah6gc.italiadns.com",
-      "type": "CNAME",
-      "content": "smtp.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T12:40:29.695093Z",
-      "modified_on": "2024-07-31T12:40:29.695093Z"
-    },
-    {
-      "id": "a38c7cb5dce002e6fa5326111beba54f",
-      "name": "italiadns.com",
-      "type": "MX",
-      "content": "route3.mx.cloudflare.net",
-      "priority": 61,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-20T09:24:21.51429Z",
-      "modified_on": "2023-07-20T09:24:21.51429Z"
-    },
-    {
-      "id": "f5ba2bca6c00c93674036cf5d49b0523",
-      "name": "italiadns.com",
-      "type": "MX",
-      "content": "route2.mx.cloudflare.net",
-      "priority": 14,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-20T09:24:21.506037Z",
-      "modified_on": "2023-07-20T09:24:21.506037Z"
-    },
-    {
-      "id": "6c5bf0b471503f7060c852986b55b0e0",
-      "name": "italiadns.com",
-      "type": "MX",
-      "content": "route1.mx.cloudflare.net",
-      "priority": 3,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-20T09:24:21.498021Z",
-      "modified_on": "2023-07-20T09:24:21.498021Z"
-    },
-    {
-      "id": "e6da0cedff625c31979aecd06ce463d4",
-      "name": "cf2024-1._domainkey.italiadns.com",
-      "type": "TXT",
-      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-02-01T23:21:21.67206Z",
-      "modified_on": "2025-02-01T23:21:21.67206Z"
-    },
-    {
-      "id": "98ed2139a5df7fb42d178b73688e8fa1",
-      "name": "_dmarc.italiadns.com",
-      "type": "TXT",
-      "content": "v=DMARC1;  p=none; rua=mailto:cadbf2dc4b9e4b52be30114a34d30ad7@dmarc-reports.cloudflare.net",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-20T10:48:55.291431Z",
-      "modified_on": "2023-07-20T10:48:55.291431Z"
-    },
-    {
-      "id": "129ae399ff1f816f521c481aa58251a7",
-      "name": "italiadns.com",
-      "type": "TXT",
-      "content": "v=spf1 include:_spf.smtp.mailtrap.live -all",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-07-31T12:41:30.706502Z",
-      "modified_on": "2024-08-19T08:39:22.495623Z"
     },
     {
       "id": "c0f4b4c2ad85a76c92a692cda9b07f2f",
