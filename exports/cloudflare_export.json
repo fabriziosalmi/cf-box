@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -97871161,
+      "development_mode": -97957285,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -244,10 +244,10 @@
     {
       "id": "d56769f7d1ffa410d2a237666f136be1",
       "name": "domainsblacklists.com",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
-      "development_mode": -66045913,
+      "development_mode": -66132037,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -255,7 +255,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-09-07T04:04:32.812846Z",
+      "modified_on": "2025-09-12T01:28:54.376120Z",
       "created_on": "2023-07-29T12:38:57.013587Z",
       "activated_on": "2023-07-29T12:38:58.167687Z",
       "vanity_name_servers": [],
@@ -371,7 +371,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130349169,
+      "development_mode": -130435293,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -436,7 +436,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -129667997,
+      "development_mode": -129754121,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -503,7 +503,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -139828279,
+      "development_mode": -139914403,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -694,7 +694,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -247983017,
+      "development_mode": -248069141,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
