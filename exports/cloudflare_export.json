@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -98475836,
+      "development_mode": -98562406,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -242,68 +242,6 @@
       }
     },
     {
-      "id": "d56769f7d1ffa410d2a237666f136be1",
-      "name": "domainsblacklists.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": -66650588,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-09-12T01:28:54.376120Z",
-      "created_on": "2023-07-29T12:38:57.013587Z",
-      "activated_on": "2023-07-29T12:38:58.167687Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
       "id": "c4227e56857d24e7c4e0e8ee1791f90b",
       "name": "domenicosmargiassi.com",
       "status": "active",
@@ -371,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130953844,
+      "development_mode": -131040414,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -436,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130272672,
+      "development_mode": -130359242,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -503,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140432954,
+      "development_mode": -140519524,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -694,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -248587692,
+      "development_mode": -248674262,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1682,224 +1620,6 @@
       "tags": [],
       "created_on": "2025-05-23T07:08:03.816887Z",
       "modified_on": "2025-05-23T07:23:56.302349Z"
-    },
-    {
-      "id": "3c7558d6d766ea8ee23519dc6b3c6fcb",
-      "name": "get.domainsblacklists.com",
-      "type": "A",
-      "content": "93.186.251.28",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:48:06.891684Z",
-      "modified_on": "2023-07-29T12:48:06.891684Z"
-    },
-    {
-      "id": "90854dd1388fe82242ce0109dfec5c88",
-      "name": "review.domainsblacklists.com",
-      "type": "A",
-      "content": "93.186.251.28",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-08-30T11:38:30.653586Z",
-      "modified_on": "2023-08-30T11:38:30.653586Z"
-    },
-    {
-      "id": "c292f89526841ffe14bf72950e566b00",
-      "name": "www.domainsblacklists.com",
-      "type": "A",
-      "content": "185.199.108.153",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2024-01-07T12:46:47.09149Z",
-      "modified_on": "2024-01-07T12:47:11.363311Z"
-    },
-    {
-      "id": "c357c5667fdc1f5189ff62d9127c5b66",
-      "name": "adguard.domainsblacklists.com",
-      "type": "CNAME",
-      "content": "d353b979-da9d-4992-9e5c-3b2d3fb34888.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-08-11T14:30:49.889256Z",
-      "modified_on": "2023-08-11T14:30:49.889256Z"
-    },
-    {
-      "id": "8b834fd2fd544e045645fac878b84f55",
-      "name": "api-ipres.domainsblacklists.com",
-      "type": "CNAME",
-      "content": "8743e1c1-51d3-4bf8-ba49-c84defa95d06.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-08-18T17:52:42.610086Z",
-      "modified_on": "2023-08-18T17:52:42.610086Z"
-    },
-    {
-      "id": "dfe1bcabcf091b40abb6b049a8192442",
-      "name": "changedetection.domainsblacklists.com",
-      "type": "CNAME",
-      "content": "3eec4402-ad54-45de-bf9b-926b6e88a159.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-09-13T18:26:54.071Z",
-      "modified_on": "2023-09-13T18:26:54.071Z"
-    },
-    {
-      "id": "c776f79530a239242078e5a3cb5d11d2",
-      "name": "req.domainsblacklists.com",
-      "type": "CNAME",
-      "content": "d353b979-da9d-4992-9e5c-3b2d3fb34888.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-09-10T12:21:43.338698Z",
-      "modified_on": "2023-09-10T12:21:43.338698Z"
-    },
-    {
-      "id": "2f418611b09ffd2e435cea99583e9480",
-      "name": "domainsblacklists.com",
-      "type": "MX",
-      "content": "route3.mx.cloudflare.net",
-      "priority": 39,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:50:26.397174Z",
-      "modified_on": "2023-07-29T12:50:26.397174Z"
-    },
-    {
-      "id": "a5a312e4dbaaaec1eabfe1b9a5c17055",
-      "name": "domainsblacklists.com",
-      "type": "MX",
-      "content": "route2.mx.cloudflare.net",
-      "priority": 93,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:50:26.389737Z",
-      "modified_on": "2023-07-29T12:50:26.389737Z"
-    },
-    {
-      "id": "376df1b8131105ac8a7209306e22b59c",
-      "name": "domainsblacklists.com",
-      "type": "MX",
-      "content": "route1.mx.cloudflare.net",
-      "priority": 93,
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:50:26.382045Z",
-      "modified_on": "2023-07-29T12:50:26.382045Z"
-    },
-    {
-      "id": "92388a78ff6bc640e36a75e31b30977a",
-      "name": "cf2024-1._domainkey.domainsblacklists.com",
-      "type": "TXT",
-      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-02-01T22:59:01.091354Z",
-      "modified_on": "2025-02-01T22:59:01.091354Z"
-    },
-    {
-      "id": "b1f7c2007e82e1af53a8ec6061b331f8",
-      "name": "_dmarc.domainsblacklists.com",
-      "type": "TXT",
-      "content": "v=DMARC1;  p=none; rua=mailto:9c70ea076036494c93d766dfefd2def1@dmarc-reports.cloudflare.net",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:50:10.919349Z",
-      "modified_on": "2023-07-29T12:50:10.919349Z"
-    },
-    {
-      "id": "519f3626ce2ea9a6dad71afe898ce796",
-      "name": "domainsblacklists.com",
-      "type": "TXT",
-      "content": "v=spf1 include:_spf.mx.cloudflare.net ~all",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-29T12:50:26.404775Z",
-      "modified_on": "2023-07-29T12:50:26.404775Z"
     },
     {
       "id": "77c251b8488617268d91ee1ebd51ede5",
