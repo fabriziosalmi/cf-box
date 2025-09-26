@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -99080828,
+      "development_mode": -99167138,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -131558836,
+      "development_mode": -131645146,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -130877664,
+      "development_mode": -130963974,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -387,7 +387,7 @@
       ],
       "original_registrar": "TUCOWS",
       "original_dnshost": null,
-      "modified_on": "2025-09-23T04:00:08.367042Z",
+      "modified_on": "2025-09-25T23:24:06.539455Z",
       "created_on": "2013-06-16T11:34:20.865828Z",
       "activated_on": "2013-06-16T11:55:55.593312Z",
       "vanity_name_servers": [],
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -141037946,
+      "development_mode": -141124256,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -249192684,
+      "development_mode": -249278994,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
