@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -99253308,
+      "development_mode": -99340236,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -131731316,
+      "development_mode": -131818244,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -131050144,
+      "development_mode": -131137072,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -141210426,
+      "development_mode": -141297354,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -249365164,
+      "development_mode": -249452092,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -707,7 +707,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2024-09-26T08:35:25.171332Z",
+      "modified_on": "2025-09-27T04:06:57.032207Z",
       "created_on": "2024-08-28T18:55:59.641033Z",
       "activated_on": "2024-08-28T18:56:03.154859Z",
       "vanity_name_servers": [],
@@ -769,7 +769,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2024-08-28T18:56:48.913186Z",
+      "modified_on": "2025-09-27T04:06:57.209494Z",
       "created_on": "2024-08-28T18:56:46.043661Z",
       "activated_on": "2024-08-28T18:56:48.765321Z",
       "vanity_name_servers": [],
