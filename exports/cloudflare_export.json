@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -100117456,
+      "development_mode": -100203834,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -132595464,
+      "development_mode": -132681842,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -131914292,
+      "development_mode": -132000670,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -142074574,
+      "development_mode": -142160952,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -250229312,
+      "development_mode": -250315690,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -707,7 +707,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-09-27T04:06:57.032207Z",
+      "modified_on": "2025-10-07T04:15:32.113032Z",
       "created_on": "2024-08-28T18:55:59.641033Z",
       "activated_on": "2024-08-28T18:56:03.154859Z",
       "vanity_name_servers": [],
@@ -769,7 +769,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-09-27T04:06:57.209494Z",
+      "modified_on": "2025-10-07T04:15:32.904006Z",
       "created_on": "2024-08-28T18:56:46.043661Z",
       "activated_on": "2024-08-28T18:56:48.765321Z",
       "vanity_name_servers": [],
