@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -100636349,
+      "development_mode": -100722437,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133114357,
+      "development_mode": -133200445,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -132433185,
+      "development_mode": -132519273,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -142593467,
+      "development_mode": -142679555,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -250748205,
+      "development_mode": -250834293,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
     {
       "id": "50f3f9a9c13476185106ff4623757ca5",
       "name": "linuxwebservices.net",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -707,7 +707,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-10-07T04:15:32.113032Z",
+      "modified_on": "2025-10-13T13:01:36.953782Z",
       "created_on": "2024-08-28T18:55:59.641033Z",
       "activated_on": "2024-08-28T18:56:03.154859Z",
       "vanity_name_servers": [],
@@ -758,7 +758,7 @@
     {
       "id": "0bee38e4ee522407d6bb2822d3b5fe0d",
       "name": "linuxwebservices.org",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -769,7 +769,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-10-07T04:15:32.904006Z",
+      "modified_on": "2025-10-14T03:05:56.787363Z",
       "created_on": "2024-08-28T18:56:46.043661Z",
       "activated_on": "2024-08-28T18:56:48.765321Z",
       "vanity_name_servers": [],
