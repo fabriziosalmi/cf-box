@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -100895345,
+      "development_mode": -100981659,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133373353,
+      "development_mode": -133459667,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -132692181,
+      "development_mode": -132778495,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -142852463,
+      "development_mode": -142938777,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -251007201,
+      "development_mode": -251093515,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1273,7 +1273,7 @@
       "id": "9f0d186658e67682dd6fc821f048bbe3",
       "name": "audiolibri.org",
       "type": "A",
-      "content": "185.190.210.1",
+      "content": "185.199.108.153",
       "proxiable": true,
       "proxied": false,
       "ttl": 1,
@@ -1282,25 +1282,8 @@
       "comment": "was 185.199.108.153 - 2.34.27.169",
       "tags": [],
       "created_on": "2022-05-28T20:03:08.90702Z",
-      "modified_on": "2025-06-24T07:12:14.786532Z",
+      "modified_on": "2025-10-16T15:56:52.151774Z",
       "comment_modified_on": "2024-08-01T22:02:56.215873Z"
-    },
-    {
-      "id": "f9a11b71ec7dcf73bb3910e53eaaf4d7",
-      "name": "_24bc74214160960f4d12dd6fbff201f1.audiolibri.org",
-      "type": "CNAME",
-      "content": "b2c17ba6004759ccb8c9a77d014a29a0.6f845f21928b6cae571ad9b0c6abc9df.d43d56d38a87d9f.comodoca.com",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-05-03T14:21:45.203592Z",
-      "modified_on": "2023-05-03T14:22:05.697231Z"
     },
     {
       "id": "5b3addd61bdc5bd1cba5fb46350964cf",
@@ -1318,6 +1301,23 @@
       "tags": [],
       "created_on": "2025-06-03T18:38:49.481585Z",
       "modified_on": "2025-06-03T18:38:49.481585Z"
+    },
+    {
+      "id": "1d15c9410c63f0feaefb182049340096",
+      "name": "www.audiolibri.org",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-10-16T15:58:38.836215Z",
+      "modified_on": "2025-10-16T15:59:20.953689Z"
     },
     {
       "id": "b3331100fb4b9053f9ea9dde42e5babc",
