@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -101241353,
+      "development_mode": -101327440,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133719361,
+      "development_mode": -133805448,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -133038189,
+      "development_mode": -133124276,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -143198471,
+      "development_mode": -143284558,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -251353209,
+      "development_mode": -251439296,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -648,130 +648,6 @@
       "modified_on": "2023-06-03T00:58:11.951408Z",
       "created_on": "2016-07-06T09:46:28.971475Z",
       "activated_on": "2023-06-03T00:58:11.951408Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "50f3f9a9c13476185106ff4623757ca5",
-      "name": "linuxwebservices.net",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-10-13T13:01:36.953782Z",
-      "created_on": "2024-08-28T18:55:59.641033Z",
-      "activated_on": "2024-08-28T18:56:03.154859Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 4,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "0bee38e4ee522407d6bb2822d3b5fe0d",
-      "name": "linuxwebservices.org",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-10-14T03:05:56.787363Z",
-      "created_on": "2024-08-28T18:56:46.043661Z",
-      "activated_on": "2024-08-28T18:56:48.765321Z",
       "vanity_name_servers": [],
       "vanity_name_servers_ips": null,
       "meta": {
