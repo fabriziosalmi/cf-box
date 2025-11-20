@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -103833230,
+      "development_mode": -103919577,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136311238,
+      "development_mode": -136397585,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -135630066,
+      "development_mode": -135716413,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145790348,
+      "development_mode": -145876695,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -253945086,
+      "development_mode": -254031433,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -957,7 +957,7 @@
     {
       "id": "af0967157b1e51a629c44daa8342d95d",
       "name": "youknowwhataimean.com",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -968,7 +968,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2025-11-14T04:06:07.086650Z",
+      "modified_on": "2025-11-19T07:39:10.753003Z",
       "created_on": "2023-10-05T14:08:56.337876Z",
       "activated_on": "2023-10-05T14:08:58.265755Z",
       "vanity_name_servers": [],
