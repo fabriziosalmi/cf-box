@@ -125,8 +125,4 @@ was 185.199.108.153 - 2.34.27.169,2024-08-01T22:02:56.215873Z,185.199.108.153,20
 ,,185.199.108.153,2023-03-28T08:34:29.902515Z,203ca5160347df21edeb2dcfafacdbf8,{},2023-03-28T08:34:30.164318Z,test2.webtek.live,,True,True,{},[],1,A
 ,,185.199.108.153,2023-03-24T11:44:15.078812Z,432df2553b443742f9f905e155878536,{},2023-03-24T11:44:15.367412Z,test.webtek.live,,True,True,{},[],1,A
 ,,185.199.108.153,2023-02-17T23:14:39.792808Z,0f6431cd01ce8d23f5e6116a84799b6d,{},2023-02-17T23:14:39.792808Z,webtek.live,,True,True,{},[],1,A
-,,185.199.108.153,2023-10-06T11:52:31.670164Z,e02587466a80086957e4f19a05760dec,{},2023-10-06T12:04:32.454791Z,youknowwhataimean.com,,True,True,{},[],1,A
-,,v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;,2023-10-05T14:13:27.963225Z,7982468ab5963924b1a08dedcac6892b,{},2023-10-05T14:13:27.963225Z,_dmarc.youknowwhataimean.com,,False,False,{},[],1,TXT
-,,v=DKIM1; p=,2023-10-05T14:13:27.93815Z,406b6f469b58a98c0cb2acb3abbccdcd,{},2023-10-05T14:13:27.93815Z,*._domainkey.youknowwhataimean.com,,False,False,{},[],1,TXT
-,,v=spf1 -all,2023-10-05T14:13:27.931067Z,c6cef2dc26f42a4852a4006685bc06fa,{},2023-10-05T14:13:27.931067Z,youknowwhataimean.com,,False,False,{},[],1,TXT
 ,,transversalpuntozero.pages.dev,2024-11-03T08:47:11.475444Z,add653a25af3cf87d882f89eb8c305c0,{},2024-11-03T08:47:11.475444Z,transversalpuntozero.org,,True,True,{'flatten_cname': False},[],1,CNAME

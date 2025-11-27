@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -104438168,
+      "development_mode": -104524416,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136916176,
+      "development_mode": -137002424,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -374,7 +374,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -136235004,
+      "development_mode": -136321252,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -441,7 +441,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146395286,
+      "development_mode": -146481534,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -632,7 +632,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -254550024,
+      "development_mode": -254636272,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -913,68 +913,6 @@
       "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "af0967157b1e51a629c44daa8342d95d",
-      "name": "youknowwhataimean.com",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_name_servers": null,
-      "original_registrar": null,
-      "original_dnshost": null,
-      "modified_on": "2025-11-19T07:39:10.753003Z",
-      "created_on": "2023-10-05T14:08:56.337876Z",
-      "activated_on": "2023-10-05T14:08:58.265755Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 4,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
@@ -3175,66 +3113,6 @@
       "tags": [],
       "created_on": "2023-02-17T23:14:39.792808Z",
       "modified_on": "2023-02-17T23:14:39.792808Z"
-    },
-    {
-      "id": "e02587466a80086957e4f19a05760dec",
-      "name": "youknowwhataimean.com",
-      "type": "A",
-      "content": "185.199.108.153",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-10-06T11:52:31.670164Z",
-      "modified_on": "2023-10-06T12:04:32.454791Z"
-    },
-    {
-      "id": "7982468ab5963924b1a08dedcac6892b",
-      "name": "_dmarc.youknowwhataimean.com",
-      "type": "TXT",
-      "content": "v=DMARC1; p=reject; sp=reject; adkim=s; aspf=s;",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-10-05T14:13:27.963225Z",
-      "modified_on": "2023-10-05T14:13:27.963225Z"
-    },
-    {
-      "id": "406b6f469b58a98c0cb2acb3abbccdcd",
-      "name": "*._domainkey.youknowwhataimean.com",
-      "type": "TXT",
-      "content": "v=DKIM1; p=",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-10-05T14:13:27.93815Z",
-      "modified_on": "2023-10-05T14:13:27.93815Z"
-    },
-    {
-      "id": "c6cef2dc26f42a4852a4006685bc06fa",
-      "name": "youknowwhataimean.com",
-      "type": "TXT",
-      "content": "v=spf1 -all",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-10-05T14:13:27.931067Z",
-      "modified_on": "2023-10-05T14:13:27.931067Z"
     },
     {
       "id": "add653a25af3cf87d882f89eb8c305c0",
