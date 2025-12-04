@@ -1,0 +1,47 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: debug-statements
+      - id: mixed-line-ending
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.9
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+
+  - repo: https://github.com/psf/black
+    rev: 23.12.1
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        additional_dependencies: [types-all]
+        args: [--ignore-missing-imports]
+
+  - repo: local
+    hooks:
+      - id: no-wip-commits
+        name: Check for WIP commits
+        entry: bash -c 'if git log -1 --pretty=%B | grep -iE "wip|work in progress|TODO|FIXME"; then echo "Error: Commit message contains WIP markers"; exit 1; fi'
+        language: system
+        stages: [commit-msg]
+
+      - id: prevent-export-commits
+        name: Prevent committing export files
+        entry: bash -c 'if git diff --cached --name-only | grep -E "^(exports|reports)/"; then echo "Error: Attempting to commit export/report files"; exit 1; fi'
+        language: system
+        pass_filenames: false
