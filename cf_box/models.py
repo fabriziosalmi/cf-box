@@ -86,6 +86,8 @@ class CloudflareIPListItem(BaseModel):
 class CloudflareAnalyticsMetrics(BaseModel):
     """Cloudflare analytics metrics model."""
 
+    model_config = {"populate_by_name": True}
+
     requests: int = 0
     cached_requests: int = Field(default=0, alias="cachedRequests")
     bytes: int = 0
@@ -93,12 +95,11 @@ class CloudflareAnalyticsMetrics(BaseModel):
     waf_events: int = Field(default=0, alias="wafEvents")
     rate_limited_requests: int = Field(default=0, alias="rateLimitedRequests")
 
-    class Config:
-        populate_by_name = True
-
 
 class CloudflareAnalyticsDimensions(BaseModel):
     """Cloudflare analytics dimensions model."""
+
+    model_config = {"populate_by_name": True}
 
     datetime: Optional[str] = None
     client_country_name: Optional[str] = Field(default=None, alias="clientCountryName")
@@ -106,15 +107,11 @@ class CloudflareAnalyticsDimensions(BaseModel):
         default=None, alias="clientRequestHTTPMethodName"
     )
 
-    class Config:
-        populate_by_name = True
-
 
 class CloudflareAnalyticsGroup(BaseModel):
     """Cloudflare analytics group model."""
 
+    model_config = {"populate_by_name": True}
+
     dimensions: CloudflareAnalyticsDimensions
     sum: CloudflareAnalyticsMetrics = Field(alias="sum")
-
-    class Config:
-        populate_by_name = True
