@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  cf-data-export:
+    build: .
+    environment:
+      - CLOUDFLARE_API_TOKEN=${CLOUDFLARE_API_TOKEN}
+    volumes:
+      - ./exports:/app/exports
+      - ./reports:/app/reports
+      - ./config.yaml:/app/config.yaml
+    command: python -m cf_box.data_export
+
+  cf-analytics:
+    build: .
+    environment:
+      - CLOUDFLARE_API_TOKEN=${CLOUDFLARE_API_TOKEN}
+    volumes:
+      - ./exports:/app/exports
+      - ./config.yaml:/app/config.yaml
+    command: python -m cf_box.aggregated_analytics
+
+  cf-ip-manager:
+    build: .
+    environment:
+      - CLOUDFLARE_API_TOKEN=${CLOUDFLARE_API_TOKEN}
+    volumes:
+      - ./reports:/app/reports
+      - ./config.yaml:/app/config.yaml
+    command: python -m cf_box.ip_list_manager
