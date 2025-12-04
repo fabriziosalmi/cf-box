@@ -5,14 +5,17 @@ from pathlib import Path
 from typing import Any, Dict, List
 
 from sqlalchemy import JSON, Column, Integer, String, Text, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
 from cf_box.logging_config import get_logger
 
 logger = get_logger(__name__)
 
-Base = declarative_base()
+
+class Base(DeclarativeBase):
+    """Base class for SQLAlchemy models."""
+
+    pass
 
 
 class CloudflareAccount(Base):
