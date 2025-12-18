@@ -1,6 +1,5 @@
 cache
 __pycache__
-exports/
 reports/
 *.egg-info/
 dist/
