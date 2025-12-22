@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -106598565,
+      "development_mode": -106685023,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -131,71 +131,6 @@
       "modified_on": "2025-07-05T11:41:23.351217Z",
       "created_on": "2025-07-01T09:02:08.953756Z",
       "activated_on": "2025-07-01T09:11:49.008276Z",
-      "vanity_name_servers": [],
-      "vanity_name_servers_ips": null,
-      "meta": {
-        "step": 2,
-        "custom_certificate_quota": 0,
-        "page_rule_quota": 3,
-        "phishing_detected": false
-      },
-      "owner": {
-        "id": null,
-        "type": "user",
-        "email": null
-      },
-      "account": {
-        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
-        "name": "Fabrizio.salmi@gmail.com's Account"
-      },
-      "tenant": {
-        "id": null,
-        "name": null
-      },
-      "tenant_unit": {
-        "id": null
-      },
-      "permissions": [
-        "#waf:read",
-        "#zone_settings:read",
-        "#dns_records:read",
-        "#page_shield:read",
-        "#ssl:read",
-        "#zone:read"
-      ],
-      "plan": {
-        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-        "name": "Free Website",
-        "price": 0,
-        "currency": "USD",
-        "frequency": "",
-        "is_subscribed": false,
-        "can_subscribe": false,
-        "legacy_id": "free",
-        "legacy_discount": false,
-        "externally_managed": false
-      }
-    },
-    {
-      "id": "9d679bd23967edb7541edc3ae316ef7e",
-      "name": "cfguru.org",
-      "status": "moved",
-      "paused": false,
-      "type": "full",
-      "development_mode": 0,
-      "name_servers": [
-        "melinda.ns.cloudflare.com",
-        "venkat.ns.cloudflare.com"
-      ],
-      "original_name_servers": [
-        "greg.ns.cloudflare.com",
-        "lucy.ns.cloudflare.com"
-      ],
-      "original_registrar": "name.com, inc. (id: 625)",
-      "original_dnshost": null,
-      "modified_on": "2025-12-14T14:27:53.011121Z",
-      "created_on": "2023-12-17T13:14:55.947063Z",
-      "activated_on": "2023-12-17T13:31:25.674362Z",
       "vanity_name_servers": [],
       "vanity_name_servers_ips": null,
       "meta": {
@@ -438,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -139076573,
+      "development_mode": -139163031,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -503,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -138395401,
+      "development_mode": -138481859,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -570,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -148555683,
+      "development_mode": -148642141,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -761,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -256710421,
+      "development_mode": -256796879,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1344,6 +1279,37 @@
       "modified_on": "2025-12-20T12:58:36.051384Z"
     },
     {
+      "id": "c121056667f933679a30e18efaa3f204",
+      "name": "_cdn-verify.test2.audiolibri.org",
+      "type": "TXT",
+      "content": "\"cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3oVrau4jSGTo4G0I-A\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": "test edge99",
+      "tags": [],
+      "created_on": "2025-12-21T11:13:17.427372Z",
+      "modified_on": "2025-12-21T11:18:00.362378Z",
+      "comment_modified_on": "2025-12-21T11:13:17.427372Z"
+    },
+    {
+      "id": "cf13c67ccdb68d72674f35135c139ad2",
+      "name": "_cdn-verify.test3.audiolibri.org",
+      "type": "TXT",
+      "content": "\"cdn-verify=pDkRdI1DXOhF4qqQISyIw6LspWuyeMNM7tRGmjoekUo\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T11:40:33.749809Z",
+      "modified_on": "2025-12-21T11:40:33.749809Z"
+    },
+    {
       "id": "8123b69792536eda89581575fc5e6501",
       "name": "_dmarc.audiolibri.org",
       "type": "TXT",
@@ -1537,36 +1503,6 @@
       "tags": [],
       "created_on": "2025-07-01T21:19:12.582969Z",
       "modified_on": "2025-07-01T21:19:12.582969Z"
-    },
-    {
-      "id": "bdeca83d3f52cd29a0461c8c328e7eb8",
-      "name": "cfguru.org",
-      "type": "A",
-      "content": "185.199.108.153",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-12-17T13:15:33.42644Z",
-      "modified_on": "2023-12-17T13:22:36.5376Z"
-    },
-    {
-      "id": "6473c95616aa9ef1dcb17dacef169db4",
-      "name": "challenged.cfguru.org",
-      "type": "A",
-      "content": "185.199.110.153",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-05-23T07:08:03.816887Z",
-      "modified_on": "2025-05-23T07:23:56.302349Z"
     },
     {
       "id": "e3686ecfcca7678a06d3d56e3afeaf52",
@@ -1975,6 +1911,51 @@
       "modified_on": "2025-12-21T01:54:40.897386Z"
     },
     {
+      "id": "f122701f3f7685867b42aa5e72d18551",
+      "name": "edge-aws-fra.edge99.net",
+      "type": "A",
+      "content": "100.105.239.51",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T10:03:16.234645Z",
+      "modified_on": "2025-12-21T10:03:16.234645Z"
+    },
+    {
+      "id": "aea577610870e094f0d675b9e99be5df",
+      "name": "edge-contabo-syd.edge99.net",
+      "type": "A",
+      "content": "100.77.248.119",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T10:03:16.93413Z",
+      "modified_on": "2025-12-21T10:03:16.93413Z"
+    },
+    {
+      "id": "3df2a8e1e4edbd889bfcc01bb11952ba",
+      "name": "edge-ovh-mtl.edge99.net",
+      "type": "A",
+      "content": "100.104.74.31",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T10:03:17.62592Z",
+      "modified_on": "2025-12-21T10:03:17.62592Z"
+    },
+    {
       "id": "5e677a6cac8bd177ad3fcbda8d3d4085",
       "name": "eu.edge99.net",
       "type": "A",
@@ -1990,10 +1971,25 @@
       "modified_on": "2025-12-21T01:54:48.56529Z"
     },
     {
+      "id": "f440cc29b758b52e98886e5da77407f5",
+      "name": "fab.pages.edge99.net",
+      "type": "A",
+      "content": "100.115.154.125",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T23:31:14.730947Z",
+      "modified_on": "2025-12-21T23:31:14.730947Z"
+    },
+    {
       "id": "89b60466149e1f5f2d99997385801b8f",
       "name": "gitlab.edge99.net",
       "type": "A",
-      "content": "100.75.134.73",
+      "content": "100.115.154.125",
       "proxiable": false,
       "proxied": false,
       "ttl": 300,
@@ -2002,13 +1998,43 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-21T01:54:49.453003Z",
-      "modified_on": "2025-12-21T01:54:49.453003Z"
+      "modified_on": "2025-12-21T22:53:19.983564Z"
+    },
+    {
+      "id": "ad37cb3ec3950634f81bbebf807e57e9",
+      "name": "infisical.edge99.net",
+      "type": "A",
+      "content": "100.98.95.74",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T14:54:19.229848Z",
+      "modified_on": "2025-12-21T14:54:19.229848Z"
+    },
+    {
+      "id": "6d7786dad7d0b02d393e569924e67f77",
+      "name": "mail.edge99.net",
+      "type": "A",
+      "content": "185.196.20.69",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T22:15:22.602021Z",
+      "modified_on": "2025-12-21T22:15:22.602021Z"
     },
     {
       "id": "d51ad6c4cb611b591856ff973bac8e1e",
       "name": "monitor.edge99.net",
       "type": "A",
-      "content": "100.75.134.73",
+      "content": "100.106.106.52",
       "proxiable": false,
       "proxied": false,
       "ttl": 300,
@@ -2017,11 +2043,56 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-21T01:54:50.060554Z",
-      "modified_on": "2025-12-21T01:54:50.060554Z"
+      "modified_on": "2025-12-21T10:03:18.500197Z"
+    },
+    {
+      "id": "f23a02e35e0450c62ce313586ecb06c5",
+      "name": "origin-proxmox-nat.edge99.net",
+      "type": "A",
+      "content": "100.118.69.77",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T10:03:19.17638Z",
+      "modified_on": "2025-12-21T10:03:19.17638Z"
+    },
+    {
+      "id": "9d2e651a9e9a9c4e85540316d9125778",
+      "name": "pages.edge99.net",
+      "type": "A",
+      "content": "100.115.154.125",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T23:28:15.054209Z",
+      "modified_on": "2025-12-21T23:28:15.054209Z"
     },
     {
       "id": "620114fcec32b59de5fc6224ee3a0f3c",
       "name": "registry.edge99.net",
+      "type": "A",
+      "content": "100.115.154.125",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T01:54:50.700678Z",
+      "modified_on": "2025-12-21T23:02:56.848705Z"
+    },
+    {
+      "id": "e105ab6782f69b12a78f903caac82b4a",
+      "name": "runner-proxmox-nat.edge99.net",
       "type": "A",
       "content": "100.75.134.73",
       "proxiable": false,
@@ -2031,8 +2102,38 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-21T01:54:50.700678Z",
-      "modified_on": "2025-12-21T01:54:50.700678Z"
+      "created_on": "2025-12-21T10:03:19.879338Z",
+      "modified_on": "2025-12-21T10:03:19.879338Z"
+    },
+    {
+      "id": "3911dbbb550c711b0fc8ac3a26b818a9",
+      "name": "shield-proxmox-nat.edge99.net",
+      "type": "A",
+      "content": "100.101.70.113",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T10:03:20.522723Z",
+      "modified_on": "2025-12-21T10:03:20.522723Z"
+    },
+    {
+      "id": "35dd0eca89c2c3d73228e82a395733d3",
+      "name": "_acme-challenge.infisical.edge99.net",
+      "type": "TXT",
+      "content": "Ft1R7yIhJP0ncY4Wgg124Yc7zHjdh5GZnlVVm8LL7x0",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-21T15:09:42.28508Z",
+      "modified_on": "2025-12-21T15:09:42.28508Z"
     },
     {
       "id": "b896f16e1fbdc2fee30c66db4f574f30",
