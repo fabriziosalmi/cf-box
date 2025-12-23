@@ -61,6 +61,10 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,100.75.134.73,2025-12-21T10:03:19.879338Z,e105ab6782f69b12a78f903caac82b4a,{},2025-12-21T10:03:19.879338Z,runner-proxmox-nat.edge99.net,,False,False,{},[],300,A
 ,,100.101.70.113,2025-12-21T10:03:20.522723Z,3911dbbb550c711b0fc8ac3a26b818a9,{},2025-12-21T10:03:20.522723Z,shield-proxmox-nat.edge99.net,,False,False,{},[],300,A
 ,,Ft1R7yIhJP0ncY4Wgg124Yc7zHjdh5GZnlVVm8LL7x0,2025-12-21T15:09:42.28508Z,35dd0eca89c2c3d73228e82a395733d3,{},2025-12-21T15:09:42.28508Z,_acme-challenge.infisical.edge99.net,,False,False,{},[],120,TXT
+,,oG6WjQIaHn-kEUUE184nb7TH7QMuTgo-CiaZmWdTyig,2025-12-22T17:56:25.577737Z,ac25d16d4729e38d2964f8419b6cc7ba,{},2025-12-22T17:56:25.577737Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,Yj3V3tpnatmb8sY6LfO1X23ps-uNNW2ZkusBcX6KFoU,2025-12-22T17:56:17.801833Z,9502e5d3627139ef77eb1f504548ab00,{},2025-12-22T17:56:17.801833Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,isAc_7eU5mEtujaSeShnKEr9V5AYAiQP7_Wi-ZLDRqc,2025-12-22T17:46:08.27568Z,982dffb0576b483c9b7d752d7359da3a,{},2025-12-22T17:46:08.27568Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,jiiyNPJNg0qUaAZ4sk1p5CjMKUHfhhxM1DzXEisdxng,2025-12-22T17:43:56.348434Z,771b577aa0f4095fada77d1c0cfd4e74,{},2025-12-22T17:43:56.348434Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
 ,,edge99-poc-v1,2025-12-19T15:04:16.909623Z,b896f16e1fbdc2fee30c66db4f574f30,{},2025-12-21T01:54:42.758788Z,_cdn.edge99.net,,False,False,{},[],300,TXT
 ,,207.180.193.100,2021-07-23T08:58:49.378112Z,77c251b8488617268d91ee1ebd51ede5,{},2021-07-23T12:56:39.987386Z,free-tekno.com,,True,True,{},[],1,A
 ,,185.199.108.153,2022-02-07T20:32:13.606665Z,dd673c4571ae6ec6ea4517da4047fa5f,{},2022-02-07T20:32:43.921656Z,listen.free-tekno.com,,True,True,{},[],1,A
