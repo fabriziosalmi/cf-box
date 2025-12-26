@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -106944130,
+      "development_mode": -107030531,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -139422138,
+      "development_mode": -139508539,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -138740966,
+      "development_mode": -138827367,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -148901248,
+      "development_mode": -148987649,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -257055986,
+      "development_mode": -257142387,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1786,6 +1786,21 @@
       "modified_on": "2025-12-13T22:12:23.116436Z"
     },
     {
+      "id": "bb01456802faa65b99e978429c71ccc8",
+      "name": "any.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-19T15:04:18.216369Z",
+      "modified_on": "2025-12-25T21:51:38.976034Z"
+    },
+    {
       "id": "5f7d1a9199dea344856dbe1d0266db20",
       "name": "any.edge99.net",
       "type": "A",
@@ -1816,10 +1831,10 @@
       "modified_on": "2025-12-21T01:54:43.950156Z"
     },
     {
-      "id": "bb01456802faa65b99e978429c71ccc8",
-      "name": "any.edge99.net",
+      "id": "d2a72bc66718dc11a66e3f975a75a0d8",
+      "name": "audiolibri.edge99.net",
       "type": "A",
-      "content": "3.79.1.219",
+      "content": "3.65.34.64",
       "proxiable": true,
       "proxied": false,
       "ttl": 300,
@@ -1827,8 +1842,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-19T15:04:18.216369Z",
-      "modified_on": "2025-12-21T01:54:43.355558Z"
+      "created_on": "2025-12-19T15:04:21.539244Z",
+      "modified_on": "2025-12-25T21:51:39.615078Z"
     },
     {
       "id": "2c6d21e608784844bd780e5499fd564f",
@@ -1861,21 +1876,6 @@
       "modified_on": "2025-12-21T01:54:46.50266Z"
     },
     {
-      "id": "d2a72bc66718dc11a66e3f975a75a0d8",
-      "name": "audiolibri.edge99.net",
-      "type": "A",
-      "content": "3.79.1.219",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 300,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-19T15:04:21.539244Z",
-      "modified_on": "2025-12-21T01:54:45.883823Z"
-    },
-    {
       "id": "3f14c26f7072e52ac76c57666e452bdf",
       "name": "au.edge99.net",
       "type": "A",
@@ -1904,6 +1904,21 @@
       "tags": [],
       "created_on": "2025-12-19T17:34:55.328605Z",
       "modified_on": "2025-12-21T01:54:47.774982Z"
+    },
+    {
+      "id": "c73299ab28c1be5930cdca5c27ae5d75",
+      "name": "canary.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-25T10:32:34.582168Z",
+      "modified_on": "2025-12-25T21:51:40.300382Z"
     },
     {
       "id": "23596bf36f08c38dd97c4cf9aad24f2d",
@@ -1936,6 +1951,37 @@
       "modified_on": "2025-12-24T23:47:16.305359Z"
     },
     {
+      "id": "8b04e39035d3826cbc1a84e51148a775",
+      "name": "control.edge99.net",
+      "type": "A",
+      "content": "100.110.99.1",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": "edge99 Control Center (Tailscale)",
+      "tags": [],
+      "created_on": "2025-12-25T17:28:40.9053Z",
+      "modified_on": "2025-12-25T21:51:40.955165Z",
+      "comment_modified_on": "2025-12-25T17:28:40.9053Z"
+    },
+    {
+      "id": "df7a3ddec69da98af45f8dbf5b5c59e4",
+      "name": "edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-19T15:04:15.633073Z",
+      "modified_on": "2025-12-25T21:51:38.300559Z"
+    },
+    {
       "id": "65d8444d8bb9fc402cb777abda32cf88",
       "name": "edge99.net",
       "type": "A",
@@ -1964,21 +2010,6 @@
       "tags": [],
       "created_on": "2025-12-19T16:56:38.173111Z",
       "modified_on": "2025-12-21T01:54:41.577583Z"
-    },
-    {
-      "id": "df7a3ddec69da98af45f8dbf5b5c59e4",
-      "name": "edge99.net",
-      "type": "A",
-      "content": "3.79.1.219",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 300,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-19T15:04:15.633073Z",
-      "modified_on": "2025-12-21T01:54:40.897386Z"
     },
     {
       "id": "f122701f3f7685867b42aa5e72d18551",
@@ -2029,7 +2060,7 @@
       "id": "5e677a6cac8bd177ad3fcbda8d3d4085",
       "name": "eu.edge99.net",
       "type": "A",
-      "content": "3.79.1.219",
+      "content": "3.65.34.64",
       "proxiable": true,
       "proxied": false,
       "ttl": 300,
@@ -2038,22 +2069,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-19T15:04:22.939124Z",
-      "modified_on": "2025-12-21T01:54:48.56529Z"
-    },
-    {
-      "id": "f440cc29b758b52e98886e5da77407f5",
-      "name": "fab.pages.edge99.net",
-      "type": "A",
-      "content": "100.115.154.125",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-21T23:31:14.730947Z",
-      "modified_on": "2025-12-21T23:31:14.730947Z"
+      "modified_on": "2025-12-25T21:51:41.579384Z"
     },
     {
       "id": "89b60466149e1f5f2d99997385801b8f",
@@ -2068,7 +2084,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-21T01:54:49.453003Z",
-      "modified_on": "2025-12-21T22:53:19.983564Z"
+      "modified_on": "2025-12-25T22:23:47.476357Z"
     },
     {
       "id": "ad37cb3ec3950634f81bbebf807e57e9",
@@ -2084,21 +2100,6 @@
       "tags": [],
       "created_on": "2025-12-21T14:54:19.229848Z",
       "modified_on": "2025-12-21T14:54:19.229848Z"
-    },
-    {
-      "id": "6d7786dad7d0b02d393e569924e67f77",
-      "name": "mail.edge99.net",
-      "type": "A",
-      "content": "185.196.20.69",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-21T22:15:22.602021Z",
-      "modified_on": "2025-12-21T22:15:22.602021Z"
     },
     {
       "id": "d51ad6c4cb611b591856ff973bac8e1e",
@@ -2131,21 +2132,6 @@
       "modified_on": "2025-12-21T10:03:19.17638Z"
     },
     {
-      "id": "9d2e651a9e9a9c4e85540316d9125778",
-      "name": "pages.edge99.net",
-      "type": "A",
-      "content": "100.115.154.125",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-21T23:28:15.054209Z",
-      "modified_on": "2025-12-21T23:28:15.054209Z"
-    },
-    {
       "id": "620114fcec32b59de5fc6224ee3a0f3c",
       "name": "registry.edge99.net",
       "type": "A",
@@ -2158,7 +2144,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-21T01:54:50.700678Z",
-      "modified_on": "2025-12-21T23:02:56.848705Z"
+      "modified_on": "2025-12-25T22:23:48.304772Z"
     },
     {
       "id": "e105ab6782f69b12a78f903caac82b4a",
@@ -2191,147 +2177,49 @@
       "modified_on": "2025-12-21T10:03:20.522723Z"
     },
     {
-      "id": "4c09d84c1877b4a3b8626deb472c63d6",
-      "name": "mt89.edge99.net",
-      "type": "CNAME",
-      "content": "smtp.mailtrap.live",
+      "id": "ed9053dbd857674a940624c41f028dd4",
+      "name": "status.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
       "proxiable": true,
       "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
+      "ttl": 300,
+      "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:13:53.594346Z",
-      "modified_on": "2025-12-24T23:13:53.594346Z"
+      "created_on": "2025-12-25T10:32:42.732066Z",
+      "modified_on": "2025-12-25T21:51:42.88839Z"
     },
     {
-      "id": "b110b8ef46e12cf024cdd8a5301d5f92",
-      "name": "mt-link.edge99.net",
-      "type": "CNAME",
-      "content": "t.mailtrap.live",
+      "id": "efbf0468afe964290e99760acad0f878",
+      "name": "status.edge99.net",
+      "type": "A",
+      "content": "51.222.140.163",
       "proxiable": true,
       "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
+      "ttl": 300,
+      "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:14:13.422514Z",
-      "modified_on": "2025-12-24T23:14:13.422514Z"
+      "created_on": "2025-12-25T10:32:44.026701Z",
+      "modified_on": "2025-12-25T10:32:44.026701Z"
     },
     {
-      "id": "1592ad77a9937c3e0a2d403e017bf0ad",
-      "name": "rwmt1._domainkey.edge99.net",
-      "type": "CNAME",
-      "content": "rwmt1.dkim.smtp.mailtrap.live",
+      "id": "65f55c58fbb4aa8f288957b0db128651",
+      "name": "status.edge99.net",
+      "type": "A",
+      "content": "46.250.245.74",
       "proxiable": true,
       "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-24T23:13:54.36718Z",
-      "modified_on": "2025-12-24T23:13:54.36718Z"
-    },
-    {
-      "id": "daf074ac2c5570a786a0e90f5a20381f",
-      "name": "rwmt2._domainkey.edge99.net",
-      "type": "CNAME",
-      "content": "rwmt2.dkim.smtp.mailtrap.live",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-24T23:13:55.171168Z",
-      "modified_on": "2025-12-24T23:13:55.171168Z"
-    },
-    {
-      "id": "35dd0eca89c2c3d73228e82a395733d3",
-      "name": "_acme-challenge.infisical.edge99.net",
-      "type": "TXT",
-      "content": "Ft1R7yIhJP0ncY4Wgg124Yc7zHjdh5GZnlVVm8LL7x0",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
+      "ttl": 300,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-21T15:09:42.28508Z",
-      "modified_on": "2025-12-21T15:09:42.28508Z"
-    },
-    {
-      "id": "ac25d16d4729e38d2964f8419b6cc7ba",
-      "name": "_acme-challenge.monitor.edge99.net",
-      "type": "TXT",
-      "content": "oG6WjQIaHn-kEUUE184nb7TH7QMuTgo-CiaZmWdTyig",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-22T17:56:25.577737Z",
-      "modified_on": "2025-12-22T17:56:25.577737Z"
-    },
-    {
-      "id": "9502e5d3627139ef77eb1f504548ab00",
-      "name": "_acme-challenge.monitor.edge99.net",
-      "type": "TXT",
-      "content": "Yj3V3tpnatmb8sY6LfO1X23ps-uNNW2ZkusBcX6KFoU",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-22T17:56:17.801833Z",
-      "modified_on": "2025-12-22T17:56:17.801833Z"
-    },
-    {
-      "id": "982dffb0576b483c9b7d752d7359da3a",
-      "name": "_acme-challenge.monitor.edge99.net",
-      "type": "TXT",
-      "content": "isAc_7eU5mEtujaSeShnKEr9V5AYAiQP7_Wi-ZLDRqc",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-22T17:46:08.27568Z",
-      "modified_on": "2025-12-22T17:46:08.27568Z"
-    },
-    {
-      "id": "771b577aa0f4095fada77d1c0cfd4e74",
-      "name": "_acme-challenge.monitor.edge99.net",
-      "type": "TXT",
-      "content": "jiiyNPJNg0qUaAZ4sk1p5CjMKUHfhhxM1DzXEisdxng",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-22T17:43:56.348434Z",
-      "modified_on": "2025-12-22T17:43:56.348434Z"
+      "created_on": "2025-12-25T10:32:43.389542Z",
+      "modified_on": "2025-12-25T10:32:43.389542Z"
     },
     {
       "id": "b896f16e1fbdc2fee30c66db4f574f30",
@@ -2347,21 +2235,6 @@
       "tags": [],
       "created_on": "2025-12-19T15:04:16.909623Z",
       "modified_on": "2025-12-21T01:54:42.758788Z"
-    },
-    {
-      "id": "d6b00f58f276d48f768c558fb446d4c0",
-      "name": "_dmarc.edge99.net",
-      "type": "TXT",
-      "content": "v=DMARC1; p=none; rua=mailto:dmarc@smtp-staging.mailtrap.net; ruf=mailto:dmarc@smtp-staging.mailtrap.net; rf=afrf; pct=100",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-24T23:14:12.685722Z",
-      "modified_on": "2025-12-24T23:14:12.685722Z"
     },
     {
       "id": "77c251b8488617268d91ee1ebd51ede5",
