@@ -1,10 +1,12 @@
 comment,comment_modified_on,content,created_on,data,id,meta,modified_on,name,priority,proxiable,proxied,settings,tags,ttl,type
-,,46.250.245.74,2025-12-24T23:05:16.338613Z,,59ef4878ff55a4455a07c0b7d7e35fda,{},2025-12-24T23:05:16.338613Z,audiolibri.org,,True,False,{},[],300,A
-,,51.222.140.163,2025-12-24T23:05:15.608893Z,,188abb3cabe6bc942f2c4b3b5c5a614b,{},2025-12-24T23:05:15.608893Z,audiolibri.org,,True,False,{},[],300,A
+,,46.250.245.74,2025-12-27T19:42:16.147955Z,,66de4cd56c98d8faddaffb325bc296bd,{},2025-12-27T19:42:16.147955Z,audiolibri.org,,True,False,{},[],300,A
+,,51.222.140.163,2025-12-27T19:42:15.423313Z,,f1ebea3204e85074be5e06aa68d2fa48,{},2025-12-27T19:42:15.423313Z,audiolibri.org,,True,False,{},[],300,A
+,,3.65.34.64,2025-12-27T19:42:14.57898Z,,e84a9c4909a4e6759dc34b4f51dcffca,{},2025-12-27T19:42:14.57898Z,audiolibri.org,,True,False,{},[],300,A
 ,,46.250.245.74,2025-12-24T23:03:32.789793Z,,eae4c431c0b81bd8330af6bf3df95b4e,{},2025-12-24T23:03:32.789793Z,test.audiolibri.org,,True,False,{},[],300,A
 ,,51.222.140.163,2025-12-24T23:03:31.92446Z,,668d5eae948d33374a39fb7a1813b52b,{},2025-12-24T23:03:31.92446Z,test.audiolibri.org,,True,False,{},[],300,A
-,,46.250.245.74,2025-12-24T23:05:54.443265Z,,548255fe89bff27703451ff31c0eb56e,{},2025-12-24T23:05:54.443265Z,www.audiolibri.org,,True,False,{},[],300,A
-,,51.222.140.163,2025-12-24T23:05:53.675786Z,,3cf72e78db63a4f5cc37c2490b9aa12a,{},2025-12-24T23:05:53.675786Z,www.audiolibri.org,,True,False,{},[],300,A
+,,46.250.245.74,2025-12-27T19:42:18.539481Z,,401726adb31f75b18399e2039d73d307,{},2025-12-27T19:42:18.539481Z,www.audiolibri.org,,True,False,{},[],300,A
+,,51.222.140.163,2025-12-27T19:42:17.693642Z,,ce3007ccf8815fe015045c50dd3a5a00,{},2025-12-27T19:42:17.693642Z,www.audiolibri.org,,True,False,{},[],300,A
+,,3.65.34.64,2025-12-27T19:42:16.950308Z,,a7884955fee4043702153da01228b09f,{},2025-12-27T19:42:16.950308Z,www.audiolibri.org,,True,False,{},[],300,A
 ,,8212a2e4-846e-4096-bd97-3349c9da4269.cfargotunnel.com,2025-06-03T18:38:49.481585Z,,5b3addd61bdc5bd1cba5fb46350964cf,{},2025-06-03T18:38:49.481585Z,edit.audiolibri.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,891a8149-ddda-4857-8ad2-a0c460a2debd.cfargotunnel.com,2025-12-17T22:20:53.091232Z,,f50647a8506bedbaa074407ae9818223,{},2025-12-17T22:20:53.091232Z,origin.audiolibri.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,o6wcxcfitqtebrzpn756dnwexqr6vbcpbkj7nq5hixj4uzn2eswq.mx-verification.google.com,2017-11-01T19:18:31.093932Z,,b3331100fb4b9053f9ea9dde42e5babc,{},2017-11-01T19:18:31.093932Z,audiolibri.org,15,False,False,{},[],1,MX
@@ -38,6 +40,9 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,"""v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k"" ""m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB""",2025-12-13T22:19:39.346438Z,,6040974b5053a16191ddb8e50564d5d5,"{'email_routing': True, 'read_only': True}",2025-12-13T22:19:39.346438Z,cf2024-1._domainkey.cyberapi.io,,False,False,{},[],1,TXT
 ,,"""v=spf1 include:_spf.mx.cloudflare.net include:spf.mailtrap.live ~all""",2025-12-13T22:19:39.336403Z,,0a714114d6eb08eb253a239bbb8b26c5,{},2025-12-13T22:22:09.331366Z,cyberapi.io,,False,False,{},[],1,TXT
 ,,"""v=DMARC1; p=none; rua=mailto:dmarc@smtp-staging.mailtrap.net; ruf=mailto:dmarc@smtp-staging.mailtrap.net; rf=afrf; pct=100""",2025-12-13T22:12:23.116436Z,,b41a98d6278e97fdaae7fd6a64edc776,{},2025-12-13T22:12:23.116436Z,_dmarc.cyberapi.io,,False,False,{},[],1,TXT
+,,46.250.245.74,2025-12-27T13:31:28.954647Z,,fd64e91b3d7277b594e10aa0b7e184e2,{},2025-12-27T13:31:28.954647Z,ap.cdn.edge99.net,,True,False,{},[],60,A
+,,51.222.140.163,2025-12-27T10:24:43.675189Z,,2ec8c0b734a8846c32ef6ebc34fcbe9e,{},2025-12-27T10:24:43.675189Z,canary.edge99.net,,True,False,{},[],60,A
+,,46.250.245.74,2025-12-27T10:24:43.040146Z,,286231a61c9e04ed79191479a97d363d,{},2025-12-27T10:24:43.040146Z,canary.edge99.net,,True,False,{},[],60,A
 ,,3.65.34.64,2025-12-25T10:32:34.582168Z,,c73299ab28c1be5930cdca5c27ae5d75,{},2025-12-26T23:53:39.225195Z,canary.edge99.net,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-26T23:53:42.746797Z,,bec47d6ece73e4b22bdd94e09dd37458,{},2025-12-26T23:53:42.746797Z,cdn.edge99.net,,True,False,{},[],300,A
 ,,46.250.245.74,2025-12-26T23:53:41.844611Z,,ab004065356f93519ec42f4d28626857,{},2025-12-26T23:53:41.844611Z,cdn.edge99.net,,True,False,{},[],300,A
@@ -47,10 +52,18 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,3.65.34.64,2025-12-26T23:53:45.816408Z,,2de3acdaeae4e2ad9ebf53ce35ea26b1,{},2025-12-26T23:53:45.816408Z,edge-fra.edge99.net,,True,False,{},[],300,A
 ,,51.222.140.163,2025-12-26T23:53:46.520651Z,,25308823ae2738c407f6fa8743bfde33,{},2025-12-26T23:53:46.520651Z,edge-mtl.edge99.net,,True,False,{},[],300,A
 ,,46.250.245.74,2025-12-26T23:53:47.745964Z,,e56f333078e2121fb2ac3f311c8b6df8,{},2025-12-26T23:53:47.745964Z,edge-syd.edge99.net,,True,False,{},[],300,A
+,,3.65.34.64,2025-12-27T13:31:29.703174Z,,5c8b28263abb5086bbfcdd059f27ad0b,{},2025-12-27T13:31:29.703174Z,eu.cdn.edge99.net,,True,False,{},[],60,A
 ,,100.115.154.125,2025-12-27T00:09:49.376944Z,,9361bf57919e2eb334aa91f608523d0d,{},2025-12-27T00:09:49.376944Z,gitlab.edge99.net,,False,False,{},[],300,A
+,,51.222.140.163,2025-12-27T13:31:31.921357Z,,e77f748850a9219373b529301b8f118f,{},2025-12-27T13:31:31.921357Z,global.cdn.edge99.net,,True,False,{},[],60,A
+,,46.250.245.74,2025-12-27T13:31:31.076316Z,,71e5d4142066af8483577054c63fec8f,{},2025-12-27T13:31:31.076316Z,global.cdn.edge99.net,,True,False,{},[],60,A
+,,3.65.34.64,2025-12-27T13:31:30.378986Z,,52c0af421b8ea438edc8a40118e53cf4,{},2025-12-27T13:31:30.378986Z,global.cdn.edge99.net,,True,False,{},[],60,A
 ,,100.106.106.52,2025-12-27T00:10:33.245416Z,,8bd1b56900a669d97795c8f1158d2898,{},2025-12-27T00:10:33.245416Z,grafana.edge99.net,,False,False,{},[],300,A
 ,,100.98.95.74,2025-12-27T00:09:50.04475Z,,9bd8bb9154beef4473df4599131937a4,{},2025-12-27T00:09:50.04475Z,infisical.edge99.net,,False,False,{},[],300,A
 ,,100.106.106.52,2025-12-27T00:09:50.687529Z,,c440b8ab5f5dc962dafcc6b25754fb8a,{},2025-12-27T00:09:50.687529Z,monitor.edge99.net,,False,False,{},[],300,A
+,,51.222.140.163,2025-12-27T13:31:32.593277Z,,ad52fda9ae7d75a80f5b7f683c2f242c,{},2025-12-27T13:31:32.593277Z,na.cdn.edge99.net,,True,False,{},[],60,A
+,,46.250.245.74,2025-12-27T13:31:33.294716Z,,8a986e6fbf6cb724c8c40f6854f8e8e5,{},2025-12-27T13:31:33.294716Z,origin-ap.edge99.net,,True,False,{},[],60,A
+,,3.65.34.64,2025-12-27T13:31:33.924922Z,,8799d5c2cd7af9f22ab31c14b808c8e3,{},2025-12-27T13:31:33.924922Z,origin-eu.edge99.net,,True,False,{},[],60,A
+,,51.222.140.163,2025-12-27T13:31:34.596506Z,,6fb97126388ee3497dde75f9d2c65af6,{},2025-12-27T13:31:34.596506Z,origin-na.edge99.net,,True,False,{},[],60,A
 ,,100.106.106.52,2025-12-27T00:10:34.575724Z,,51c56e5578a8f891177bcd98ea1bfc63,{},2025-12-27T00:10:34.575724Z,prometheus.edge99.net,,False,False,{},[],300,A
 ,,100.115.154.125,2025-12-27T00:09:51.306371Z,,6f86af0a494ff0a16b086445dadb09e9,{},2025-12-27T00:09:51.306371Z,registry.edge99.net,,False,False,{},[],300,A
 ,,"0 issuewild ""letsencrypt.org""",2025-12-26T23:53:32.288215Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",5437b024aff99b20174f07f03e75053f,{},2025-12-26T23:53:32.288215Z,edge99.net,,False,False,{},[],300,CAA

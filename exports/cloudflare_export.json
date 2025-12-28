@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -107116850,
+      "development_mode": -107203489,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -139594858,
+      "development_mode": -139681497,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -138913686,
+      "development_mode": -139000325,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -149073968,
+      "development_mode": -149160607,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -257228706,
+      "development_mode": -257315345,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1148,7 +1148,7 @@
   ],
   "dns_records": [
     {
-      "id": "59ef4878ff55a4455a07c0b7d7e35fda",
+      "id": "66de4cd56c98d8faddaffb325bc296bd",
       "name": "audiolibri.org",
       "type": "A",
       "content": "46.250.245.74",
@@ -1159,11 +1159,11 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:05:16.338613Z",
-      "modified_on": "2025-12-24T23:05:16.338613Z"
+      "created_on": "2025-12-27T19:42:16.147955Z",
+      "modified_on": "2025-12-27T19:42:16.147955Z"
     },
     {
-      "id": "188abb3cabe6bc942f2c4b3b5c5a614b",
+      "id": "f1ebea3204e85074be5e06aa68d2fa48",
       "name": "audiolibri.org",
       "type": "A",
       "content": "51.222.140.163",
@@ -1174,8 +1174,23 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:05:15.608893Z",
-      "modified_on": "2025-12-24T23:05:15.608893Z"
+      "created_on": "2025-12-27T19:42:15.423313Z",
+      "modified_on": "2025-12-27T19:42:15.423313Z"
+    },
+    {
+      "id": "e84a9c4909a4e6759dc34b4f51dcffca",
+      "name": "audiolibri.org",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T19:42:14.57898Z",
+      "modified_on": "2025-12-27T19:42:14.57898Z"
     },
     {
       "id": "eae4c431c0b81bd8330af6bf3df95b4e",
@@ -1208,7 +1223,7 @@
       "modified_on": "2025-12-24T23:03:31.92446Z"
     },
     {
-      "id": "548255fe89bff27703451ff31c0eb56e",
+      "id": "401726adb31f75b18399e2039d73d307",
       "name": "www.audiolibri.org",
       "type": "A",
       "content": "46.250.245.74",
@@ -1219,11 +1234,11 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:05:54.443265Z",
-      "modified_on": "2025-12-24T23:05:54.443265Z"
+      "created_on": "2025-12-27T19:42:18.539481Z",
+      "modified_on": "2025-12-27T19:42:18.539481Z"
     },
     {
-      "id": "3cf72e78db63a4f5cc37c2490b9aa12a",
+      "id": "ce3007ccf8815fe015045c50dd3a5a00",
       "name": "www.audiolibri.org",
       "type": "A",
       "content": "51.222.140.163",
@@ -1234,8 +1249,23 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-24T23:05:53.675786Z",
-      "modified_on": "2025-12-24T23:05:53.675786Z"
+      "created_on": "2025-12-27T19:42:17.693642Z",
+      "modified_on": "2025-12-27T19:42:17.693642Z"
+    },
+    {
+      "id": "a7884955fee4043702153da01228b09f",
+      "name": "www.audiolibri.org",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T19:42:16.950308Z",
+      "modified_on": "2025-12-27T19:42:16.950308Z"
     },
     {
       "id": "5b3addd61bdc5bd1cba5fb46350964cf",
@@ -1786,6 +1816,51 @@
       "modified_on": "2025-12-13T22:12:23.116436Z"
     },
     {
+      "id": "fd64e91b3d7277b594e10aa0b7e184e2",
+      "name": "ap.cdn.edge99.net",
+      "type": "A",
+      "content": "46.250.245.74",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:28.954647Z",
+      "modified_on": "2025-12-27T13:31:28.954647Z"
+    },
+    {
+      "id": "2ec8c0b734a8846c32ef6ebc34fcbe9e",
+      "name": "canary.edge99.net",
+      "type": "A",
+      "content": "51.222.140.163",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T10:24:43.675189Z",
+      "modified_on": "2025-12-27T10:24:43.675189Z"
+    },
+    {
+      "id": "286231a61c9e04ed79191479a97d363d",
+      "name": "canary.edge99.net",
+      "type": "A",
+      "content": "46.250.245.74",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T10:24:43.040146Z",
+      "modified_on": "2025-12-27T10:24:43.040146Z"
+    },
+    {
       "id": "c73299ab28c1be5930cdca5c27ae5d75",
       "name": "canary.edge99.net",
       "type": "A",
@@ -1921,6 +1996,21 @@
       "modified_on": "2025-12-26T23:53:47.745964Z"
     },
     {
+      "id": "5c8b28263abb5086bbfcdd059f27ad0b",
+      "name": "eu.cdn.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:29.703174Z",
+      "modified_on": "2025-12-27T13:31:29.703174Z"
+    },
+    {
       "id": "9361bf57919e2eb334aa91f608523d0d",
       "name": "gitlab.edge99.net",
       "type": "A",
@@ -1934,6 +2024,51 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:49.376944Z",
       "modified_on": "2025-12-27T00:09:49.376944Z"
+    },
+    {
+      "id": "e77f748850a9219373b529301b8f118f",
+      "name": "global.cdn.edge99.net",
+      "type": "A",
+      "content": "51.222.140.163",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:31.921357Z",
+      "modified_on": "2025-12-27T13:31:31.921357Z"
+    },
+    {
+      "id": "71e5d4142066af8483577054c63fec8f",
+      "name": "global.cdn.edge99.net",
+      "type": "A",
+      "content": "46.250.245.74",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:31.076316Z",
+      "modified_on": "2025-12-27T13:31:31.076316Z"
+    },
+    {
+      "id": "52c0af421b8ea438edc8a40118e53cf4",
+      "name": "global.cdn.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:30.378986Z",
+      "modified_on": "2025-12-27T13:31:30.378986Z"
     },
     {
       "id": "8bd1b56900a669d97795c8f1158d2898",
@@ -1979,6 +2114,66 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:50.687529Z",
       "modified_on": "2025-12-27T00:09:50.687529Z"
+    },
+    {
+      "id": "ad52fda9ae7d75a80f5b7f683c2f242c",
+      "name": "na.cdn.edge99.net",
+      "type": "A",
+      "content": "51.222.140.163",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:32.593277Z",
+      "modified_on": "2025-12-27T13:31:32.593277Z"
+    },
+    {
+      "id": "8a986e6fbf6cb724c8c40f6854f8e8e5",
+      "name": "origin-ap.edge99.net",
+      "type": "A",
+      "content": "46.250.245.74",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:33.294716Z",
+      "modified_on": "2025-12-27T13:31:33.294716Z"
+    },
+    {
+      "id": "8799d5c2cd7af9f22ab31c14b808c8e3",
+      "name": "origin-eu.edge99.net",
+      "type": "A",
+      "content": "3.65.34.64",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:33.924922Z",
+      "modified_on": "2025-12-27T13:31:33.924922Z"
+    },
+    {
+      "id": "6fb97126388ee3497dde75f9d2c65af6",
+      "name": "origin-na.edge99.net",
+      "type": "A",
+      "content": "51.222.140.163",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:34.596506Z",
+      "modified_on": "2025-12-27T13:31:34.596506Z"
     },
     {
       "id": "51c56e5578a8f891177bcd98ea1bfc63",
