@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add reports/
-          git diff --quiet --exit-code || git commit -m "📄 Auto-generated IP list report"
-          git push origin || echo "No changes to commit"
+          git add -f reports/
+          git diff --quiet && git diff --staged --quiet || git commit -m "📄 Auto-generated IP list report"
+          git push || echo "No changes to commit"
