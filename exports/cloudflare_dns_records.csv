@@ -59,18 +59,18 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,3.65.34.64,2025-12-27T13:31:30.378986Z,,52c0af421b8ea438edc8a40118e53cf4,{},2025-12-27T13:31:30.378986Z,global.cdn.edge99.net,,True,False,{},[],60,A
 ,,100.106.106.52,2025-12-27T00:10:33.245416Z,,8bd1b56900a669d97795c8f1158d2898,{},2025-12-27T00:10:33.245416Z,grafana.edge99.net,,False,False,{},[],300,A
 ,,100.98.95.74,2025-12-27T00:09:50.04475Z,,9bd8bb9154beef4473df4599131937a4,{},2025-12-27T00:09:50.04475Z,infisical.edge99.net,,False,False,{},[],300,A
-,,100.106.106.52,2025-12-27T00:09:50.687529Z,,c440b8ab5f5dc962dafcc6b25754fb8a,{},2025-12-27T00:09:50.687529Z,monitor.edge99.net,,False,False,{},[],300,A
+,,100.106.106.52,2026-01-05T13:21:42.080054Z,,bb09c8365dbcafce6575094f2a401d9f,{},2026-01-05T13:21:42.080054Z,monitor.edge99.net,,False,False,{},[],300,A
 ,,51.222.140.163,2025-12-27T13:31:32.593277Z,,ad52fda9ae7d75a80f5b7f683c2f242c,{},2025-12-27T13:31:32.593277Z,na.cdn.edge99.net,,True,False,{},[],60,A
 ,,46.250.245.74,2025-12-27T13:31:33.294716Z,,8a986e6fbf6cb724c8c40f6854f8e8e5,{},2025-12-27T13:31:33.294716Z,origin-ap.edge99.net,,True,False,{},[],60,A
 ,,3.65.34.64,2025-12-27T13:31:33.924922Z,,8799d5c2cd7af9f22ab31c14b808c8e3,{},2025-12-27T13:31:33.924922Z,origin-eu.edge99.net,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-27T13:31:34.596506Z,,6fb97126388ee3497dde75f9d2c65af6,{},2025-12-27T13:31:34.596506Z,origin-na.edge99.net,,True,False,{},[],60,A
+,,100.122.88.46,2026-01-05T13:21:43.343554Z,,2d3a5a3a78a89440cf05fc2578fdf937,{},2026-01-05T13:21:43.343554Z,portal.edge99.net,,False,False,{},[],300,A
 ,,100.106.106.52,2025-12-27T00:10:34.575724Z,,51c56e5578a8f891177bcd98ea1bfc63,{},2025-12-27T00:10:34.575724Z,prometheus.edge99.net,,False,False,{},[],300,A
 ,,100.115.154.125,2025-12-27T00:09:51.306371Z,,6f86af0a494ff0a16b086445dadb09e9,{},2025-12-27T00:09:51.306371Z,registry.edge99.net,,False,False,{},[],300,A
-,,100.105.239.51,2026-01-02T16:11:33.881405Z,,1aca401e12646e1f621670e3ff88cab4,{},2026-01-02T16:11:33.881405Z,status.edge99.net,,False,False,{},[],300,A
 ,,"0 issuewild ""letsencrypt.org""",2025-12-26T23:53:32.288215Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",5437b024aff99b20174f07f03e75053f,{},2025-12-26T23:53:32.288215Z,edge99.net,,False,False,{},[],300,CAA
 ,,"0 issue ""letsencrypt.org""",2025-12-26T23:53:31.459246Z,"{'flags': 0, 'tag': 'issue', 'value': 'letsencrypt.org'}",27643163ea8521f079bd5b3d546005fb,{},2025-12-26T23:53:31.459246Z,edge99.net,,False,False,{},[],300,CAA
 ,,edge-mtl.edge99.net,2025-12-26T23:53:58.741695Z,,5ec54ecccbfab0e816a744473715792a,{},2026-01-02T16:11:30.234893Z,api.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
-,,edge-mtl.edge99.net,2025-12-26T23:53:53.21366Z,,678eed272bdb45d8c88a9527d3fb6a8a,{},2026-01-02T16:11:33.158081Z,portal.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
+,,edge-mtl.edge99.net,2026-01-05T11:23:19.93223Z,,7977c50b97c224d7845ce348cc7a170b,{},2026-01-05T11:23:19.93223Z,status.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,edge99.net,2025-12-26T23:53:58.059446Z,,b30deaebfaea39ca53c881f78bc76ed1,{},2025-12-26T23:53:58.059446Z,www.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,v=DMARC1; p=reject; rua=mailto:security@edge99.net,2025-12-26T23:53:33.496711Z,,50165c9904db7c779f07b98e9f943b47,{},2025-12-26T23:53:33.496711Z,_dmarc.edge99.net,,False,False,{},[],300,TXT
 ,,v=spf1 -all,2025-12-26T23:53:30.479433Z,,a16c9eb9ef09553088c65e46bbd67fcc,{},2025-12-26T23:53:30.479433Z,edge99.net,,False,False,{},[],300,TXT
