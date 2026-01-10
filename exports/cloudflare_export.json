@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -108240187,
+      "development_mode": -108326493,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140718195,
+      "development_mode": -140804501,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140037023,
+      "development_mode": -140123329,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150197305,
+      "development_mode": -150283611,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -258352043,
+      "development_mode": -258438349,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1957,13 +1957,13 @@
       "content": "3.65.34.64",
       "proxiable": true,
       "proxied": false,
-      "ttl": 300,
+      "ttl": 60,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
       "created_on": "2025-12-26T23:53:45.816408Z",
-      "modified_on": "2025-12-26T23:53:45.816408Z"
+      "modified_on": "2026-01-09T16:24:11.397933Z"
     },
     {
       "id": "25308823ae2738c407f6fa8743bfde33",
@@ -1972,13 +1972,13 @@
       "content": "51.222.140.163",
       "proxiable": true,
       "proxied": false,
-      "ttl": 300,
+      "ttl": 60,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
       "created_on": "2025-12-26T23:53:46.520651Z",
-      "modified_on": "2025-12-26T23:53:46.520651Z"
+      "modified_on": "2026-01-09T16:24:12.130657Z"
     },
     {
       "id": "e56f333078e2121fb2ac3f311c8b6df8",
@@ -1987,13 +1987,13 @@
       "content": "46.250.245.74",
       "proxiable": true,
       "proxied": false,
-      "ttl": 300,
+      "ttl": 60,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
       "created_on": "2025-12-26T23:53:47.745964Z",
-      "modified_on": "2025-12-26T23:53:47.745964Z"
+      "modified_on": "2026-01-09T16:24:12.839331Z"
     },
     {
       "id": "5c8b28263abb5086bbfcdd059f27ad0b",
@@ -2069,6 +2069,21 @@
       "tags": [],
       "created_on": "2025-12-27T13:31:30.378986Z",
       "modified_on": "2025-12-27T13:31:30.378986Z"
+    },
+    {
+      "id": "a2b861fc823c3b3b791efbdea34128db",
+      "name": "gotify.edge99.net",
+      "type": "A",
+      "content": "100.97.70.3",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-09T16:24:13.446114Z",
+      "modified_on": "2026-01-09T16:24:13.446114Z"
     },
     {
       "id": "8bd1b56900a669d97795c8f1158d2898",
@@ -2219,6 +2234,21 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:51.306371Z",
       "modified_on": "2025-12-27T00:09:51.306371Z"
+    },
+    {
+      "id": "edbcd182eae447bdcb79d230631a2a7c",
+      "name": "ti-api.edge99.net",
+      "type": "A",
+      "content": "100.72.29.57",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-09T16:24:14.072106Z",
+      "modified_on": "2026-01-09T16:24:14.072106Z"
     },
     {
       "id": "5437b024aff99b20174f07f03e75053f",
