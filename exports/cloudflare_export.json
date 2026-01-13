@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -108499532,
+      "development_mode": -108585772,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140977540,
+      "development_mode": -141063780,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140296368,
+      "development_mode": -140382608,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150456650,
+      "development_mode": -150542890,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -258611388,
+      "development_mode": -258697628,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2249,6 +2249,21 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:51.306371Z",
       "modified_on": "2025-12-27T00:09:51.306371Z"
+    },
+    {
+      "id": "08d2e77690f45773757eb70d8e8ff615",
+      "name": "test.edge99.net",
+      "type": "A",
+      "content": "100.86.174.68",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 300,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-13T02:16:53.875673Z",
+      "modified_on": "2026-01-13T02:16:53.875673Z"
     },
     {
       "id": "edbcd182eae447bdcb79d230631a2a7c",

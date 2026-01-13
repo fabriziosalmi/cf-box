@@ -69,6 +69,7 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,100.122.88.46,2026-01-05T13:21:43.343554Z,,2d3a5a3a78a89440cf05fc2578fdf937,{},2026-01-05T13:21:43.343554Z,portal.edge99.net,,False,False,{},[],300,A
 ,,100.106.106.52,2025-12-27T00:10:34.575724Z,,51c56e5578a8f891177bcd98ea1bfc63,{},2025-12-27T00:10:34.575724Z,prometheus.edge99.net,,False,False,{},[],300,A
 ,,100.115.154.125,2025-12-27T00:09:51.306371Z,,6f86af0a494ff0a16b086445dadb09e9,{},2025-12-27T00:09:51.306371Z,registry.edge99.net,,False,False,{},[],300,A
+,,100.86.174.68,2026-01-13T02:16:53.875673Z,,08d2e77690f45773757eb70d8e8ff615,{},2026-01-13T02:16:53.875673Z,test.edge99.net,,False,False,{},[],300,A
 ,,100.72.29.57,2026-01-09T16:24:14.072106Z,,edbcd182eae447bdcb79d230631a2a7c,{},2026-01-09T16:24:14.072106Z,ti-api.edge99.net,,False,False,{},[],300,A
 ,,"0 issuewild ""letsencrypt.org""",2025-12-26T23:53:32.288215Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",5437b024aff99b20174f07f03e75053f,{},2025-12-26T23:53:32.288215Z,edge99.net,,False,False,{},[],300,CAA
 ,,"0 issue ""letsencrypt.org""",2025-12-26T23:53:31.459246Z,"{'flags': 0, 'tag': 'issue', 'value': 'letsencrypt.org'}",27643163ea8521f079bd5b3d546005fb,{},2025-12-26T23:53:31.459246Z,edge99.net,,False,False,{},[],300,CAA
