@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -108931267,
+      "development_mode": -109017859,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -141409275,
+      "development_mode": -141495867,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -140728103,
+      "development_mode": -140814695,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150888385,
+      "development_mode": -150974977,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -259043123,
+      "development_mode": -259129715,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1861,7 +1861,7 @@
       "modified_on": "2025-12-27T13:31:28.954647Z"
     },
     {
-      "id": "3c5ae5691ea3c92270b361eaaca659e6",
+      "id": "af1a523c4e78f97ad5c59a12ce309f20",
       "name": "argocd.edge99.net",
       "type": "A",
       "content": "100.116.237.108",
@@ -1872,8 +1872,38 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-01-13T17:06:11.330035Z",
-      "modified_on": "2026-01-13T17:06:11.330035Z"
+      "created_on": "2026-01-17T09:16:07.490949Z",
+      "modified_on": "2026-01-17T09:16:07.490949Z"
+    },
+    {
+      "id": "e6c9ca430b3b09c21b61a373dff6b193",
+      "name": "canary.edge99.net",
+      "type": "A",
+      "content": "89.46.67.54",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-17T09:13:31.387411Z",
+      "modified_on": "2026-01-17T09:13:31.387411Z"
+    },
+    {
+      "id": "c73299ab28c1be5930cdca5c27ae5d75",
+      "name": "canary.edge99.net",
+      "type": "A",
+      "content": "65.109.163.154",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-25T10:32:34.582168Z",
+      "modified_on": "2026-01-17T09:13:30.79763Z"
     },
     {
       "id": "2ec8c0b734a8846c32ef6ebc34fcbe9e",
@@ -1906,10 +1936,10 @@
       "modified_on": "2025-12-27T10:24:43.040146Z"
     },
     {
-      "id": "c73299ab28c1be5930cdca5c27ae5d75",
-      "name": "canary.edge99.net",
+      "id": "28ae5170c329a3aec750e89f1fc746ad",
+      "name": "cdn.edge99.net",
       "type": "A",
-      "content": "3.65.34.64",
+      "content": "89.46.67.54",
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
@@ -1917,8 +1947,23 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-25T10:32:34.582168Z",
-      "modified_on": "2025-12-26T23:53:39.225195Z"
+      "created_on": "2026-01-17T09:13:32.634393Z",
+      "modified_on": "2026-01-17T09:13:32.634393Z"
+    },
+    {
+      "id": "47d2b80bb85f3c9d2a29de6c71dd658f",
+      "name": "cdn.edge99.net",
+      "type": "A",
+      "content": "65.109.163.154",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-26T23:53:41.17051Z",
+      "modified_on": "2026-01-17T09:13:32.008009Z"
     },
     {
       "id": "bec47d6ece73e4b22bdd94e09dd37458",
@@ -1951,21 +1996,6 @@
       "modified_on": "2026-01-02T16:11:31.768873Z"
     },
     {
-      "id": "47d2b80bb85f3c9d2a29de6c71dd658f",
-      "name": "cdn.edge99.net",
-      "type": "A",
-      "content": "3.65.34.64",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-26T23:53:41.17051Z",
-      "modified_on": "2026-01-02T16:11:31.037269Z"
-    },
-    {
       "id": "dd9cda661a53ff7fcc22618ea2701b9a",
       "name": "control.edge99.net",
       "type": "A",
@@ -1996,10 +2026,10 @@
       "modified_on": "2026-01-02T16:11:29.52582Z"
     },
     {
-      "id": "2de3acdaeae4e2ad9ebf53ce35ea26b1",
-      "name": "edge-fra.edge99.net",
+      "id": "46d2468d26c30af32b63fa0b78f8fddf",
+      "name": "edge-arz.edge99.net",
       "type": "A",
-      "content": "3.65.34.64",
+      "content": "89.46.67.54",
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
@@ -2007,8 +2037,23 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-26T23:53:45.816408Z",
-      "modified_on": "2026-01-09T16:24:11.397933Z"
+      "created_on": "2026-01-17T09:13:35.856496Z",
+      "modified_on": "2026-01-17T09:13:35.856496Z"
+    },
+    {
+      "id": "1d4ae58f74e95387468d001cb5ede44e",
+      "name": "edge-hel.edge99.net",
+      "type": "A",
+      "content": "65.109.163.154",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-17T09:13:37.398436Z",
+      "modified_on": "2026-01-17T09:13:37.398436Z"
     },
     {
       "id": "25308823ae2738c407f6fa8743bfde33",
@@ -2041,10 +2086,25 @@
       "modified_on": "2026-01-09T16:24:12.839331Z"
     },
     {
+      "id": "dc7603fec8cac7dc7025ef7c77d2c4af",
+      "name": "eu.cdn.edge99.net",
+      "type": "A",
+      "content": "89.46.67.54",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-17T09:13:33.878614Z",
+      "modified_on": "2026-01-17T09:13:33.878614Z"
+    },
+    {
       "id": "5c8b28263abb5086bbfcdd059f27ad0b",
       "name": "eu.cdn.edge99.net",
       "type": "A",
-      "content": "3.65.34.64",
+      "content": "65.109.163.154",
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
@@ -2053,7 +2113,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-27T13:31:29.703174Z",
-      "modified_on": "2025-12-27T13:31:29.703174Z"
+      "modified_on": "2026-01-17T09:13:33.251695Z"
     },
     {
       "id": "9361bf57919e2eb334aa91f608523d0d",
@@ -2069,6 +2129,36 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:49.376944Z",
       "modified_on": "2025-12-27T00:09:49.376944Z"
+    },
+    {
+      "id": "b428fd68dd7723ec82fc7fee2153b658",
+      "name": "global.cdn.edge99.net",
+      "type": "A",
+      "content": "89.46.67.54",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-01-17T09:13:35.188243Z",
+      "modified_on": "2026-01-17T09:13:35.188243Z"
+    },
+    {
+      "id": "52c0af421b8ea438edc8a40118e53cf4",
+      "name": "global.cdn.edge99.net",
+      "type": "A",
+      "content": "65.109.163.154",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 60,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2025-12-27T13:31:30.378986Z",
+      "modified_on": "2026-01-17T09:13:34.509679Z"
     },
     {
       "id": "e77f748850a9219373b529301b8f118f",
@@ -2101,21 +2191,6 @@
       "modified_on": "2025-12-27T13:31:31.076316Z"
     },
     {
-      "id": "52c0af421b8ea438edc8a40118e53cf4",
-      "name": "global.cdn.edge99.net",
-      "type": "A",
-      "content": "3.65.34.64",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-12-27T13:31:30.378986Z",
-      "modified_on": "2025-12-27T13:31:30.378986Z"
-    },
-    {
       "id": "a2b861fc823c3b3b791efbdea34128db",
       "name": "gotify.edge99.net",
       "type": "A",
@@ -2146,7 +2221,7 @@
       "modified_on": "2025-12-27T00:10:33.245416Z"
     },
     {
-      "id": "92d05401e9db70757e0b47a6d590e052",
+      "id": "e3ebdc5e3351c519e35b53c2b9fbef8d",
       "name": "harbor.edge99.net",
       "type": "A",
       "content": "100.116.237.108",
@@ -2157,8 +2232,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-01-13T17:06:09.782713Z",
-      "modified_on": "2026-01-13T17:06:09.782713Z"
+      "created_on": "2026-01-17T09:16:08.146382Z",
+      "modified_on": "2026-01-17T09:16:08.146382Z"
     },
     {
       "id": "9bd8bb9154beef4473df4599131937a4",
@@ -2176,7 +2251,7 @@
       "modified_on": "2025-12-27T00:09:50.04475Z"
     },
     {
-      "id": "fd05019fac2f6ab67a21096540e81a34",
+      "id": "4b3ae3b8c8058fa848310ead4586f500",
       "name": "k3s.edge99.net",
       "type": "A",
       "content": "100.116.237.108",
@@ -2187,8 +2262,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-01-13T17:06:12.809684Z",
-      "modified_on": "2026-01-13T17:06:12.809684Z"
+      "created_on": "2026-01-17T09:16:08.764859Z",
+      "modified_on": "2026-01-17T09:16:08.764859Z"
     },
     {
       "id": "3ef00bb56556f9766ed2dc7ba14d00ed",
@@ -2254,7 +2329,7 @@
       "id": "8799d5c2cd7af9f22ab31c14b808c8e3",
       "name": "origin-eu.edge99.net",
       "type": "A",
-      "content": "3.65.34.64",
+      "content": "65.109.163.154",
       "proxiable": true,
       "proxied": false,
       "ttl": 60,
@@ -2263,7 +2338,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2025-12-27T13:31:33.924922Z",
-      "modified_on": "2025-12-27T13:31:33.924922Z"
+      "modified_on": "2026-01-17T09:13:39.35235Z"
     },
     {
       "id": "6fb97126388ee3497dde75f9d2c65af6",
@@ -2326,7 +2401,7 @@
       "modified_on": "2025-12-27T00:09:51.306371Z"
     },
     {
-      "id": "08d2e77690f45773757eb70d8e8ff615",
+      "id": "9c2664d0df87b9b00b19128a822779ff",
       "name": "test.edge99.net",
       "type": "A",
       "content": "100.86.174.68",
@@ -2337,8 +2412,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-01-13T02:16:53.875673Z",
-      "modified_on": "2026-01-13T02:16:53.875673Z"
+      "created_on": "2026-01-17T09:16:09.391479Z",
+      "modified_on": "2026-01-17T09:16:09.391479Z"
     },
     {
       "id": "edbcd182eae447bdcb79d230631a2a7c",
@@ -2356,7 +2431,7 @@
       "modified_on": "2026-01-09T16:24:14.072106Z"
     },
     {
-      "id": "89f3ef572fc11b93cea2ea57c66bcdb8",
+      "id": "e4464c749341e0cc2c2036b93bd7f600",
       "name": "traefik.edge99.net",
       "type": "A",
       "content": "100.116.237.108",
@@ -2367,8 +2442,8 @@
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-01-13T17:09:02.541719Z",
-      "modified_on": "2026-01-13T17:09:02.541719Z"
+      "created_on": "2026-01-17T09:16:10.204614Z",
+      "modified_on": "2026-01-17T09:16:10.204614Z"
     },
     {
       "id": "5437b024aff99b20174f07f03e75053f",
@@ -2460,36 +2535,6 @@
       "tags": [],
       "created_on": "2025-12-26T23:53:58.059446Z",
       "modified_on": "2025-12-26T23:53:58.059446Z"
-    },
-    {
-      "id": "7c3c5ea6bf9a4a1a8bd37b5a319e0ac2",
-      "name": "_acme-challenge.edge99.net",
-      "type": "TXT",
-      "content": "3WsIsuQDI9D-HCInUBVEUNF-Cncr-pa_YfrSfSBm8Kw",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-01-13T18:38:27.140292Z",
-      "modified_on": "2026-01-13T18:38:27.140292Z"
-    },
-    {
-      "id": "40d20733be9b47cfa50880c53dc39b6d",
-      "name": "_acme-challenge.edge99.net",
-      "type": "TXT",
-      "content": "N3-ycYybKF-vR8DMy5jYZmWl5JThB4iA6gH_iNFLIcI",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 120,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-01-13T18:32:37.83423Z",
-      "modified_on": "2026-01-13T18:32:37.83423Z"
     },
     {
       "id": "50165c9904db7c779f07b98e9f943b47",
