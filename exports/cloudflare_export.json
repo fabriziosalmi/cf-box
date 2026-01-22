@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -109277051,
+      "development_mode": -109363496,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -141755059,
+      "development_mode": -141841504,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -141073887,
+      "development_mode": -141160332,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -505,7 +505,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151234169,
+      "development_mode": -151320614,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -696,7 +696,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -259388907,
+      "development_mode": -259475352,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1147,21 +1147,6 @@
     }
   ],
   "dns_records": [
-    {
-      "id": "c02a0804aa3980003815e990adbd8139",
-      "name": "audiolibri.org",
-      "type": "A",
-      "content": "3.65.34.64",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 300,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-01-02T20:31:14.299213Z",
-      "modified_on": "2026-01-02T20:31:14.299213Z"
-    },
     {
       "id": "66de4cd56c98d8faddaffb325bc296bd",
       "name": "audiolibri.org",
