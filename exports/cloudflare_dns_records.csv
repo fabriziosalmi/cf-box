@@ -86,6 +86,22 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,edge-mtl.edge99.net,2025-12-26T23:53:58.741695Z,,5ec54ecccbfab0e816a744473715792a,{},2026-01-02T16:11:30.234893Z,api.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,edge-mtl.edge99.net,2026-01-05T11:23:19.93223Z,,7977c50b97c224d7845ce348cc7a170b,{},2026-01-05T11:23:19.93223Z,status.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,edge99.net,2025-12-26T23:53:58.059446Z,,b30deaebfaea39ca53c881f78bc76ed1,{},2025-12-26T23:53:58.059446Z,www.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
+,,5V6bZ7xQmby_Y2QV-xEzM03DlUK_DMhvRzDbToLH8aE,2026-02-06T00:41:32.833436Z,,950149045beecee60928218049742d48,{},2026-02-06T00:41:32.833436Z,_acme-challenge.grafana.edge99.net,,False,False,{},[],120,TXT
+,,CzAxmxVJ7tDpCIt1sl8FLTD6f8zXcnlwCezhblyJarA,2026-02-06T00:40:05.924394Z,,de551cf53f8dc06a685433b586dd81b9,{},2026-02-06T00:40:05.924394Z,_acme-challenge.grafana.edge99.net,,False,False,{},[],120,TXT
+,,jlq-INKGMZANi1t18aVHTNQ0EcNYlN_zbcQNUtZoxm0,2026-02-05T19:53:35.93078Z,,af3d2c18a82cfc1204f0f59f99d89147,{},2026-02-05T19:53:35.93078Z,_acme-challenge.grafana.edge99.net,,False,False,{},[],120,TXT
+,,9dxKOWHmG253Hldt5h2HV2dIkY7x67P68rTQDfCRdNQ,2026-02-05T16:51:22.493661Z,,19190684ccb96d63c530d93d16356cef,{},2026-02-05T16:51:22.493661Z,_acme-challenge.grafana.edge99.net,,False,False,{},[],120,TXT
+,,uvgP7Ld8JNHq8RNeSL0NWOSzegGo2gIHF2PoEK2V1CQ,2026-02-06T00:41:33.515826Z,,2b5d52d893e9967170944fafabc25284,{},2026-02-06T00:41:33.515826Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,OgfE6Zz5zEGo8BKtn6jI6LA7yV027yDQKcj76uhe8k0,2026-02-06T00:41:32.613247Z,,c6ca0d6d3fe84a672fe895a6332def42,{},2026-02-06T00:41:32.613247Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,S8HD-GVuTTEnlPjYz7pTSyrwxyi3Gc71pHuEat28hAs,2026-02-06T00:40:07.122471Z,,8b49f2202781c52fdc3823426a5e777d,{},2026-02-06T00:40:07.122471Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,F8kFhl46c0bDJRUxnFII9Ip4HNVetUKdCgv_1ic6mgk,2026-02-06T00:40:06.045268Z,,228b8f6fd6667d858582baf5cfcec246,{},2026-02-06T00:40:06.045268Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,Ug0NZC7A0Y8AqvNZMh-wlYnRXs0qBmKyWontqJ_tFuQ,2026-02-05T19:53:36.727215Z,,bd97047df2b4911ce26b78f67ed6fc63,{},2026-02-05T19:53:36.727215Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,EyyglcUM-oB11ZGTJeGkFcpTMg2l2ETfzOHpsr08zJU,2026-02-05T19:53:35.78239Z,,4ae81adda9784168e03c1642aef30c61,{},2026-02-05T19:53:35.78239Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,9OV46rrdUK8qx-QyPSt9fQAhnFjT3mK7oOBz7unAYQc,2026-02-05T16:51:23.204613Z,,62c17cd5b7ce0899c097344a4675f14a,{},2026-02-05T16:51:23.204613Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,8-DvVl5PH0GiCAaT8QZqToywmZh3N-MnqI_vJHlKH60,2026-02-05T16:51:22.684292Z,,22813af63a4164baec2eb7d631116606,{},2026-02-05T16:51:22.684292Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,jlE-iQlRZMFBQHWHrkr2U794MhiRcJDz4q6zcQyfjos,2026-02-06T00:41:33.260473Z,,025ef916e27871dfa7fe48a581d7f40a,{},2026-02-06T00:41:33.260473Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
+,,jlQ4XByO60Y15uvcvGuKYJ4xXl8QgtzcTY-Gl2PuEPc,2026-02-06T00:40:07.615909Z,,78a643b994c849eb32f87a2b6c8ed9c4,{},2026-02-06T00:40:07.615909Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
+,,9NmntgLK-tKokhjSFMPtCz_SIUDYa32kjEx737W3p_k,2026-02-05T19:53:36.475743Z,,8b3d8f468c92c145fe2096580d988988,{},2026-02-05T19:53:36.475743Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
+,,kBQGh4GqTS81yDNjwmuOH2JfTIPr295X4iSxqYVdyKY,2026-02-05T16:51:23.399664Z,,706bd58538cddb433bcdc2ae69f92b53,{},2026-02-05T16:51:23.399664Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
 ,,v=DMARC1; p=reject; rua=mailto:security@edge99.net,2025-12-26T23:53:33.496711Z,,50165c9904db7c779f07b98e9f943b47,{},2025-12-26T23:53:33.496711Z,_dmarc.edge99.net,,False,False,{},[],300,TXT
 ,,v=spf1 -all,2025-12-26T23:53:30.479433Z,,a16c9eb9ef09553088c65e46bbd67fcc,{},2025-12-26T23:53:30.479433Z,edge99.net,,False,False,{},[],300,TXT
 ,,207.180.193.100,2021-07-23T08:58:49.378112Z,,77c251b8488617268d91ee1ebd51ede5,{},2021-07-23T12:56:39.987386Z,free-tekno.com,,True,True,{},[],1,A
