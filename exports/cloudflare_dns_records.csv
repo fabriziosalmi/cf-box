@@ -119,6 +119,7 @@ test edge99,2025-12-21T11:13:17.427372Z,"""cdn-verify=Q9ieHi8xXItsNzq3YEcJ8R9aJ3
 ,,1e58dbc4-7d4f-4d5c-bf27-f801381a4fce.cfargotunnel.com,2024-06-08T18:04:10.985475Z,,7d449cbba90883fa8a14389f9a18a7a6,{},2024-06-08T18:04:10.985475Z,radio.freeundergroundtekno.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,4bHK_Yi224RlQPT3GaNFHfWNtm2reTuFAJitGpMFgM8,2018-08-07T16:10:03.300043Z,,b24f98873ca6f73f11bb06015e03a3d1,{},2018-08-07T16:10:03.300043Z,_acme-challenge.sound.freeundergroundtekno.org,,False,False,{},[],120,TXT
 ,,google-site-verification=UoPqDBPRj-_7eqBxrBhGViVVv41rzy51Zb_ZCmftsq0,2024-03-25T22:28:21.998451Z,,e302bd7fb84138a3a709507e25855226,{},2024-03-25T22:28:21.998451Z,freeundergroundtekno.org,,False,False,{},[],3600,TXT
+,,100.98.112.23,2026-02-20T08:59:49.153859Z,,edbbb21aeca4bf8ac037fabbcbeb403a,{},2026-02-20T08:59:49.153859Z,api.gpfree.org,,False,False,{},[],1,A
 ,,fc418fe6-ca4c-4b2d-988b-b2b9bddc570f.cfargotunnel.com,2025-03-21T11:57:02.473035Z,,3d0c18afd78dff56ae887d0b7f971bf0,{},2025-03-21T11:57:02.473035Z,ai.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,6bc1493d-6cb7-451c-b848-53c8a2043e65.cfargotunnel.com,2025-02-07T16:23:37.038965Z,,737420529070901f1b0cd444ebf396fd,{},2025-02-07T16:23:37.038965Z,baserow.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,eb879ac1-3924-4f69-9c6c-75f6a9e1cdb8.cfargotunnel.com,2025-04-10T17:26:36.959974Z,,2628b62f7c721d0e34d5ad5f81f94aa6,{},2025-04-10T17:26:36.959974Z,check.irrazionale.org,,True,True,{'flatten_cname': False},[],1,CNAME

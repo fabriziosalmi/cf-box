@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -111869873,
+      "development_mode": -111956144,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -144347881,
+      "development_mode": -144434152,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -143666709,
+      "development_mode": -143752980,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -567,7 +567,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153826991,
+      "development_mode": -153913262,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -758,7 +758,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -261981729,
+      "development_mode": -262068000,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3086,6 +3086,21 @@
       "tags": [],
       "created_on": "2024-03-25T22:28:21.998451Z",
       "modified_on": "2024-03-25T22:28:21.998451Z"
+    },
+    {
+      "id": "edbbb21aeca4bf8ac037fabbcbeb403a",
+      "name": "api.gpfree.org",
+      "type": "A",
+      "content": "100.98.112.23",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-02-20T08:59:49.153859Z",
+      "modified_on": "2026-02-20T08:59:49.153859Z"
     },
     {
       "id": "3d0c18afd78dff56ae887d0b7f971bf0",
