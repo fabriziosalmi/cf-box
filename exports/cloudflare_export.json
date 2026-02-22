@@ -48,7 +48,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -111956144,
+      "development_mode": -112042700,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +373,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -144434152,
+      "development_mode": -144520708,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +438,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -143752980,
+      "development_mode": -143839536,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -567,7 +567,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153913262,
+      "development_mode": -153999818,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -758,7 +758,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -262068000,
+      "development_mode": -262154556,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3101,6 +3101,21 @@
       "tags": [],
       "created_on": "2026-02-20T08:59:49.153859Z",
       "modified_on": "2026-02-20T08:59:49.153859Z"
+    },
+    {
+      "id": "1e6f56fe27885e57eb13a67f8a68d1d6",
+      "name": "_acme-challenge.test.gpfree.org",
+      "type": "TXT",
+      "content": "k_0Xb4ijdiRHwHmDqa0RR4hPf3IGxCpiG5WEQ1yxvB4",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-02-21T07:38:57.479193Z",
+      "modified_on": "2026-02-21T07:38:57.479193Z"
     },
     {
       "id": "3d0c18afd78dff56ae887d0b7f971bf0",
