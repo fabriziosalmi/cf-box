@@ -43,12 +43,74 @@
   ],
   "zones": [
     {
+      "id": "a295e475bc4016ddb9f581b3a74ec56c",
+      "name": "aidevhost.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-03-08T15:19:19.263174Z",
+      "created_on": "2026-03-08T15:19:13.410890Z",
+      "activated_on": "2026-03-08T15:19:19.112955Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "89138fdb929b183b831d77190c638733",
       "name": "audiolibri.org",
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -113252218,
+      "development_mode": -113338717,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -373,7 +435,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145730226,
+      "development_mode": -145816725,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -438,7 +500,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145049054,
+      "development_mode": -145135553,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -567,7 +629,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155209336,
+      "development_mode": -155295835,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -758,7 +820,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -263364074,
+      "development_mode": -263450573,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1209,6 +1271,23 @@
     }
   ],
   "dns_records": [
+    {
+      "id": "7c927eef9664b42ce0e8b22e4c434a06",
+      "name": "minerva.aidevhost.com",
+      "type": "CNAME",
+      "content": "936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-08T15:21:59.158817Z",
+      "modified_on": "2026-03-08T15:21:59.158817Z"
+    },
     {
       "id": "0a390863d7e4ba6904c5205f98a2a5d2",
       "name": "audiolibri.org",
