@@ -8,8 +8,7 @@
         "enforce_twofactor": false,
         "api_access_enabled": null,
         "access_approval_expiry": null,
-        "abuse_contact_email": null,
-        "user_groups_ui_beta": false
+        "abuse_contact_email": null
       },
       "legacy_flags": {
         "enterprise_zone_quota": {
@@ -28,8 +27,7 @@
         "enforce_twofactor": false,
         "api_access_enabled": null,
         "access_approval_expiry": null,
-        "abuse_contact_email": null,
-        "user_groups_ui_beta": false
+        "abuse_contact_email": null
       },
       "legacy_flags": {
         "enterprise_zone_quota": {
@@ -110,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -113944265,
+      "development_mode": -114029906,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -435,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146422273,
+      "development_mode": -146507914,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -500,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145741101,
+      "development_mode": -145826742,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -629,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155901383,
+      "development_mode": -155987024,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -820,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -264056121,
+      "development_mode": -264141762,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
