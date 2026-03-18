@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -114029906,
+      "development_mode": -114116536,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146507914,
+      "development_mode": -146594544,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145826742,
+      "development_mode": -145913372,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155987024,
+      "development_mode": -156073654,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -264141762,
+      "development_mode": -264228392,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2936,6 +2936,63 @@
       "modified_on": "2026-02-20T08:59:49.153859Z"
     },
     {
+      "id": "6df38438ed98575475bb7af5da9b052f",
+      "name": "gpfree.org",
+      "type": "MX",
+      "content": "route3.mx.cloudflare.net",
+      "priority": 58,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-17T08:01:10.699402Z",
+      "modified_on": "2026-03-17T08:01:10.699402Z"
+    },
+    {
+      "id": "f64d87e376a39c1368fe6b9b90cd0878",
+      "name": "gpfree.org",
+      "type": "MX",
+      "content": "route2.mx.cloudflare.net",
+      "priority": 66,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-17T08:01:10.692178Z",
+      "modified_on": "2026-03-17T08:01:10.692178Z"
+    },
+    {
+      "id": "275da995ff6365d00940949c3be096b7",
+      "name": "gpfree.org",
+      "type": "MX",
+      "content": "route1.mx.cloudflare.net",
+      "priority": 84,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-17T08:01:10.680447Z",
+      "modified_on": "2026-03-17T08:01:10.680447Z"
+    },
+    {
       "id": "1e6f56fe27885e57eb13a67f8a68d1d6",
       "name": "_acme-challenge.test.gpfree.org",
       "type": "TXT",
@@ -2949,6 +3006,39 @@
       "tags": [],
       "created_on": "2026-02-21T07:38:57.479193Z",
       "modified_on": "2026-02-21T07:38:57.479193Z"
+    },
+    {
+      "id": "ff1e8a2b3b519ad9d2de65b8ae8e3b55",
+      "name": "cf2024-1._domainkey.gpfree.org",
+      "type": "TXT",
+      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {
+        "email_routing": true,
+        "read_only": true
+      },
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-17T08:01:10.715552Z",
+      "modified_on": "2026-03-17T08:01:10.715552Z"
+    },
+    {
+      "id": "2af0ef773ef2ff3152c24f73ac22bf8f",
+      "name": "gpfree.org",
+      "type": "TXT",
+      "content": "\"v=spf1 include:_spf.mx.cloudflare.net ~all\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-17T08:01:10.707662Z",
+      "modified_on": "2026-03-17T08:01:10.707662Z"
     },
     {
       "id": "3d0c18afd78dff56ae887d0b7f971bf0",
