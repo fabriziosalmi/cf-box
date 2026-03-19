@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -114116536,
+      "development_mode": -114202910,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146594544,
+      "development_mode": -146680918,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -145913372,
+      "development_mode": -145999746,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156073654,
+      "development_mode": -156160028,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -264228392,
+      "development_mode": -264314766,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2936,6 +2936,51 @@
       "modified_on": "2026-02-20T08:59:49.153859Z"
     },
     {
+      "id": "d49d2505c54a34c8d0eaf609450cbac3",
+      "name": "fabgpt.gpfree.org",
+      "type": "A",
+      "content": "100.98.112.23",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-18T15:05:00.060864Z",
+      "modified_on": "2026-03-18T15:05:00.060864Z"
+    },
+    {
+      "id": "e99f0b8d3a12de61ff7d1730f6ad3fac",
+      "name": "staging.fabgpt.gpfree.org",
+      "type": "A",
+      "content": "100.98.112.23",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-18T15:10:56.641008Z",
+      "modified_on": "2026-03-18T15:10:56.641008Z"
+    },
+    {
+      "id": "2595a127a68f984ca81d16e940bd2e2d",
+      "name": "wp.fabgpt.gpfree.org",
+      "type": "A",
+      "content": "100.98.112.23",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-18T15:10:57.310013Z",
+      "modified_on": "2026-03-18T15:10:57.310013Z"
+    },
+    {
       "id": "6df38438ed98575475bb7af5da9b052f",
       "name": "gpfree.org",
       "type": "MX",
@@ -3024,6 +3069,21 @@
       "tags": [],
       "created_on": "2026-03-17T08:01:10.715552Z",
       "modified_on": "2026-03-17T08:01:10.715552Z"
+    },
+    {
+      "id": "71dad7b6a76441275f93940f5f584af7",
+      "name": "_dmarc.gpfree.org",
+      "type": "TXT",
+      "content": "\"v=DMARC1; p=none; rua=mailto:afb2208a49064786b1617b79c046dd42@dmarc-reports.cloudflare.net\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-18T22:57:53.210752Z",
+      "modified_on": "2026-03-18T22:57:53.210752Z"
     },
     {
       "id": "2af0ef773ef2ff3152c24f73ac22bf8f",
