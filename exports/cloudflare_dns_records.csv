@@ -29,6 +29,7 @@ comment,content,created_on,data,id,meta,modified_on,name,priority,proxiable,prox
 ,rwmt1.dkim.smtp.mailtrap.live,2025-12-13T22:11:55.025852Z,,ccd0fad434ee2c4e055b1a7cb0956b45,{},2025-12-13T22:11:55.025852Z,rwmt1._domainkey.cyberapi.io,,True,False,{'flatten_cname': False},[],1,CNAME
 ,rwmt2.dkim.smtp.mailtrap.live,2025-12-13T22:12:08.865348Z,,52fdc262a215ba1f26603dc583c60d4f,{},2025-12-13T22:12:08.865348Z,rwmt2._domainkey.cyberapi.io,,True,False,{'flatten_cname': False},[],1,CNAME
 ,55ceafb0-4a30-44ad-bacf-5eb5ad8bea7a.cfargotunnel.com,2025-12-14T09:25:35.097237Z,,c2c1e12b0279dfa45e834f0d8037b56e,{},2025-12-14T09:25:35.097237Z,threats.cyberapi.io,,True,True,{'flatten_cname': False},[],1,CNAME
+,fabriziosalmi.github.io,2026-03-20T23:15:01.418274Z,,7c6a37903c87660f3d481dcaaf4c58a0,{},2026-03-20T23:17:35.94124Z,turnstile.cyberapi.io,,True,True,{'flatten_cname': False},[],1,CNAME
 ,cyberapi-io.github.io,2025-12-14T09:25:51.190941Z,,29ccad680b767f5ed8fe5bd90e60f329,{},2025-12-14T18:31:58.065225Z,www.cyberapi.io,,True,False,{'flatten_cname': False},[],1,CNAME
 ,route3.mx.cloudflare.net,2025-12-13T22:19:39.326547Z,,b19c130de4a8b16f9ed4e6de341b1df4,"{'email_routing': True, 'read_only': True}",2025-12-13T22:19:39.326547Z,cyberapi.io,80,False,False,{},[],1,MX
 ,route2.mx.cloudflare.net,2025-12-13T22:19:39.315811Z,,3a04d418a0cd0940c289eb2ee57e8f05,"{'email_routing': True, 'read_only': True}",2025-12-13T22:19:39.315811Z,cyberapi.io,60,False,False,{},[],1,MX
