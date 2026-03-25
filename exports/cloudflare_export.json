@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -114634704,
+      "development_mode": -114721157,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -147112712,
+      "development_mode": -147199165,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146431540,
+      "development_mode": -146517993,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156591822,
+      "development_mode": -156678275,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -264746560,
+      "development_mode": -264833013,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1708,6 +1708,176 @@
       "tags": [],
       "created_on": "2025-12-13T22:12:37.111487Z",
       "modified_on": "2025-12-13T22:12:37.111487Z"
+    },
+    {
+      "id": "e5fcf6b15716297a5d2186248ae9a854",
+      "name": "poc.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T15:03:26.738652Z",
+      "modified_on": "2026-03-24T15:03:26.738652Z"
+    },
+    {
+      "id": "bb75a13b8424957f2cd4a7f9164fd5fc",
+      "name": "poc-t1.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:46:50.475317Z",
+      "modified_on": "2026-03-24T18:46:50.475317Z"
+    },
+    {
+      "id": "8ab7f7eaa8373b1d744d670f479d2c84",
+      "name": "poc-t2.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:47:03.486962Z",
+      "modified_on": "2026-03-24T18:47:03.486962Z"
+    },
+    {
+      "id": "864de75a873870b7681170b09d376c13",
+      "name": "poc-t3.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:47:16.170381Z",
+      "modified_on": "2026-03-24T18:47:16.170381Z"
+    },
+    {
+      "id": "1b02a47cd362942d252c1b985894c35a",
+      "name": "poc-t4.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:47:28.310851Z",
+      "modified_on": "2026-03-24T18:47:28.310851Z"
+    },
+    {
+      "id": "495419b8c428fd1f648d0429a17fbe1c",
+      "name": "poc-t5.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:47:40.134902Z",
+      "modified_on": "2026-03-24T18:47:40.134902Z"
+    },
+    {
+      "id": "c299e7513c4d25b2081f73236040cc69",
+      "name": "poc-t6.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:47:52.211476Z",
+      "modified_on": "2026-03-24T18:47:52.211476Z"
+    },
+    {
+      "id": "e4b3c7c208e20ea21ab013bc9f77dbe2",
+      "name": "poc-t7.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:48:04.17506Z",
+      "modified_on": "2026-03-24T18:48:04.17506Z"
+    },
+    {
+      "id": "86c96588cc20e61f4af5ebd8e1953428",
+      "name": "poc-t8.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T18:48:15.747165Z",
+      "modified_on": "2026-03-24T18:48:15.747165Z"
+    },
+    {
+      "id": "1f850c9b67a0858a6353fee6f9a9fd91",
+      "name": "recaptcha.cyberapi.io",
+      "type": "CNAME",
+      "content": "9484c24d-3a2d-403a-80cd-9ec78cb0870c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-24T16:44:36.25606Z",
+      "modified_on": "2026-03-24T16:44:36.25606Z"
     },
     {
       "id": "ccd0fad434ee2c4e055b1a7cb0956b45",
