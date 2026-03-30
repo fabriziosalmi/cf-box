@@ -10,6 +10,7 @@ comment,content,created_on,data,id,meta,modified_on,name,priority,proxiable,prox
 ,46.250.245.74,2025-12-27T19:42:18.539481Z,,401726adb31f75b18399e2039d73d307,{},2026-02-23T09:21:06.591532Z,www.audiolibri.org,,True,False,{},[],60,A
 ,"0 issuewild ""letsencrypt.org""",2026-02-23T09:20:59.121899Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",34ee6ce7fd8c2150087754ee41b63f09,{},2026-02-23T09:20:59.121899Z,audiolibri.org,,False,False,{},[],300,CAA
 ,"0 issue ""letsencrypt.org""",2026-02-23T09:20:58.143923Z,"{'flags': 0, 'tag': 'issue', 'value': 'letsencrypt.org'}",78cb4ae468fd7f7d2458590baccba8eb,{},2026-02-23T09:20:58.143923Z,audiolibri.org,,False,False,{},[],300,CAA
+,u0r8f2zhwT-M2O_kj3315TrScc29-R7LlP7PVb_dBPI,2026-03-29T17:57:07.71633Z,,371757d3dbe711ba7988b68768b3e3a0,{},2026-03-29T17:57:07.71633Z,_acme-challenge.audiolibri.org,,False,False,{},[],120,TXT
 ,v=spf1 -all,2022-01-24T18:09:26.735522Z,,c4b015ebb6540fa1c64482131c937ad9,{},2026-02-23T09:20:57.512009Z,audiolibri.org,,False,False,{},[],300,TXT
 ,v=DMARC1; p=reject,2022-01-24T18:09:38.385312Z,,8123b69792536eda89581575fc5e6501,{},2026-02-23T09:21:01.139092Z,_dmarc.audiolibri.org,,False,False,{},[],300,TXT
 ,185.199.109.153,2025-07-01T16:44:05.723652Z,,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
@@ -97,6 +98,7 @@ comment,content,created_on,data,id,meta,modified_on,name,priority,proxiable,prox
 ,rwmt2.dkim.smtp.mailtrap.live,2026-02-23T09:20:40.95412Z,,3a44fa70856ae275d73da486bc402e96,{},2026-02-23T09:20:40.95412Z,rwmt2._domainkey.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,edge-mtl.edge99.net,2026-01-05T11:23:19.93223Z,,7977c50b97c224d7845ce348cc7a170b,{},2026-01-05T11:23:19.93223Z,status.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,edge99.net,2025-12-26T23:53:58.059446Z,,b30deaebfaea39ca53c881f78bc76ed1,{},2025-12-26T23:53:58.059446Z,www.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
+,IcouZ6dYLaD86rXg5YlVT6l_DoF8vjmm3F9AzZfLQv0,2026-03-29T17:41:13.177706Z,,1b6fdf2a3c08989b9bf929449193dca0,{},2026-03-29T17:41:13.177706Z,_acme-challenge.edge99.net,,False,False,{},[],120,TXT
 ,v=DMARC1; p=reject; rua=mailto:security@edge99.net,2025-12-26T23:53:33.496711Z,,50165c9904db7c779f07b98e9f943b47,{},2025-12-26T23:53:33.496711Z,_dmarc.edge99.net,,False,False,{},[],300,TXT
 ,v=spf1 -all,2025-12-26T23:53:30.479433Z,,a16c9eb9ef09553088c65e46bbd67fcc,{},2025-12-26T23:53:30.479433Z,edge99.net,,False,False,{},[],300,TXT
 ,207.180.193.100,2021-07-23T08:58:49.378112Z,,77c251b8488617268d91ee1ebd51ede5,{},2021-07-23T12:56:39.987386Z,free-tekno.com,,True,True,{},[],1,A

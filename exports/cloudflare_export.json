@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -115071666,
+      "development_mode": -115158897,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -147549674,
+      "development_mode": -147636905,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -146868502,
+      "development_mode": -146955733,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -157028784,
+      "development_mode": -157116015,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -265183522,
+      "development_mode": -265270753,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1445,6 +1445,21 @@
       "tags": [],
       "created_on": "2026-02-23T09:20:58.143923Z",
       "modified_on": "2026-02-23T09:20:58.143923Z"
+    },
+    {
+      "id": "371757d3dbe711ba7988b68768b3e3a0",
+      "name": "_acme-challenge.audiolibri.org",
+      "type": "TXT",
+      "content": "u0r8f2zhwT-M2O_kj3315TrScc29-R7LlP7PVb_dBPI",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-29T17:57:07.71633Z",
+      "modified_on": "2026-03-29T17:57:07.71633Z"
     },
     {
       "id": "c4b015ebb6540fa1c64482131c937ad9",
@@ -2842,6 +2857,21 @@
       "tags": [],
       "created_on": "2025-12-26T23:53:58.059446Z",
       "modified_on": "2025-12-26T23:53:58.059446Z"
+    },
+    {
+      "id": "1b6fdf2a3c08989b9bf929449193dca0",
+      "name": "_acme-challenge.edge99.net",
+      "type": "TXT",
+      "content": "IcouZ6dYLaD86rXg5YlVT6l_DoF8vjmm3F9AzZfLQv0",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-03-29T17:41:13.177706Z",
+      "modified_on": "2026-03-29T17:41:13.177706Z"
     },
     {
       "id": "50165c9904db7c779f07b98e9f943b47",
