@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -116449946,
+      "development_mode": -116536333,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -148927954,
+      "development_mode": -149014341,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -148246782,
+      "development_mode": -148333169,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -158407064,
+      "development_mode": -158493451,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -266561802,
+      "development_mode": -266648189,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1347,6 +1347,23 @@
       "tags": [],
       "created_on": "2026-03-08T15:21:59.158817Z",
       "modified_on": "2026-03-08T15:21:59.158817Z"
+    },
+    {
+      "id": "0397fc473b0d26aec2c986e742f1fc22",
+      "name": "mnrv.aidevhost.com",
+      "type": "CNAME",
+      "content": "7ccc8d68-cac2-4c34-8cd6-2d0351b4d37e.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-04-14T08:16:41.823299Z",
+      "modified_on": "2026-04-14T08:16:41.823299Z"
     },
     {
       "id": "0a390863d7e4ba6904c5205f98a2a5d2",
