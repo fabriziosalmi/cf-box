@@ -1,19 +1,32 @@
-cache
-__pycache__
+# Cache and temporary
+cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Reports
 reports/
+htmlcov/
+.coverage
+
+# Build and Distribution
 *.egg-info/
 dist/
 build/
-.pytest_cache/
-.coverage
-htmlcov/
-.mypy_cache/
-.ruff_cache/
-*.pyc
-*.pyo
-*.pyd
 .Python
+
+# Environments
 env/
 venv/
 ENV/
-.venv
+.venv/
+.env
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
