@@ -108,7 +108,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -118005413,
+      "development_mode": -118092588,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -433,7 +433,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150483421,
+      "development_mode": -150570596,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -498,7 +498,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -149802249,
+      "development_mode": -149889424,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -627,7 +627,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -159962531,
+      "development_mode": -160049706,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -818,7 +818,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -268117269,
+      "development_mode": -268204444,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1367,6 +1367,24 @@
       "comment_modified_on": "2026-04-15T20:55:30.46428Z"
     },
     {
+      "id": "8846758816f8bad11a7a46eb58498e7c",
+      "name": "minerva-gcp.aidevhost.com",
+      "type": "CNAME",
+      "content": "d01e442f-e4cd-4805-a504-85eb77797b3a.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": "Managed by Terraform \u2014 Rollback access for migration 2026-05-02 (remove T+7)",
+      "tags": [],
+      "created_on": "2026-05-02T19:25:30.420813Z",
+      "modified_on": "2026-05-02T19:25:30.420813Z",
+      "comment_modified_on": "2026-05-02T19:25:30.420813Z"
+    },
+    {
       "id": "2955ed5367089c641216b296f48c5402",
       "name": "minerva-preprod.aidevhost.com",
       "type": "CNAME",
@@ -1387,7 +1405,7 @@
       "id": "167eaa4b6cdb7183cbe6b40c8be16541",
       "name": "minerva-prod.aidevhost.com",
       "type": "CNAME",
-      "content": "d01e442f-e4cd-4805-a504-85eb77797b3a.cfargotunnel.com",
+      "content": "f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com",
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
@@ -1398,25 +1416,8 @@
       "comment": "Managed by Terraform \u2014 Minerva prod via Cloudflare Tunnel",
       "tags": [],
       "created_on": "2026-04-15T18:52:55.235456Z",
-      "modified_on": "2026-04-15T18:52:55.235456Z",
+      "modified_on": "2026-05-02T21:28:44.063604Z",
       "comment_modified_on": "2026-04-15T18:52:55.235456Z"
-    },
-    {
-      "id": "0397fc473b0d26aec2c986e742f1fc22",
-      "name": "mnrv.aidevhost.com",
-      "type": "CNAME",
-      "content": "7ccc8d68-cac2-4c34-8cd6-2d0351b4d37e.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-04-14T08:16:41.823299Z",
-      "modified_on": "2026-04-14T08:16:41.823299Z"
     },
     {
       "id": "0a390863d7e4ba6904c5205f98a2a5d2",
