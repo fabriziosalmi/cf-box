@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -118697548,
+      "development_mode": -118784261,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -306,6 +306,68 @@
       }
     },
     {
+      "id": "c29bb702cf0279d4ee9a3a73ab3a9b25",
+      "name": "dayme.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-05-10T10:49:03.306951Z",
+      "created_on": "2026-05-10T10:48:57.369889Z",
+      "activated_on": "2026-05-10T10:49:03.108428Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "c4227e56857d24e7c4e0e8ee1791f90b",
       "name": "domenicosmargiassi.com",
       "status": "active",
@@ -435,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151175556,
+      "development_mode": -151262269,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -500,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150494384,
+      "development_mode": -150581097,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -629,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160654666,
+      "development_mode": -160741379,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -820,7 +882,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -268809404,
+      "development_mode": -268896117,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
