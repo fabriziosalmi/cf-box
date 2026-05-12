@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -118784261,
+      "development_mode": -118870034,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151262269,
+      "development_mode": -151348042,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -150581097,
+      "development_mode": -150666870,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160741379,
+      "development_mode": -160827152,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -882,7 +882,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -268896117,
+      "development_mode": -268981890,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1093,6 +1093,68 @@
       "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "b739bfc650c30010eaa2c5595294c198",
+      "name": "txt2vst.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-05-11T22:01:04.769354Z",
+      "created_on": "2026-05-11T19:03:52.705621Z",
+      "activated_on": "2026-05-11T19:03:58.811617Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
@@ -1395,23 +1457,6 @@
     }
   ],
   "dns_records": [
-    {
-      "id": "7c927eef9664b42ce0e8b22e4c434a06",
-      "name": "minerva.aidevhost.com",
-      "type": "CNAME",
-      "content": "936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-03-08T15:21:59.158817Z",
-      "modified_on": "2026-03-08T15:21:59.158817Z"
-    },
     {
       "id": "2c36fa790545cbccce9526eeafbce666",
       "name": "minerva-dev.aidevhost.com",
@@ -4867,6 +4912,38 @@
       "tags": [],
       "created_on": "2022-12-12T15:42:56.669675Z",
       "modified_on": "2022-12-12T15:42:56.669675Z"
+    },
+    {
+      "id": "f24ad5153aa35ff9aa2dcbccf822051c",
+      "name": "txt2vst.com",
+      "type": "A",
+      "content": "192.0.2.1",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": "Created during Cloudflare Rules deployment process for page_rules",
+      "tags": [],
+      "created_on": "2026-05-11T19:37:07.379818Z",
+      "modified_on": "2026-05-11T19:37:07.379818Z",
+      "comment_modified_on": "2026-05-11T19:37:07.379818Z"
+    },
+    {
+      "id": "614d74460e6074a1b082554768e4fb65",
+      "name": "www.txt2vst.com",
+      "type": "A",
+      "content": "185.199.110.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": "GiiHub Pages",
+      "tags": [],
+      "created_on": "2026-05-11T19:35:38.524857Z",
+      "modified_on": "2026-05-11T21:59:15.337255Z",
+      "comment_modified_on": "2026-05-11T19:35:38.524857Z"
     },
     {
       "id": "6c874506c8ce87bd95aeb7af511402a4",
