@@ -16,6 +16,7 @@ Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.
 ,,u0r8f2zhwT-M2O_kj3315TrScc29-R7LlP7PVb_dBPI,2026-03-29T17:57:07.71633Z,,371757d3dbe711ba7988b68768b3e3a0,{},2026-03-29T17:57:07.71633Z,_acme-challenge.audiolibri.org,,False,False,{},[],120,TXT
 ,,v=spf1 -all,2022-01-24T18:09:26.735522Z,,c4b015ebb6540fa1c64482131c937ad9,{},2026-02-23T09:20:57.512009Z,audiolibri.org,,False,False,{},[],300,TXT
 ,,v=DMARC1; p=reject,2022-01-24T18:09:38.385312Z,,8123b69792536eda89581575fc5e6501,{},2026-02-23T09:21:01.139092Z,_dmarc.audiolibri.org,,False,False,{},[],300,TXT
+Created during Cloudflare Rules deployment process for Redirect from root to WWW [Template],2026-05-16T07:34:19.256429Z,192.0.2.1,2026-05-16T07:34:19.256429Z,,d173ba5139b4f9f794a65a183fd4a962,{},2026-05-16T07:34:19.256429Z,certmate.org,,True,True,{},[],1,A
 ,,185.199.109.153,2025-07-01T16:44:05.723652Z,,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
 ,,route3.mx.cloudflare.net,2025-07-01T21:19:12.571955Z,,9a0c1ea7682256e45af5f83341fb113e,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.571955Z,certmate.org,34,False,False,{},[],1,MX
 ,,route2.mx.cloudflare.net,2025-07-01T21:19:12.566821Z,,aecf0cef3bc28aa58695c24be19d992c,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.566821Z,certmate.org,19,False,False,{},[],1,MX

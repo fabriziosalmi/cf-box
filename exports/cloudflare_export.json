@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -119215442,
+      "development_mode": -119302541,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -190,7 +190,7 @@
       ],
       "original_registrar": "name.com, inc. (id: 625)",
       "original_dnshost": null,
-      "modified_on": "2025-07-05T11:41:23.351217Z",
+      "modified_on": "2026-05-16T07:36:38.352212Z",
       "created_on": "2025-07-01T09:02:08.953756Z",
       "activated_on": "2025-07-01T09:11:49.008276Z",
       "vanity_name_servers": [],
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151693450,
+      "development_mode": -151780549,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151012278,
+      "development_mode": -151099377,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -161172560,
+      "development_mode": -161259659,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -882,7 +882,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -269327298,
+      "development_mode": -269414397,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1732,6 +1732,22 @@
       "tags": [],
       "created_on": "2022-01-24T18:09:38.385312Z",
       "modified_on": "2026-02-23T09:21:01.139092Z"
+    },
+    {
+      "id": "d173ba5139b4f9f794a65a183fd4a962",
+      "name": "certmate.org",
+      "type": "A",
+      "content": "192.0.2.1",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": "Created during Cloudflare Rules deployment process for Redirect from root to WWW [Template]",
+      "tags": [],
+      "created_on": "2026-05-16T07:34:19.256429Z",
+      "modified_on": "2026-05-16T07:34:19.256429Z",
+      "comment_modified_on": "2026-05-16T07:34:19.256429Z"
     },
     {
       "id": "8a036c1d5ddf43f61d7d48e78f41f72c",
