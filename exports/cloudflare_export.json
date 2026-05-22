@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -119648455,
+      "development_mode": -119734654,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -152126463,
+      "development_mode": -152212662,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151445291,
+      "development_mode": -151531490,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -161605573,
+      "development_mode": -161691772,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -882,7 +882,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -269760311,
+      "development_mode": -269846510,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -4620,117 +4620,6 @@
       "modified_on": "2025-04-23T08:34:01.380912Z"
     },
     {
-      "id": "c7df12561d64e4e680c6b0859c123f99",
-      "name": "imap.rivoluzioneinformatica.org",
-      "type": "A",
-      "content": "185.182.185.194",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-05-22T11:08:51.308823Z",
-      "modified_on": "2022-05-22T11:08:51.308823Z"
-    },
-    {
-      "id": "e95c85414a6c93e847a2755df7c16cf0",
-      "name": "mail.rivoluzioneinformatica.org",
-      "type": "A",
-      "content": "185.182.185.194",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-05-22T10:15:04.05472Z",
-      "modified_on": "2022-05-22T10:15:04.05472Z"
-    },
-    {
-      "id": "6834f98896056a837138409566211327",
-      "name": "smtp.rivoluzioneinformatica.org",
-      "type": "A",
-      "content": "185.182.185.194",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-05-22T11:08:43.086179Z",
-      "modified_on": "2022-05-22T11:08:43.086179Z"
-    },
-    {
-      "id": "ba18f2da24401c4bc0c2ed6444470ab3",
-      "name": "webmail.rivoluzioneinformatica.org",
-      "type": "A",
-      "content": "185.182.185.194",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-05-22T08:24:00.700773Z",
-      "modified_on": "2022-05-22T08:24:00.700773Z"
-    },
-    {
-      "id": "37bbd8bcff79b84679e1be20a97fbd4f",
-      "name": "git.rivoluzioneinformatica.org",
-      "type": "CNAME",
-      "content": "b98dd568-bdbf-415a-8894-f30bb5bbbf91.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2025-01-29T00:26:34.637101Z",
-      "modified_on": "2025-01-29T00:26:34.637101Z"
-    },
-    {
-      "id": "eb220c9fb1df30719c788ef51fe312f6",
-      "name": "npm.rivoluzioneinformatica.org",
-      "type": "CNAME",
-      "content": "692501dc-d195-4f10-b0a7-11a71a4cef78.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-02-09T11:43:38.114483Z",
-      "modified_on": "2022-02-09T11:43:38.114483Z"
-    },
-    {
-      "id": "9feadf111b5434fd8dd2b41f8008ca09",
-      "name": "proxmox.rivoluzioneinformatica.org",
-      "type": "CNAME",
-      "content": "4436d941-eff4-4134-91a8-c5400be27423.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-12-12T15:18:23.651021Z",
-      "modified_on": "2022-12-12T15:18:23.651021Z"
-    },
-    {
       "id": "236f1b867d3720d5dd29c6af49782d62",
       "name": "rivoluzioneinformatica.org",
       "type": "CNAME",
@@ -4746,23 +4635,6 @@
       "tags": [],
       "created_on": "2023-11-10T15:34:50.070177Z",
       "modified_on": "2023-11-10T15:34:50.070177Z"
-    },
-    {
-      "id": "7c6da25c8e1e486da458cd5373402382",
-      "name": "vpn.rivoluzioneinformatica.org",
-      "type": "CNAME",
-      "content": "faa2f03f-72a7-4812-a2f9-18c9db40c328.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-02-11T13:51:31.288382Z",
-      "modified_on": "2023-02-11T13:51:31.288382Z"
     },
     {
       "id": "3045396196bc00b6e05726f94825c6bd",
@@ -4782,96 +4654,84 @@
       "modified_on": "2022-08-17T08:59:41.92016Z"
     },
     {
-      "id": "25f714bcbfe5ff8215c314a503379edc",
-      "name": "xmq.rivoluzioneinformatica.org",
-      "type": "CNAME",
-      "content": "faa2f03f-72a7-4812-a2f9-18c9db40c328.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
+      "id": "b5267bc0a8cafb0e4fe5d67a47c657f7",
+      "name": "rivoluzioneinformatica.org",
+      "type": "MX",
+      "content": "alt3.aspmx.l.google.com",
+      "priority": 10,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2023-02-07T20:14:06.346543Z",
-      "modified_on": "2023-02-07T20:14:06.346543Z"
+      "created_on": "2026-05-21T15:29:10.282836Z",
+      "modified_on": "2026-05-21T15:29:10.282836Z"
     },
     {
-      "id": "3a2fa8fe309047db5c79bf90a17c2580",
+      "id": "45b98d4f99bef0d0244aeb72994b04ad",
       "name": "rivoluzioneinformatica.org",
       "type": "MX",
-      "content": "amir.mx.cloudflare.net",
-      "priority": 40,
+      "content": "alt2.aspmx.l.google.com",
+      "priority": 5,
       "proxiable": false,
       "proxied": false,
-      "ttl": 1,
+      "ttl": 3600,
       "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
+      "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2023-06-12T11:01:48.035723Z",
-      "modified_on": "2023-06-12T11:01:48.035723Z"
+      "created_on": "2026-05-21T15:29:09.812133Z",
+      "modified_on": "2026-05-21T15:29:09.812133Z"
     },
     {
-      "id": "177c0d9e3950bcc6a4ede7696aacb0a7",
+      "id": "808d04342d6b0c756b632b36eb22b8ea",
       "name": "rivoluzioneinformatica.org",
       "type": "MX",
-      "content": "linda.mx.cloudflare.net",
-      "priority": 90,
+      "content": "alt1.aspmx.l.google.com",
+      "priority": 5,
       "proxiable": false,
       "proxied": false,
-      "ttl": 1,
+      "ttl": 3600,
       "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
+      "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2023-06-12T11:01:48.026902Z",
-      "modified_on": "2023-06-12T11:01:48.026902Z"
+      "created_on": "2026-05-21T15:29:09.806824Z",
+      "modified_on": "2026-05-21T15:29:09.806824Z"
     },
     {
-      "id": "bcd73d5a0e03a2593be162cd5259a678",
+      "id": "36102309d0075c458692b3c5c30a9eda",
       "name": "rivoluzioneinformatica.org",
       "type": "MX",
-      "content": "isaac.mx.cloudflare.net",
-      "priority": 97,
+      "content": "alt4.aspmx.l.google.com",
+      "priority": 10,
       "proxiable": false,
       "proxied": false,
-      "ttl": 1,
+      "ttl": 3600,
       "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
+      "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2023-06-12T11:01:48.018567Z",
-      "modified_on": "2023-06-12T11:01:48.018567Z"
+      "created_on": "2026-05-21T15:29:09.80306Z",
+      "modified_on": "2026-05-21T15:29:09.80306Z"
     },
     {
-      "id": "e6ffaf786ff743b47650f73557b07b66",
-      "name": "cf2024-1._domainkey.rivoluzioneinformatica.org",
-      "type": "TXT",
-      "content": "\"v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiweykoi+o48IOGuP7GR3X0MOExCUDY/BCRHoWBnh3rChl7WhdyCxW3jgq1daEjPPqoi7sJvdg5hEQVsgVRQP4DcnQDVjGMbASQtrY4WmB1VebF+RPJB2ECPsEDTpeiI5ZyUAwJaVX7r6bznU67g7LvFq35yIo4sdlmtZGV+i0H4cpYH9+3JJ78k\" \"m4KXwaf9xUJCWF6nxeD+qG6Fyruw1Qlbds2r85U9dkNDVAS3gioCvELryh1TxKGiVTkg4wqHTyHfWsp7KD3WQHYJn0RyfJJu6YEmL77zonn7p2SRMvTMP3ZEXibnC9gz3nnhR6wcYL8Q7zXypKTMD58bTixDSJwIDAQAB\"",
+      "id": "f0c7bdb19037e760a1a18b016f9782cf",
+      "name": "rivoluzioneinformatica.org",
+      "type": "MX",
+      "content": "aspmx.l.google.com",
+      "priority": 1,
       "proxiable": false,
       "proxied": false,
-      "ttl": 1,
+      "ttl": 3600,
       "settings": {},
-      "meta": {
-        "email_routing": true,
-        "read_only": true
-      },
+      "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-03-13T15:24:01.244511Z",
-      "modified_on": "2025-03-13T15:24:01.244511Z"
+      "created_on": "2026-05-21T15:29:09.797148Z",
+      "modified_on": "2026-05-21T15:29:09.797148Z"
     },
     {
       "id": "6bad42a7eedda28b7979d37d8e66d6d8",
@@ -4889,6 +4749,36 @@
       "modified_on": "2022-05-22T11:09:18.092063Z"
     },
     {
+      "id": "1c3a478f6023a8c409bc803352946fb3",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "\"v=spf1 include:_spf.google.com ~all\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-05-21T15:29:09.801669Z",
+      "modified_on": "2026-05-21T15:29:09.801669Z"
+    },
+    {
+      "id": "3b9cdd1a543f2c0d545d4e5509ea7528",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "\"google-site-verification=VWB6jK3eIsqHscozQue_cLwdGjlOKpbufM3bjYl4GLo\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-05-21T14:38:49.454707Z",
+      "modified_on": "2026-05-21T14:38:49.454707Z"
+    },
+    {
       "id": "2a74f92cf716979d913217d640655261",
       "name": "rivoluzioneinformatica.org",
       "type": "TXT",
@@ -4902,21 +4792,6 @@
       "tags": [],
       "created_on": "2023-11-09T20:49:42.435335Z",
       "modified_on": "2023-11-09T20:49:42.435335Z"
-    },
-    {
-      "id": "db8ada7f22832e3e4f352d5bd7829a4f",
-      "name": "rivoluzioneinformatica.org",
-      "type": "TXT",
-      "content": "v=spf1 include:_spf.mx.cloudflare.net ~all",
-      "proxiable": false,
-      "proxied": false,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-06-12T11:01:48.044476Z",
-      "modified_on": "2023-06-12T11:01:48.044476Z"
     },
     {
       "id": "47bb0eec812c7e5f3961cb9079727d80",
