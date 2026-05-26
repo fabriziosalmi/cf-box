@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -119994157,
+      "development_mode": -120080202,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -152472165,
+      "development_mode": -152558210,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151790993,
+      "development_mode": -151877038,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -161951275,
+      "development_mode": -162037320,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -877,12 +877,74 @@
       }
     },
     {
+      "id": "a650776301cd37cfee8f39b90762e5ff",
+      "name": "italiassl.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-05-25T11:26:23.469803Z",
+      "created_on": "2026-05-25T11:26:17.237334Z",
+      "activated_on": "2026-05-25T11:26:23.358452Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "1a72fe9605a1752948b51dbfaeb7f505",
       "name": "kisstube.tv",
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -270106013,
+      "development_mode": -270192058,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1086,7 +1148,7 @@
       ],
       "original_registrar": "name.com, inc. (id: 625)",
       "original_dnshost": null,
-      "modified_on": "2023-06-02T21:02:56.361133Z",
+      "modified_on": "2026-05-25T08:04:41.772282Z",
       "created_on": "2022-01-07T12:54:53.784858Z",
       "activated_on": "2023-06-02T21:02:56.361133Z",
       "vanity_name_servers": [],
@@ -4651,7 +4713,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2022-08-17T08:57:50.756388Z",
-      "modified_on": "2022-08-17T08:59:41.92016Z"
+      "modified_on": "2026-05-25T07:57:37.299468Z"
     },
     {
       "id": "b5267bc0a8cafb0e4fe5d67a47c657f7",

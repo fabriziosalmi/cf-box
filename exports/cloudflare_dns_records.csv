@@ -196,7 +196,7 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com,2025-04-09T08:29:51.295021Z,,b738ae8c910e28345612400cb8a6e23e,{},2025-04-09T08:29:51.295021Z,ssh.repolizer.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com,2025-04-23T08:30:24.446765Z,,bfd43018c9b1cd41cc29efc4c62c6d8c,{},2025-04-23T08:34:01.380912Z,www.repolizer.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,www.rivoluzioneinformatica.org,2023-11-10T15:34:50.070177Z,,236f1b867d3720d5dd29c6af49782d62,{},2023-11-10T15:34:50.070177Z,rivoluzioneinformatica.org,,True,True,{'flatten_cname': False},[],1,CNAME
-,,fabriziosalmi.github.io,2022-08-17T08:57:50.756388Z,,3045396196bc00b6e05726f94825c6bd,{},2022-08-17T08:59:41.92016Z,www.rivoluzioneinformatica.org,,True,True,{'flatten_cname': False},[],1,CNAME
+,,fabriziosalmi.github.io,2022-08-17T08:57:50.756388Z,,3045396196bc00b6e05726f94825c6bd,{},2026-05-25T07:57:37.299468Z,www.rivoluzioneinformatica.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,alt3.aspmx.l.google.com,2026-05-21T15:29:10.282836Z,,b5267bc0a8cafb0e4fe5d67a47c657f7,{},2026-05-21T15:29:10.282836Z,rivoluzioneinformatica.org,10,False,False,{},[],3600,MX
 ,,alt2.aspmx.l.google.com,2026-05-21T15:29:09.812133Z,,45b98d4f99bef0d0244aeb72994b04ad,{},2026-05-21T15:29:09.812133Z,rivoluzioneinformatica.org,5,False,False,{},[],3600,MX
 ,,alt1.aspmx.l.google.com,2026-05-21T15:29:09.806824Z,,808d04342d6b0c756b632b36eb22b8ea,{},2026-05-21T15:29:09.806824Z,rivoluzioneinformatica.org,5,False,False,{},[],3600,MX
