@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -120166888,
+      "development_mode": -120253144,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -152644896,
+      "development_mode": -152731152,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -151963724,
+      "development_mode": -152049980,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -162124006,
+      "development_mode": -162210262,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -944,7 +944,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -270278744,
+      "development_mode": -270365000,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1519,6 +1519,23 @@
     }
   ],
   "dns_records": [
+    {
+      "id": "b1bdfd09e56d43659d0e78cefc8c20e2",
+      "name": "api-dev.aidevhost.com",
+      "type": "CNAME",
+      "content": "366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-05-27T09:49:10.856806Z",
+      "modified_on": "2026-05-27T09:49:10.856806Z"
+    },
     {
       "id": "2c36fa790545cbccce9526eeafbce666",
       "name": "minerva-dev.aidevhost.com",
