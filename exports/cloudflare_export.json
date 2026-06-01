@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -120512512,
+      "development_mode": -120599094,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -152990520,
+      "development_mode": -153077102,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -152309348,
+      "development_mode": -152395930,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -162469630,
+      "development_mode": -162556212,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -944,7 +944,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -270624368,
+      "development_mode": -270710950,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1608,21 +1608,6 @@
       "comment_modified_on": "2026-04-15T18:52:55.235456Z"
     },
     {
-      "id": "0a390863d7e4ba6904c5205f98a2a5d2",
-      "name": "audiolibri.org",
-      "type": "A",
-      "content": "89.46.67.54",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-02-23T09:20:55.788713Z",
-      "modified_on": "2026-02-23T09:20:55.788713Z"
-    },
-    {
       "id": "0c1eaa4fed3dee3fe216b7eda2e9a2c8",
       "name": "audiolibri.org",
       "type": "A",
@@ -1666,21 +1651,6 @@
       "tags": [],
       "created_on": "2025-12-27T19:42:16.147955Z",
       "modified_on": "2026-02-23T09:20:53.92293Z"
-    },
-    {
-      "id": "2b8843986f866d3e99f4d6834382282e",
-      "name": "www.audiolibri.org",
-      "type": "A",
-      "content": "89.46.67.54",
-      "proxiable": true,
-      "proxied": false,
-      "ttl": 60,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2026-02-23T09:21:08.51721Z",
-      "modified_on": "2026-02-23T09:21:08.51721Z"
     },
     {
       "id": "a7884955fee4043702153da01228b09f",

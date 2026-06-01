@@ -4,11 +4,9 @@ Managed by Terraform — Minerva dev locale via CF Tunnel (Mac),2026-04-15T20:55
 Managed by Terraform — Rollback access for migration 2026-05-02 (remove T+7),2026-05-02T19:25:30.420813Z,d01e442f-e4cd-4805-a504-85eb77797b3a.cfargotunnel.com,2026-05-02T19:25:30.420813Z,,8846758816f8bad11a7a46eb58498e7c,{},2026-05-02T19:25:30.420813Z,minerva-gcp.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com,2026-04-15T22:01:19.663722Z,,2955ed5367089c641216b296f48c5402,{},2026-04-15T22:01:19.663722Z,minerva-preprod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.235456Z,f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com,2026-04-15T18:52:55.235456Z,,167eaa4b6cdb7183cbe6b40c8be16541,{},2026-05-02T21:28:44.063604Z,minerva-prod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
-,,89.46.67.54,2026-02-23T09:20:55.788713Z,,0a390863d7e4ba6904c5205f98a2a5d2,{},2026-02-23T09:20:55.788713Z,audiolibri.org,,True,False,{},[],60,A
 ,,65.109.163.154,2026-02-23T09:20:55.134017Z,,0c1eaa4fed3dee3fe216b7eda2e9a2c8,{},2026-02-23T09:20:55.134017Z,audiolibri.org,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-27T19:42:15.423313Z,,f1ebea3204e85074be5e06aa68d2fa48,{},2026-02-23T09:20:54.530581Z,audiolibri.org,,True,False,{},[],60,A
 ,,46.250.245.74,2025-12-27T19:42:16.147955Z,,66de4cd56c98d8faddaffb325bc296bd,{},2026-02-23T09:20:53.92293Z,audiolibri.org,,True,False,{},[],60,A
-,,89.46.67.54,2026-02-23T09:21:08.51721Z,,2b8843986f866d3e99f4d6834382282e,{},2026-02-23T09:21:08.51721Z,www.audiolibri.org,,True,False,{},[],60,A
 ,,65.109.163.154,2025-12-27T19:42:16.950308Z,,a7884955fee4043702153da01228b09f,{},2026-02-23T09:21:07.922031Z,www.audiolibri.org,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-27T19:42:17.693642Z,,ce3007ccf8815fe015045c50dd3a5a00,{},2026-02-23T09:21:07.313669Z,www.audiolibri.org,,True,False,{},[],60,A
 ,,46.250.245.74,2025-12-27T19:42:18.539481Z,,401726adb31f75b18399e2039d73d307,{},2026-02-23T09:21:06.591532Z,www.audiolibri.org,,True,False,{},[],60,A
