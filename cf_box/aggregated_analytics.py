@@ -5,11 +5,10 @@ import json
 import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from cf_box.client import CloudflareAPIClient
 from cf_box.logging_config import configure_logging, get_logger
-from cf_box.models import CloudflareAnalyticsGroup
 
 logger = get_logger(__name__)
 
