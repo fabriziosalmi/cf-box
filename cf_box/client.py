@@ -7,7 +7,6 @@ from typing import Any, Dict, List, Optional
 import aiohttp
 
 from cf_box.logging_config import get_logger
-from cf_box.models import CloudflareAPIResponse
 
 logger = get_logger(__name__)
 
