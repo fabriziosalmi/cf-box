@@ -1,12 +1,9 @@
-import requests
-import os
 import json
+import os
 import time
-import pandas as pd
 from datetime import datetime, timedelta, timezone
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfgen import canvas
-from typing import Dict, List, Optional
+
+import requests
 
 # Cloudflare API Settings
 CF_API_URL = "https://api.cloudflare.com/client/v4/graphql"
