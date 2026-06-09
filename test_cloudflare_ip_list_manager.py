@@ -1,9 +1,8 @@
 import unittest
-from unittest.mock import patch, mock_open
+from unittest.mock import mock_open, patch
 
-from cloudflare_ip_list_manager import (
-    load_config, anonymize_email, anonymize_account_id
-)
+from cloudflare_ip_list_manager import anonymize_account_id, anonymize_email, load_config
+
 
 class TestCloudflareIPListManager(unittest.TestCase):
 
