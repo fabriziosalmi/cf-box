@@ -1,8 +1,8 @@
 """Tests for async HTTP client."""
 
+from unittest.mock import AsyncMock, patch
+
 import pytest
-from unittest.mock import AsyncMock, MagicMock, patch
-import aiohttp
 
 from cf_box.client import CloudflareAPIClient
 
