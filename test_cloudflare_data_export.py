@@ -1,27 +1,25 @@
-import unittest
-from unittest.mock import patch, mock_open, MagicMock
 import os
-import json
-import yaml
-import pandas as pd
+import unittest
+from unittest.mock import MagicMock, mock_open, patch
 
 from cloudflare_data_export import (
-    load_config,
-    load_previous_export,
-    save_json_if_changed,
-    save_csv_if_changed,
-    save_xls,
-    save_pdf,
-    clean_data_for_sql,
-    save_to_sqlite,
-    save_to_mysql_file,
-    request_with_retries,
-    fetch_all_pages,
-    anonymize_email,
     anonymize_account_id,
     anonymize_data,
-    export_cloudflare_data
+    anonymize_email,
+    clean_data_for_sql,
+    export_cloudflare_data,
+    fetch_all_pages,
+    load_config,
+    load_previous_export,
+    request_with_retries,
+    save_csv_if_changed,
+    save_json_if_changed,
+    save_pdf,
+    save_to_mysql_file,
+    save_to_sqlite,
+    save_xls,
 )
+
 
 class TestCloudflareDataExport(unittest.TestCase):
 
