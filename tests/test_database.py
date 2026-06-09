@@ -1,7 +1,6 @@
 """Tests for database operations."""
 
 import pytest
-from pathlib import Path
 import tempfile
 import os
 
