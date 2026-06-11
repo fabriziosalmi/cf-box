@@ -105,6 +105,10 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,edge-mtl.edge99.net,2026-01-05T11:23:19.93223Z,,7977c50b97c224d7845ce348cc7a170b,{},2026-01-05T11:23:19.93223Z,status.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,edge99.net,2025-12-26T23:53:58.059446Z,,b30deaebfaea39ca53c881f78bc76ed1,{},2025-12-26T23:53:58.059446Z,www.edge99.net,,True,False,{'flatten_cname': False},[],300,CNAME
 ,,IcouZ6dYLaD86rXg5YlVT6l_DoF8vjmm3F9AzZfLQv0,2026-03-29T17:41:13.177706Z,,1b6fdf2a3c08989b9bf929449193dca0,{},2026-03-29T17:41:13.177706Z,_acme-challenge.edge99.net,,False,False,{},[],120,TXT
+,,8uhvnur1b1wJzbYdZJ15cf45p2W6JgE71eMxI0c54LA,2026-06-10T19:44:55.13467Z,,4130883b013ebf4b4128f778cbc94317,{},2026-06-10T19:44:55.13467Z,_acme-challenge.grafana.edge99.net,,False,False,{},[],120,TXT
+,,ZMpW1FZute5BaUqWYI2C7JVlVKGzPDoMi_HMzKAveAw,2026-06-10T19:44:55.544304Z,,c1a5adb2e16483fdb84186caa488d453,{},2026-06-10T19:44:55.544304Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,XCPJ3afUC734gIb7_v4jVk3Rw9Yqu4w-6n3Ao3lYHy4,2026-06-10T19:44:55.271598Z,,a01b80591cfbd7d69d9a5934e177b7a5,{},2026-06-10T19:44:55.271598Z,_acme-challenge.monitor.edge99.net,,False,False,{},[],120,TXT
+,,kASgH52JvQFZCFtcNXckvlo7Z9ezxcHaeQWAHqcUu-0,2026-06-10T19:44:55.792674Z,,227ab90a58cd2d5da83a496f3c222578,{},2026-06-10T19:44:55.792674Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
 ,,v=DMARC1; p=reject; rua=mailto:security@edge99.net,2025-12-26T23:53:33.496711Z,,50165c9904db7c779f07b98e9f943b47,{},2025-12-26T23:53:33.496711Z,_dmarc.edge99.net,,False,False,{},[],300,TXT
 ,,v=spf1 -all,2025-12-26T23:53:30.479433Z,,a16c9eb9ef09553088c65e46bbd67fcc,{},2025-12-26T23:53:30.479433Z,edge99.net,,False,False,{},[],300,TXT
 ,,207.180.193.100,2021-07-23T08:58:49.378112Z,,77c251b8488617268d91ee1ebd51ede5,{},2021-07-23T12:56:39.987386Z,free-tekno.com,,True,True,{},[],1,A

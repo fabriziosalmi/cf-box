@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -121376503,
+      "development_mode": -121462936,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153854511,
+      "development_mode": -153940944,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153173339,
+      "development_mode": -153259772,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -163333621,
+      "development_mode": -163420054,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -944,7 +944,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -271488359,
+      "development_mode": -271574792,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3228,6 +3228,66 @@
       "tags": [],
       "created_on": "2026-03-29T17:41:13.177706Z",
       "modified_on": "2026-03-29T17:41:13.177706Z"
+    },
+    {
+      "id": "4130883b013ebf4b4128f778cbc94317",
+      "name": "_acme-challenge.grafana.edge99.net",
+      "type": "TXT",
+      "content": "8uhvnur1b1wJzbYdZJ15cf45p2W6JgE71eMxI0c54LA",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-10T19:44:55.13467Z",
+      "modified_on": "2026-06-10T19:44:55.13467Z"
+    },
+    {
+      "id": "c1a5adb2e16483fdb84186caa488d453",
+      "name": "_acme-challenge.monitor.edge99.net",
+      "type": "TXT",
+      "content": "ZMpW1FZute5BaUqWYI2C7JVlVKGzPDoMi_HMzKAveAw",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-10T19:44:55.544304Z",
+      "modified_on": "2026-06-10T19:44:55.544304Z"
+    },
+    {
+      "id": "a01b80591cfbd7d69d9a5934e177b7a5",
+      "name": "_acme-challenge.monitor.edge99.net",
+      "type": "TXT",
+      "content": "XCPJ3afUC734gIb7_v4jVk3Rw9Yqu4w-6n3Ao3lYHy4",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-10T19:44:55.271598Z",
+      "modified_on": "2026-06-10T19:44:55.271598Z"
+    },
+    {
+      "id": "227ab90a58cd2d5da83a496f3c222578",
+      "name": "_acme-challenge.prometheus.edge99.net",
+      "type": "TXT",
+      "content": "kASgH52JvQFZCFtcNXckvlo7Z9ezxcHaeQWAHqcUu-0",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 120,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-10T19:44:55.792674Z",
+      "modified_on": "2026-06-10T19:44:55.792674Z"
     },
     {
       "id": "50165c9904db7c779f07b98e9f943b47",
