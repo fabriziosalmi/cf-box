@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -121549329,
+      "development_mode": -121635676,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -497,7 +497,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -154027337,
+      "development_mode": -154113684,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +562,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153346165,
+      "development_mode": -153432512,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +691,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -163506447,
+      "development_mode": -163592794,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -944,7 +944,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -271661185,
+      "development_mode": -271747532,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3243,21 +3243,6 @@
       "modified_on": "2025-12-26T23:53:30.479433Z"
     },
     {
-      "id": "77c251b8488617268d91ee1ebd51ede5",
-      "name": "free-tekno.com",
-      "type": "A",
-      "content": "207.180.193.100",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2021-07-23T08:58:49.378112Z",
-      "modified_on": "2021-07-23T12:56:39.987386Z"
-    },
-    {
       "id": "dd673c4571ae6ec6ea4517da4047fa5f",
       "name": "listen.free-tekno.com",
       "type": "A",
@@ -3276,7 +3261,7 @@
       "id": "de47139d99158674daebfa2bcc46381b",
       "name": "radio.free-tekno.com",
       "type": "A",
-      "content": "161.97.120.130",
+      "content": "192.0.2.1",
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
@@ -3285,39 +3270,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2021-06-27T11:17:21.364442Z",
-      "modified_on": "2022-02-16T15:58:36.261027Z"
-    },
-    {
-      "id": "5acccdfb3c59cd49cacd28e83e48d221",
-      "name": "www.free-tekno.com",
-      "type": "A",
-      "content": "161.97.120.130",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {},
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-02-07T16:41:14.791288Z",
-      "modified_on": "2022-02-07T16:41:14.791288Z"
-    },
-    {
-      "id": "ac7c113f029bd912a9b6fe78dffe02a5",
-      "name": "mp3.free-tekno.com",
-      "type": "CNAME",
-      "content": "freetekno.free.nf",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2023-07-04T19:53:02.363162Z",
-      "modified_on": "2023-07-04T19:53:02.363162Z"
+      "modified_on": "2026-06-13T00:26:47.217739Z"
     },
     {
       "id": "9450bd2c3778824d44882bf3a36c136a",
@@ -3394,40 +3347,6 @@
       "tags": [],
       "created_on": "2022-02-16T12:55:09.214302Z",
       "modified_on": "2022-02-16T12:55:09.214302Z"
-    },
-    {
-      "id": "54e5f74cd09ee8a8c9729c9cdb0397b6",
-      "name": "freesounds-selfhosted.freeundergroundtekno.org",
-      "type": "CNAME",
-      "content": "54a3646c-9701-4a8b-b6b0-e8b9f08e297f.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-12-10T19:31:31.948543Z",
-      "modified_on": "2022-12-10T19:31:31.948543Z"
-    },
-    {
-      "id": "f2d988c340f9edd8b38f1dcd778bb88a",
-      "name": "mp3.freeundergroundtekno.org",
-      "type": "CNAME",
-      "content": "7544e2f1-de2b-411b-9eed-4a6c28bf46ac.cfargotunnel.com",
-      "proxiable": true,
-      "proxied": true,
-      "ttl": 1,
-      "settings": {
-        "flatten_cname": false
-      },
-      "meta": {},
-      "comment": null,
-      "tags": [],
-      "created_on": "2022-12-10T20:18:13.753251Z",
-      "modified_on": "2022-12-10T20:18:13.753251Z"
     },
     {
       "id": "7d449cbba90883fa8a14389f9a18a7a6",
