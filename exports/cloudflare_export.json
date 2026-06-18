@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -121981376,
+      "development_mode": -122067737,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -126,6 +126,68 @@
       "modified_on": "2024-06-05T23:27:53.292653Z",
       "created_on": "2017-06-03T22:48:55.801089Z",
       "activated_on": "2017-06-03T22:51:26.775410Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "f555142d9b99d8e5a52dc2e78e3abb9b",
+      "name": "bash-classifier.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-06-17T09:55:05.676594Z",
+      "created_on": "2026-06-17T09:55:05.031498Z",
+      "activated_on": "2026-06-17T09:55:05.514449Z",
       "vanity_name_servers": [],
       "vanity_name_servers_ips": null,
       "meta": {
@@ -497,7 +559,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -154459384,
+      "development_mode": -154545745,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -562,7 +624,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153778212,
+      "development_mode": -153864573,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -691,7 +753,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -163938494,
+      "development_mode": -164024855,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -944,7 +1006,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -272093232,
+      "development_mode": -272179593,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
