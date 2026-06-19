@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -122067737,
+      "development_mode": -122154231,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -554,12 +554,74 @@
       }
     },
     {
+      "id": "7a59c552f9ae70115d222e8e58768905",
+      "name": "freecoders.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-06-18T20:45:13.691896Z",
+      "created_on": "2026-06-18T20:45:13.166424Z",
+      "activated_on": "2026-06-18T20:45:13.565113Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "e4488c84ea98f68403033959a3326505",
       "name": "free-tekno.com",
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -154545745,
+      "development_mode": -154632239,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -624,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -153864573,
+      "development_mode": -153951067,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -753,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -164024855,
+      "development_mode": -164111349,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1006,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -272179593,
+      "development_mode": -272266087,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1843,6 +1905,23 @@
       "tags": [],
       "created_on": "2022-01-24T18:09:38.385312Z",
       "modified_on": "2026-02-23T09:21:01.139092Z"
+    },
+    {
+      "id": "d8e148b65a8094841164058119003d81",
+      "name": "arena.bash-classifier.com",
+      "type": "CNAME",
+      "content": "d7f95d4a-5f7f-4ac0-94bd-46789c902860.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-18T09:00:35.098691Z",
+      "modified_on": "2026-06-18T09:00:35.098691Z"
     },
     {
       "id": "d173ba5139b4f9f794a65a183fd4a962",
@@ -4760,6 +4839,21 @@
       "tags": [],
       "created_on": "2022-02-07T15:43:39.763425Z",
       "modified_on": "2022-05-22T11:09:18.092063Z"
+    },
+    {
+      "id": "31680395c600af57184e5488334ee249",
+      "name": "rivoluzioneinformatica.org",
+      "type": "TXT",
+      "content": "\"linkedin-site-verification=fa55d59f-20ec-45f9-86ae-f35c0a7be124\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-06-18T08:44:06.715229Z",
+      "modified_on": "2026-06-18T08:44:06.715229Z"
     },
     {
       "id": "1c3a478f6023a8c409bc803352946fb3",

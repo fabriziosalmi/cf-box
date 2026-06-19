@@ -15,6 +15,7 @@ Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.
 ,,u0r8f2zhwT-M2O_kj3315TrScc29-R7LlP7PVb_dBPI,2026-03-29T17:57:07.71633Z,,371757d3dbe711ba7988b68768b3e3a0,{},2026-03-29T17:57:07.71633Z,_acme-challenge.audiolibri.org,,False,False,{},[],120,TXT
 ,,v=spf1 -all,2022-01-24T18:09:26.735522Z,,c4b015ebb6540fa1c64482131c937ad9,{},2026-02-23T09:20:57.512009Z,audiolibri.org,,False,False,{},[],300,TXT
 ,,v=DMARC1; p=reject,2022-01-24T18:09:38.385312Z,,8123b69792536eda89581575fc5e6501,{},2026-02-23T09:21:01.139092Z,_dmarc.audiolibri.org,,False,False,{},[],300,TXT
+,,d7f95d4a-5f7f-4ac0-94bd-46789c902860.cfargotunnel.com,2026-06-18T09:00:35.098691Z,,d8e148b65a8094841164058119003d81,{},2026-06-18T09:00:35.098691Z,arena.bash-classifier.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Created during Cloudflare Rules deployment process for Redirect from root to WWW [Template],2026-05-16T07:34:19.256429Z,192.0.2.1,2026-05-16T07:34:19.256429Z,,d173ba5139b4f9f794a65a183fd4a962,{},2026-05-16T07:34:19.256429Z,certmate.org,,True,True,{},[],1,A
 ,,185.199.109.153,2025-07-01T16:44:05.723652Z,,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
 ,,fabriziosalmi.github.io,2026-05-17T11:49:32.652591Z,,dcb001f5281586378376ebcb0ae2b9a9,{},2026-05-17T11:49:32.652591Z,agent.certmate.org,,True,False,{'flatten_cname': False},[],1,CNAME
@@ -196,6 +197,7 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,alt4.aspmx.l.google.com,2026-05-21T15:29:09.80306Z,,36102309d0075c458692b3c5c30a9eda,{},2026-05-21T15:29:09.80306Z,rivoluzioneinformatica.org,10,False,False,{},[],3600,MX
 ,,aspmx.l.google.com,2026-05-21T15:29:09.797148Z,,f0c7bdb19037e760a1a18b016f9782cf,{},2026-05-21T15:29:09.797148Z,rivoluzioneinformatica.org,1,False,False,{},[],3600,MX
 ,,v=DMARC1; p=reject; sp=reject; rua=mailto:weqc8axy@ag.eu.dmarcian.com,2022-02-07T15:43:39.763425Z,,6bad42a7eedda28b7979d37d8e66d6d8,{},2022-05-22T11:09:18.092063Z,_dmarc.rivoluzioneinformatica.org,,False,False,{},[],1,TXT
+,,"""linkedin-site-verification=fa55d59f-20ec-45f9-86ae-f35c0a7be124""",2026-06-18T08:44:06.715229Z,,31680395c600af57184e5488334ee249,{},2026-06-18T08:44:06.715229Z,rivoluzioneinformatica.org,,False,False,{},[],1,TXT
 ,,"""v=spf1 include:_spf.google.com ~all""",2026-05-21T15:29:09.801669Z,,1c3a478f6023a8c409bc803352946fb3,{},2026-05-21T15:29:09.801669Z,rivoluzioneinformatica.org,,False,False,{},[],3600,TXT
 ,,"""google-site-verification=VWB6jK3eIsqHscozQue_cLwdGjlOKpbufM3bjYl4GLo""",2026-05-21T14:38:49.454707Z,,3b9cdd1a543f2c0d545d4e5509ea7528,{},2026-05-21T14:38:49.454707Z,rivoluzioneinformatica.org,,False,False,{},[],3600,TXT
 ,,openai-domain-verification=dv-LwNd6wuOrll7KNwSnOzMAlPT,2023-11-09T20:49:42.435335Z,,2a74f92cf716979d913217d640655261,{},2023-11-09T20:49:42.435335Z,rivoluzioneinformatica.org,,False,False,{},[],1,TXT
