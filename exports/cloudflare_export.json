@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123276921,
+      "development_mode": -123362890,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155754929,
+      "development_mode": -155840898,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155073757,
+      "development_mode": -155159726,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -165234039,
+      "development_mode": -165320008,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -273388777,
+      "development_mode": -273474746,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1910,6 +1910,23 @@
       "tags": [],
       "created_on": "2026-05-17T11:49:32.652591Z",
       "modified_on": "2026-05-17T11:49:32.652591Z"
+    },
+    {
+      "id": "8f157915aaa0b4fbd993f0c8e8568506",
+      "name": "marvin.certmate.org",
+      "type": "CNAME",
+      "content": "0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-02T17:31:32.57251Z",
+      "modified_on": "2026-07-02T17:31:32.57251Z"
     },
     {
       "id": "5547107cc7c2abd218ed77b7b8aefc27",
