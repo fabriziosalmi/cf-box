@@ -105,6 +105,8 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,kASgH52JvQFZCFtcNXckvlo7Z9ezxcHaeQWAHqcUu-0,2026-06-10T19:44:55.792674Z,,227ab90a58cd2d5da83a496f3c222578,{},2026-06-10T19:44:55.792674Z,_acme-challenge.prometheus.edge99.net,,False,False,{},[],120,TXT
 ,,v=DMARC1; p=reject; rua=mailto:security@edge99.net,2025-12-26T23:53:33.496711Z,,50165c9904db7c779f07b98e9f943b47,{},2025-12-26T23:53:33.496711Z,_dmarc.edge99.net,,False,False,{},[],300,TXT
 ,,v=spf1 -all,2025-12-26T23:53:30.479433Z,,a16c9eb9ef09553088c65e46bbd67fcc,{},2025-12-26T23:53:30.479433Z,edge99.net,,False,False,{},[],300,TXT
+,,d785d6c3-dafa-4c7c-b7dd-3891279a82d8.cfargotunnel.com,2026-07-05T09:25:49.365382Z,,da36f0628be9faec90aac634fe200c4d,{},2026-07-05T09:25:49.365382Z,factory.freecoders.org,,True,True,{'flatten_cname': False},[],1,CNAME
+,,d785d6c3-dafa-4c7c-b7dd-3891279a82d8.cfargotunnel.com,2026-07-05T10:21:50.010716Z,,8477eb1ffafafc2c373a5982b3512952,{},2026-07-05T10:21:50.010716Z,mcp.freecoders.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,185.199.108.153,2022-02-07T20:32:13.606665Z,,dd673c4571ae6ec6ea4517da4047fa5f,{},2022-02-07T20:32:43.921656Z,listen.free-tekno.com,,True,True,{},[],1,A
 ,,192.0.2.1,2021-06-27T11:17:21.364442Z,,de47139d99158674daebfa2bcc46381b,{},2026-06-13T00:26:47.217739Z,radio.free-tekno.com,,True,True,{},[],1,A
 ,,poste.rivoluzioneinformatica.org,2022-02-16T15:14:24.531147Z,,9450bd2c3778824d44882bf3a36c136a,{},2022-02-16T15:14:24.531147Z,free-tekno.com,10,False,False,{},[],1,MX

@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123536059,
+      "development_mode": -123622752,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156014067,
+      "development_mode": -156100760,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155332895,
+      "development_mode": -155419588,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -165493177,
+      "development_mode": -165579870,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -273647915,
+      "development_mode": -273734608,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -3354,6 +3354,40 @@
       "tags": [],
       "created_on": "2025-12-26T23:53:30.479433Z",
       "modified_on": "2025-12-26T23:53:30.479433Z"
+    },
+    {
+      "id": "da36f0628be9faec90aac634fe200c4d",
+      "name": "factory.freecoders.org",
+      "type": "CNAME",
+      "content": "d785d6c3-dafa-4c7c-b7dd-3891279a82d8.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-05T09:25:49.365382Z",
+      "modified_on": "2026-07-05T09:25:49.365382Z"
+    },
+    {
+      "id": "8477eb1ffafafc2c373a5982b3512952",
+      "name": "mcp.freecoders.org",
+      "type": "CNAME",
+      "content": "d785d6c3-dafa-4c7c-b7dd-3891279a82d8.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-05T10:21:50.010716Z",
+      "modified_on": "2026-07-05T10:21:50.010716Z"
     },
     {
       "id": "dd673c4571ae6ec6ea4517da4047fa5f",
