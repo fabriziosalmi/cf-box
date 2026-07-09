@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -123793982,
+      "development_mode": -123881402,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156271990,
+      "development_mode": -156359410,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -155590818,
+      "development_mode": -155678238,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -165751100,
+      "development_mode": -165838520,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -273905838,
+      "development_mode": -273993258,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1732,34 +1732,34 @@
       "comment_modified_on": "2026-04-15T18:52:55.235456Z"
     },
     {
-      "id": "0c1eaa4fed3dee3fe216b7eda2e9a2c8",
+      "id": "8e6fc71cb419dbefacaa5f95931537ef",
       "name": "audiolibri.org",
       "type": "A",
-      "content": "65.109.163.154",
+      "content": "185.199.108.153",
       "proxiable": true,
       "proxied": false,
-      "ttl": 60,
+      "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2026-02-23T09:20:55.134017Z",
-      "modified_on": "2026-02-23T09:20:55.134017Z"
+      "created_on": "2026-07-08T15:33:16.088582Z",
+      "modified_on": "2026-07-08T15:33:40.280129Z"
     },
     {
-      "id": "a7884955fee4043702153da01228b09f",
-      "name": "www.audiolibri.org",
-      "type": "A",
-      "content": "65.109.163.154",
+      "id": "639cd0626a762991b89430ee135ecb13",
+      "name": "audiolibri.org",
+      "type": "AAAA",
+      "content": "2606:50c0:8000::153",
       "proxiable": true,
       "proxied": false,
-      "ttl": 60,
+      "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
-      "created_on": "2025-12-27T19:42:16.950308Z",
-      "modified_on": "2026-02-23T09:21:07.922031Z"
+      "created_on": "2026-07-08T15:33:35.400996Z",
+      "modified_on": "2026-07-08T15:33:35.400996Z"
     },
     {
       "id": "34ee6ce7fd8c2150087754ee41b63f09",
@@ -1800,6 +1800,23 @@
       "tags": [],
       "created_on": "2026-02-23T09:20:58.143923Z",
       "modified_on": "2026-02-23T09:20:58.143923Z"
+    },
+    {
+      "id": "26f1642f0c86038da35075f9974edab6",
+      "name": "www.audiolibri.org",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-08T15:33:51.832601Z",
+      "modified_on": "2026-07-08T15:33:51.832601Z"
     },
     {
       "id": "371757d3dbe711ba7988b68768b3e3a0",
@@ -5175,6 +5192,23 @@
       "created_on": "2026-05-11T19:35:38.524857Z",
       "modified_on": "2026-05-11T21:59:15.337255Z",
       "comment_modified_on": "2026-05-11T19:35:38.524857Z"
+    },
+    {
+      "id": "9d22dfb2ca6391206f7488782f950628",
+      "name": "www.videodioggi.com",
+      "type": "CNAME",
+      "content": "decfc6e8-e358-474c-a330-024da6cb6c2c.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-08T15:23:18.215876Z",
+      "modified_on": "2026-07-08T15:23:18.215876Z"
     },
     {
       "id": "6c874506c8ce87bd95aeb7af511402a4",
