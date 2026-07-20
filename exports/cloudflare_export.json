@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -124744742,
+      "development_mode": -124831632,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -157222750,
+      "development_mode": -157309640,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156541578,
+      "development_mode": -156628468,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -166701860,
+      "development_mode": -166788750,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -274856598,
+      "development_mode": -274943488,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1834,6 +1834,21 @@
       "modified_on": "2026-03-29T17:57:07.71633Z"
     },
     {
+      "id": "b3053c3562f192494837193f6769863a",
+      "name": "audiolibri.org",
+      "type": "TXT",
+      "content": "\"google-site-verification=nB3uJZfBw5fmgi2F_rR-kq6tDmQrO0wbgnCTxc9139Q\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-19T13:51:14.284213Z",
+      "modified_on": "2026-07-19T13:51:14.284213Z"
+    },
+    {
       "id": "c4b015ebb6540fa1c64482131c937ad9",
       "name": "audiolibri.org",
       "type": "TXT",
@@ -1927,6 +1942,23 @@
       "tags": [],
       "created_on": "2026-05-17T11:49:32.652591Z",
       "modified_on": "2026-05-17T11:49:32.652591Z"
+    },
+    {
+      "id": "db8028fd0902508b21a311d193263746",
+      "name": "demo.certmate.org",
+      "type": "CNAME",
+      "content": "0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-19T19:40:45.99353Z",
+      "modified_on": "2026-07-19T19:40:45.99353Z"
     },
     {
       "id": "8f157915aaa0b4fbd993f0c8e8568506",

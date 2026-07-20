@@ -10,12 +10,14 @@ Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.
 ,,"0 issue ""letsencrypt.org""",2026-02-23T09:20:58.143923Z,"{'flags': 0, 'tag': 'issue', 'value': 'letsencrypt.org'}",78cb4ae468fd7f7d2458590baccba8eb,{},2026-02-23T09:20:58.143923Z,audiolibri.org,,False,False,{},[],300,CAA
 ,,fabriziosalmi.github.io,2026-07-08T15:33:51.832601Z,,26f1642f0c86038da35075f9974edab6,{},2026-07-08T15:33:51.832601Z,www.audiolibri.org,,True,False,{'flatten_cname': False},[],1,CNAME
 ,,u0r8f2zhwT-M2O_kj3315TrScc29-R7LlP7PVb_dBPI,2026-03-29T17:57:07.71633Z,,371757d3dbe711ba7988b68768b3e3a0,{},2026-03-29T17:57:07.71633Z,_acme-challenge.audiolibri.org,,False,False,{},[],120,TXT
+,,"""google-site-verification=nB3uJZfBw5fmgi2F_rR-kq6tDmQrO0wbgnCTxc9139Q""",2026-07-19T13:51:14.284213Z,,b3053c3562f192494837193f6769863a,{},2026-07-19T13:51:14.284213Z,audiolibri.org,,False,False,{},[],3600,TXT
 ,,v=spf1 -all,2022-01-24T18:09:26.735522Z,,c4b015ebb6540fa1c64482131c937ad9,{},2026-02-23T09:20:57.512009Z,audiolibri.org,,False,False,{},[],300,TXT
 ,,v=DMARC1; p=reject,2022-01-24T18:09:38.385312Z,,8123b69792536eda89581575fc5e6501,{},2026-02-23T09:21:01.139092Z,_dmarc.audiolibri.org,,False,False,{},[],300,TXT
 ,,d7f95d4a-5f7f-4ac0-94bd-46789c902860.cfargotunnel.com,2026-06-18T09:00:35.098691Z,,d8e148b65a8094841164058119003d81,{},2026-06-18T09:00:35.098691Z,arena.bash-classifier.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Created during Cloudflare Rules deployment process for Redirect from root to WWW [Template],2026-05-16T07:34:19.256429Z,192.0.2.1,2026-05-16T07:34:19.256429Z,,d173ba5139b4f9f794a65a183fd4a962,{},2026-05-16T07:34:19.256429Z,certmate.org,,True,True,{},[],1,A
 ,,185.199.109.153,2025-07-01T16:44:05.723652Z,,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
 ,,fabriziosalmi.github.io,2026-05-17T11:49:32.652591Z,,dcb001f5281586378376ebcb0ae2b9a9,{},2026-05-17T11:49:32.652591Z,agent.certmate.org,,True,False,{'flatten_cname': False},[],1,CNAME
+,,0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com,2026-07-19T19:40:45.99353Z,,db8028fd0902508b21a311d193263746,{},2026-07-19T19:40:45.99353Z,demo.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com,2026-07-02T17:31:32.57251Z,,8f157915aaa0b4fbd993f0c8e8568506,{},2026-07-02T17:31:32.57251Z,marvin.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,fabriziosalmi.github.io,2026-05-17T12:17:16.157778Z,,5547107cc7c2abd218ed77b7b8aefc27,{},2026-05-17T12:17:16.157778Z,tools.certmate.org,,True,False,{'flatten_cname': False},[],1,CNAME
 ,,route3.mx.cloudflare.net,2025-07-01T21:19:12.571955Z,,9a0c1ea7682256e45af5f83341fb113e,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.571955Z,certmate.org,34,False,False,{},[],1,MX
