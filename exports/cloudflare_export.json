@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -124917183,
+      "development_mode": -125003672,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -157395191,
+      "development_mode": -157481680,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156714019,
+      "development_mode": -156800508,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -166874301,
+      "development_mode": -166960790,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -275029039,
+      "development_mode": -275115528,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1737,14 +1737,14 @@
       "type": "A",
       "content": "185.199.108.153",
       "proxiable": true,
-      "proxied": false,
+      "proxied": true,
       "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
       "created_on": "2026-07-08T15:33:16.088582Z",
-      "modified_on": "2026-07-08T15:33:40.280129Z"
+      "modified_on": "2026-07-21T05:39:47.282244Z"
     },
     {
       "id": "639cd0626a762991b89430ee135ecb13",
@@ -1752,14 +1752,14 @@
       "type": "AAAA",
       "content": "2606:50c0:8000::153",
       "proxiable": true,
-      "proxied": false,
+      "proxied": true,
       "ttl": 1,
       "settings": {},
       "meta": {},
       "comment": null,
       "tags": [],
       "created_on": "2026-07-08T15:33:35.400996Z",
-      "modified_on": "2026-07-08T15:33:35.400996Z"
+      "modified_on": "2026-07-21T05:39:53.279889Z"
     },
     {
       "id": "34ee6ce7fd8c2150087754ee41b63f09",
@@ -1932,7 +1932,7 @@
       "type": "CNAME",
       "content": "fabriziosalmi.github.io",
       "proxiable": true,
-      "proxied": false,
+      "proxied": true,
       "ttl": 1,
       "settings": {
         "flatten_cname": false
@@ -1941,7 +1941,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2026-05-17T11:49:32.652591Z",
-      "modified_on": "2026-05-17T11:49:32.652591Z"
+      "modified_on": "2026-07-21T05:39:33.683013Z"
     },
     {
       "id": "db8028fd0902508b21a311d193263746",
@@ -1983,7 +1983,7 @@
       "type": "CNAME",
       "content": "fabriziosalmi.github.io",
       "proxiable": true,
-      "proxied": false,
+      "proxied": true,
       "ttl": 1,
       "settings": {
         "flatten_cname": false
@@ -1992,7 +1992,7 @@
       "comment": null,
       "tags": [],
       "created_on": "2026-05-17T12:17:16.157778Z",
-      "modified_on": "2026-05-17T12:17:16.157778Z"
+      "modified_on": "2026-07-21T05:39:16.721649Z"
     },
     {
       "id": "9a0c1ea7682256e45af5f83341fb113e",
@@ -4907,6 +4907,21 @@
       "tags": [],
       "created_on": "2014-06-23T19:34:28.647128Z",
       "modified_on": "2014-06-23T19:34:28.647128Z"
+    },
+    {
+      "id": "4e15c7a9da74f23738447840b03c6ed0",
+      "name": "mixidaw.com",
+      "type": "A",
+      "content": "185.199.108.153",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-21T16:05:03.85274Z",
+      "modified_on": "2026-07-21T16:05:03.85274Z"
     },
     {
       "id": "e10b8a0c9773b8442e86d295581b0fe5",

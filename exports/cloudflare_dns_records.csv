@@ -4,8 +4,8 @@ Managed by Terraform — Minerva dev locale via CF Tunnel (Mac),2026-04-15T20:55
 Managed by Terraform — Rollback access for migration 2026-05-02 (remove T+7),2026-05-02T19:25:30.420813Z,d01e442f-e4cd-4805-a504-85eb77797b3a.cfargotunnel.com,2026-05-02T19:25:30.420813Z,,8846758816f8bad11a7a46eb58498e7c,{},2026-05-02T19:25:30.420813Z,minerva-gcp.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com,2026-04-15T22:01:19.663722Z,,2955ed5367089c641216b296f48c5402,{},2026-04-15T22:01:19.663722Z,minerva-preprod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.235456Z,f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com,2026-04-15T18:52:55.235456Z,,167eaa4b6cdb7183cbe6b40c8be16541,{},2026-05-02T21:28:44.063604Z,minerva-prod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
-,,185.199.108.153,2026-07-08T15:33:16.088582Z,,8e6fc71cb419dbefacaa5f95931537ef,{},2026-07-08T15:33:40.280129Z,audiolibri.org,,True,False,{},[],1,A
-,,2606:50c0:8000::153,2026-07-08T15:33:35.400996Z,,639cd0626a762991b89430ee135ecb13,{},2026-07-08T15:33:35.400996Z,audiolibri.org,,True,False,{},[],1,AAAA
+,,185.199.108.153,2026-07-08T15:33:16.088582Z,,8e6fc71cb419dbefacaa5f95931537ef,{},2026-07-21T05:39:47.282244Z,audiolibri.org,,True,True,{},[],1,A
+,,2606:50c0:8000::153,2026-07-08T15:33:35.400996Z,,639cd0626a762991b89430ee135ecb13,{},2026-07-21T05:39:53.279889Z,audiolibri.org,,True,True,{},[],1,AAAA
 ,,"0 issuewild ""letsencrypt.org""",2026-02-23T09:20:59.121899Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",34ee6ce7fd8c2150087754ee41b63f09,{},2026-02-23T09:20:59.121899Z,audiolibri.org,,False,False,{},[],300,CAA
 ,,"0 issue ""letsencrypt.org""",2026-02-23T09:20:58.143923Z,"{'flags': 0, 'tag': 'issue', 'value': 'letsencrypt.org'}",78cb4ae468fd7f7d2458590baccba8eb,{},2026-02-23T09:20:58.143923Z,audiolibri.org,,False,False,{},[],300,CAA
 ,,fabriziosalmi.github.io,2026-07-08T15:33:51.832601Z,,26f1642f0c86038da35075f9974edab6,{},2026-07-08T15:33:51.832601Z,www.audiolibri.org,,True,False,{'flatten_cname': False},[],1,CNAME
@@ -16,10 +16,10 @@ Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.
 ,,d7f95d4a-5f7f-4ac0-94bd-46789c902860.cfargotunnel.com,2026-06-18T09:00:35.098691Z,,d8e148b65a8094841164058119003d81,{},2026-06-18T09:00:35.098691Z,arena.bash-classifier.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Created during Cloudflare Rules deployment process for Redirect from root to WWW [Template],2026-05-16T07:34:19.256429Z,192.0.2.1,2026-05-16T07:34:19.256429Z,,d173ba5139b4f9f794a65a183fd4a962,{},2026-05-16T07:34:19.256429Z,certmate.org,,True,True,{},[],1,A
 ,,185.199.109.153,2025-07-01T16:44:05.723652Z,,8a036c1d5ddf43f61d7d48e78f41f72c,{},2025-07-01T16:47:41.146282Z,www.certmate.org,,True,True,{},[],1,A
-,,fabriziosalmi.github.io,2026-05-17T11:49:32.652591Z,,dcb001f5281586378376ebcb0ae2b9a9,{},2026-05-17T11:49:32.652591Z,agent.certmate.org,,True,False,{'flatten_cname': False},[],1,CNAME
+,,fabriziosalmi.github.io,2026-05-17T11:49:32.652591Z,,dcb001f5281586378376ebcb0ae2b9a9,{},2026-07-21T05:39:33.683013Z,agent.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com,2026-07-19T19:40:45.99353Z,,db8028fd0902508b21a311d193263746,{},2026-07-19T19:40:45.99353Z,demo.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,0bb09102-5735-47ec-abf5-2d60e1764890.cfargotunnel.com,2026-07-02T17:31:32.57251Z,,8f157915aaa0b4fbd993f0c8e8568506,{},2026-07-02T17:31:32.57251Z,marvin.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
-,,fabriziosalmi.github.io,2026-05-17T12:17:16.157778Z,,5547107cc7c2abd218ed77b7b8aefc27,{},2026-05-17T12:17:16.157778Z,tools.certmate.org,,True,False,{'flatten_cname': False},[],1,CNAME
+,,fabriziosalmi.github.io,2026-05-17T12:17:16.157778Z,,5547107cc7c2abd218ed77b7b8aefc27,{},2026-07-21T05:39:16.721649Z,tools.certmate.org,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,route3.mx.cloudflare.net,2025-07-01T21:19:12.571955Z,,9a0c1ea7682256e45af5f83341fb113e,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.571955Z,certmate.org,34,False,False,{},[],1,MX
 ,,route2.mx.cloudflare.net,2025-07-01T21:19:12.566821Z,,aecf0cef3bc28aa58695c24be19d992c,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.566821Z,certmate.org,19,False,False,{},[],1,MX
 ,,route1.mx.cloudflare.net,2025-07-01T21:19:12.555505Z,,fd67f08c9417a7d074fabd7e5513f715,"{'email_routing': True, 'read_only': True}",2025-07-01T21:19:12.555505Z,certmate.org,58,False,False,{},[],1,MX
@@ -201,6 +201,7 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,google-site-verification=6DRoK-0kxVjTkrYzq-kCZy3nDRa1dBHfsCcbAzm1dYw,2015-05-25T23:39:18.201448Z,,03da4898b7afbb1408bfdd51f42e5936,{},2015-05-25T23:39:18.201448Z,kisstube.tv,,False,False,{},[],1,TXT
 ,,google-site-verification=39ep5VoK19J3GTzqrCZ3wKSPlg5bQXkFsuFQy0mtLeA,2014-06-23T19:34:28.649657Z,,fd06957f7e745e10c388665bb8be096a,{},2014-06-23T19:34:28.649657Z,kisstube.tv,,False,False,{},[],1,TXT
 ,,v=spf1 a mx ~all,2014-06-23T19:34:28.647128Z,,ccf7ca30f014519f55993c5bc5846c1a,{},2014-06-23T19:34:28.647128Z,kisstube.tv,,False,False,{},[],1,TXT
+,,185.199.108.153,2026-07-21T16:05:03.85274Z,,4e15c7a9da74f23738447840b03c6ed0,{},2026-07-21T16:05:03.85274Z,mixidaw.com,,True,True,{},[],1,A
 ,,fabriziosalmi.github.io,2026-04-03T12:16:43.381049Z,,e10b8a0c9773b8442e86d295581b0fe5,{},2026-04-03T18:58:28.024399Z,www.mixidaw.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com,2025-04-09T08:29:51.295021Z,,b738ae8c910e28345612400cb8a6e23e,{},2025-04-09T08:29:51.295021Z,ssh.repolizer.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,a7a86777-918b-4a27-9ad1-ab108649b92d.cfargotunnel.com,2025-04-23T08:30:24.446765Z,,bfd43018c9b1cd41cc29efc4c62c6d8c,{},2025-04-23T08:34:01.380912Z,www.repolizer.com,,True,True,{'flatten_cname': False},[],1,CNAME
