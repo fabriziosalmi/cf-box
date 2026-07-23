@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125003672,
+      "development_mode": -125089974,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -157481680,
+      "development_mode": -157567982,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156800508,
+      "development_mode": -156886810,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -166960790,
+      "development_mode": -167047092,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -275115528,
+      "development_mode": -275201830,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1644,6 +1644,21 @@
   ],
   "dns_records": [
     {
+      "id": "2896c2b918683dbfbbf3175c0e05a7fa",
+      "name": "mx1.aidevhost.com",
+      "type": "A",
+      "content": "34.17.131.255",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-22T09:11:54.432126Z",
+      "modified_on": "2026-07-22T09:11:54.432126Z"
+    },
+    {
       "id": "b1bdfd09e56d43659d0e78cefc8c20e2",
       "name": "api-dev.aidevhost.com",
       "type": "CNAME",
@@ -1730,6 +1745,22 @@
       "created_on": "2026-04-15T18:52:55.235456Z",
       "modified_on": "2026-05-02T21:28:44.063604Z",
       "comment_modified_on": "2026-04-15T18:52:55.235456Z"
+    },
+    {
+      "id": "b95c3e226ba9e686a71eebe6048de987",
+      "name": "aidevhost.com",
+      "type": "MX",
+      "content": "mx1.aidevhost.com",
+      "priority": 10,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-22T09:12:20.007747Z",
+      "modified_on": "2026-07-22T09:12:20.007747Z"
     },
     {
       "id": "8e6fc71cb419dbefacaa5f95931537ef",
@@ -2931,6 +2962,21 @@
       "modified_on": "2025-12-27T00:09:48.763474Z"
     },
     {
+      "id": "9f2987cfc8d32813c2b3948a60b84db2",
+      "name": "dev.edge99.net",
+      "type": "A",
+      "content": "100.126.208.93",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-22T22:09:27.787108Z",
+      "modified_on": "2026-07-22T22:09:27.787108Z"
+    },
+    {
       "id": "df7a3ddec69da98af45f8dbf5b5c59e4",
       "name": "edge99.net",
       "type": "A",
@@ -3201,6 +3247,21 @@
       "modified_on": "2025-12-27T13:31:32.593277Z"
     },
     {
+      "id": "42257456eba6534273f26994bbfac991",
+      "name": "ops.edge99.net",
+      "type": "A",
+      "content": "100.108.179.106",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-22T20:41:00.01803Z",
+      "modified_on": "2026-07-22T20:41:00.01803Z"
+    },
+    {
       "id": "8a986e6fbf6cb724c8c40f6854f8e8e5",
       "name": "origin-ap.edge99.net",
       "type": "A",
@@ -3289,6 +3350,21 @@
       "tags": [],
       "created_on": "2025-12-27T00:09:51.306371Z",
       "modified_on": "2025-12-27T00:09:51.306371Z"
+    },
+    {
+      "id": "f706e74d9a4413c62a781a2109b57755",
+      "name": "sec.edge99.net",
+      "type": "A",
+      "content": "100.122.123.40",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-07-22T20:43:32.373497Z",
+      "modified_on": "2026-07-22T20:43:32.373497Z"
     },
     {
       "id": "5e67d077f9eb297388998bba357bc02b",

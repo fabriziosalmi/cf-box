@@ -1,9 +1,11 @@
 comment,comment_modified_on,content,created_on,data,id,meta,modified_on,name,priority,proxiable,proxied,settings,tags,ttl,type
+,,34.17.131.255,2026-07-22T09:11:54.432126Z,,2896c2b918683dbfbbf3175c0e05a7fa,{},2026-07-22T09:11:54.432126Z,mx1.aidevhost.com,,True,False,{},[],1,A
 ,,366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com,2026-05-27T09:49:10.856806Z,,b1bdfd09e56d43659d0e78cefc8c20e2,{},2026-05-27T09:49:10.856806Z,api-dev.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Minerva dev locale via CF Tunnel (Mac),2026-04-15T20:55:30.46428Z,366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com,2026-04-15T20:55:30.46428Z,,2c36fa790545cbccce9526eeafbce666,{},2026-04-15T20:55:30.46428Z,minerva-dev.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Rollback access for migration 2026-05-02 (remove T+7),2026-05-02T19:25:30.420813Z,d01e442f-e4cd-4805-a504-85eb77797b3a.cfargotunnel.com,2026-05-02T19:25:30.420813Z,,8846758816f8bad11a7a46eb58498e7c,{},2026-05-02T19:25:30.420813Z,minerva-gcp.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com,2026-04-15T22:01:19.663722Z,,2955ed5367089c641216b296f48c5402,{},2026-04-15T22:01:19.663722Z,minerva-preprod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Minerva prod via Cloudflare Tunnel,2026-04-15T18:52:55.235456Z,f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com,2026-04-15T18:52:55.235456Z,,167eaa4b6cdb7183cbe6b40c8be16541,{},2026-05-02T21:28:44.063604Z,minerva-prod.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
+,,mx1.aidevhost.com,2026-07-22T09:12:20.007747Z,,b95c3e226ba9e686a71eebe6048de987,{},2026-07-22T09:12:20.007747Z,aidevhost.com,10,False,False,{},[],1,MX
 ,,185.199.108.153,2026-07-08T15:33:16.088582Z,,8e6fc71cb419dbefacaa5f95931537ef,{},2026-07-21T05:39:47.282244Z,audiolibri.org,,True,True,{},[],1,A
 ,,2606:50c0:8000::153,2026-07-08T15:33:35.400996Z,,639cd0626a762991b89430ee135ecb13,{},2026-07-21T05:39:53.279889Z,audiolibri.org,,True,True,{},[],1,AAAA
 ,,"0 issuewild ""letsencrypt.org""",2026-02-23T09:20:59.121899Z,"{'flags': 0, 'tag': 'issuewild', 'value': 'letsencrypt.org'}",34ee6ce7fd8c2150087754ee41b63f09,{},2026-02-23T09:20:59.121899Z,audiolibri.org,,False,False,{},[],300,CAA
@@ -77,6 +79,7 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,51.222.140.163,2025-12-26T23:53:42.746797Z,,bec47d6ece73e4b22bdd94e09dd37458,{},2026-01-02T16:11:32.508846Z,cdn.edge99.net,,True,False,{},[],60,A
 ,,46.250.245.74,2025-12-26T23:53:41.844611Z,,ab004065356f93519ec42f4d28626857,{},2026-01-02T16:11:31.768873Z,cdn.edge99.net,,True,False,{},[],60,A
 ,,100.110.99.1,2025-12-27T00:09:48.763474Z,,dd9cda661a53ff7fcc22618ea2701b9a,{},2025-12-27T00:09:48.763474Z,control.edge99.net,,False,False,{},[],300,A
+,,100.126.208.93,2026-07-22T22:09:27.787108Z,,9f2987cfc8d32813c2b3948a60b84db2,{},2026-07-22T22:09:27.787108Z,dev.edge99.net,,False,False,{},[],1,A
 ,,51.222.140.163,2025-12-19T15:04:15.633073Z,,df7a3ddec69da98af45f8dbf5b5c59e4,{},2026-01-02T16:11:29.52582Z,edge99.net,,True,False,{},[],300,A
 ,,65.109.163.154,2026-01-17T09:13:37.398436Z,,1d4ae58f74e95387468d001cb5ede44e,{},2026-01-17T09:13:37.398436Z,edge-hel.edge99.net,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-26T23:53:46.520651Z,,25308823ae2738c407f6fa8743bfde33,{},2026-01-09T16:24:12.130657Z,edge-mtl.edge99.net,,True,False,{},[],60,A
@@ -95,12 +98,14 @@ Created during Cloudflare Rules deployment process for Redirect from root to WWW
 ,,100.106.106.52,2026-01-05T13:21:42.080054Z,,bb09c8365dbcafce6575094f2a401d9f,{},2026-01-05T13:21:42.080054Z,monitor.edge99.net,,False,False,{},[],300,A
 ,,100.97.70.3,2026-02-23T09:20:50.514279Z,,40641ed1ed76b78043b4ec33bfd33b57,{},2026-02-23T09:20:50.514279Z,n8n.edge99.net,,False,False,{},[],300,A
 ,,51.222.140.163,2025-12-27T13:31:32.593277Z,,ad52fda9ae7d75a80f5b7f683c2f242c,{},2025-12-27T13:31:32.593277Z,na.cdn.edge99.net,,True,False,{},[],60,A
+,,100.108.179.106,2026-07-22T20:41:00.01803Z,,42257456eba6534273f26994bbfac991,{},2026-07-22T20:41:00.01803Z,ops.edge99.net,,False,False,{},[],1,A
 ,,46.250.245.74,2025-12-27T13:31:33.294716Z,,8a986e6fbf6cb724c8c40f6854f8e8e5,{},2025-12-27T13:31:33.294716Z,origin-ap.edge99.net,,True,False,{},[],60,A
 ,,65.109.163.154,2025-12-27T13:31:33.924922Z,,8799d5c2cd7af9f22ab31c14b808c8e3,{},2026-01-17T09:13:39.35235Z,origin-eu.edge99.net,,True,False,{},[],60,A
 ,,51.222.140.163,2025-12-27T13:31:34.596506Z,,6fb97126388ee3497dde75f9d2c65af6,{},2025-12-27T13:31:34.596506Z,origin-na.edge99.net,,True,False,{},[],60,A
 ,,100.122.88.46,2026-01-05T13:21:43.343554Z,,2d3a5a3a78a89440cf05fc2578fdf937,{},2026-01-05T13:21:43.343554Z,portal.edge99.net,,False,False,{},[],300,A
 ,,100.106.106.52,2025-12-27T00:10:34.575724Z,,51c56e5578a8f891177bcd98ea1bfc63,{},2025-12-27T00:10:34.575724Z,prometheus.edge99.net,,False,False,{},[],300,A
 ,,100.115.154.125,2025-12-27T00:09:51.306371Z,,6f86af0a494ff0a16b086445dadb09e9,{},2025-12-27T00:09:51.306371Z,registry.edge99.net,,False,False,{},[],300,A
+,,100.122.123.40,2026-07-22T20:43:32.373497Z,,f706e74d9a4413c62a781a2109b57755,{},2026-07-22T20:43:32.373497Z,sec.edge99.net,,False,False,{},[],1,A
 ,,100.116.165.79,2026-06-11T10:40:20.870807Z,,5e67d077f9eb297388998bba357bc02b,{},2026-06-11T10:40:20.870807Z,status.edge99.net,,False,False,{},[],300,A
 ,,100.86.174.68,2026-01-17T09:16:09.391479Z,,9c2664d0df87b9b00b19128a822779ff,{},2026-01-17T09:16:09.391479Z,test.edge99.net,,False,False,{},[],300,A
 ,,100.72.29.57,2026-01-09T16:24:14.072106Z,,edbcd182eae447bdcb79d230631a2a7c,{},2026-01-09T16:24:14.072106Z,ti-api.edge99.net,,False,False,{},[],300,A
