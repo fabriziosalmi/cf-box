@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -125089974,
+      "development_mode": -125176374,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -157567982,
+      "development_mode": -157654382,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -156886810,
+      "development_mode": -156973210,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -167047092,
+      "development_mode": -167133492,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -275201830,
+      "development_mode": -275288230,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -5301,20 +5301,21 @@
       "comment_modified_on": "2026-05-11T19:37:07.379818Z"
     },
     {
-      "id": "614d74460e6074a1b082554768e4fb65",
+      "id": "9f338061a228bbc342e74614cdc6f3f4",
       "name": "www.txt2vst.com",
-      "type": "A",
-      "content": "185.199.110.153",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
       "proxiable": true,
       "proxied": true,
       "ttl": 1,
-      "settings": {},
+      "settings": {
+        "flatten_cname": false
+      },
       "meta": {},
-      "comment": "GiiHub Pages",
+      "comment": null,
       "tags": [],
-      "created_on": "2026-05-11T19:35:38.524857Z",
-      "modified_on": "2026-05-11T21:59:15.337255Z",
-      "comment_modified_on": "2026-05-11T19:35:38.524857Z"
+      "created_on": "2026-07-23T09:15:51.117369Z",
+      "modified_on": "2026-07-23T09:17:36.709614Z"
     },
     {
       "id": "9d22dfb2ca6391206f7488782f950628",
