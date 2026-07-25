@@ -8,7 +8,7 @@ import yaml
 import sqlite3
 import pandas as pd
 from datetime import datetime
-from typing import Dict, List, Optional, Any
+from typing import Dict, Any
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
