@@ -1,7 +1,5 @@
 import requests
 import os
-import time
-import random
 import yaml
 from datetime import datetime
 from typing import Dict, List, Optional, Any
