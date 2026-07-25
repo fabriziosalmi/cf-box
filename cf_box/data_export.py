@@ -12,7 +12,6 @@ import yaml
 from cf_box.client import CloudflareAPIClient
 from cf_box.database import DatabaseManager
 from cf_box.logging_config import configure_logging, get_logger
-from cf_box.models import CloudflareAccount, CloudflareDNSRecord, CloudflareZone
 from cf_box.pdf_generator import PDFGenerator
 
 logger = get_logger(__name__)
