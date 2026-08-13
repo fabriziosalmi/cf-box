@@ -110,7 +110,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -126816831,
+      "development_mode": -126903364,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -621,7 +621,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -159294839,
+      "development_mode": -159381372,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -686,7 +686,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -158613667,
+      "development_mode": -158700200,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -815,7 +815,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -168773949,
+      "development_mode": -168860482,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1068,7 +1068,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -276928687,
+      "development_mode": -277015220,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1517,7 +1517,7 @@
     {
       "id": "73b30ae7427b0b58bca9b05fac8faa3b",
       "name": "zitto.net",
-      "status": "active",
+      "status": "moved",
       "paused": false,
       "type": "full",
       "development_mode": 0,
@@ -1538,7 +1538,7 @@
         "ns3fhx.name.com.",
         "ns4ksy.name.com."
       ],
-      "modified_on": "2025-08-07T22:49:15.665068Z",
+      "modified_on": "2026-08-12T18:12:05.368691Z",
       "created_on": "2025-08-07T22:47:28.335004Z",
       "activated_on": "2025-08-07T22:49:15.665068Z",
       "vanity_name_servers": [],
