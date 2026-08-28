@@ -10,6 +10,7 @@ from cf_box.data_export import (
     anonymize_account_id,
     anonymize_data,
     anonymize_email,
+    export_cloudflare_data,
     load_config,
     save_csv,
     save_excel,
@@ -108,7 +109,5 @@ class TestDataExport:
         """Test that export fails without API token."""
         with patch.dict(os.environ, {}, clear=True):
             with patch("cf_box.data_export.logger") as mock_logger:
-                from cf_box.data_export import export_cloudflare_data
-
                 await export_cloudflare_data()
                 mock_logger.error.assert_called_once()
