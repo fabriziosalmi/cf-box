@@ -1,4 +1,6 @@
 comment,comment_modified_on,content,created_on,data,id,meta,modified_on,name,priority,proxiable,proxied,settings,tags,ttl,type
+,,fabriziosalmi.github.io,2026-08-28T09:03:48.614262Z,,f7d4d0879c3fed2cf46b4f19bb945d0b,{},2026-08-28T09:10:34.27378Z,agssh.dev,,True,True,{'flatten_cname': False},[],1,CNAME
+,,fabriziosalmi.github.io,2026-08-28T09:03:41.464056Z,,74cb1466243f5e21324e3a702481b2f5,{},2026-08-28T09:10:38.665514Z,www.agssh.dev,,True,True,{'flatten_cname': False},[],1,CNAME
 ,,34.17.131.255,2026-07-22T09:11:54.432126Z,,2896c2b918683dbfbbf3175c0e05a7fa,{},2026-07-22T09:11:54.432126Z,mx1.aidevhost.com,,True,False,{},[],1,A
 ,,366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com,2026-05-27T09:49:10.856806Z,,b1bdfd09e56d43659d0e78cefc8c20e2,{},2026-05-27T09:49:10.856806Z,api-dev.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME
 Managed by Terraform — Minerva dev locale via CF Tunnel (Mac),2026-04-15T20:55:30.46428Z,366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com,2026-04-15T20:55:30.46428Z,,2c36fa790545cbccce9526eeafbce666,{},2026-04-15T20:55:30.46428Z,minerva-dev.aidevhost.com,,True,True,{'flatten_cname': False},[],1,CNAME

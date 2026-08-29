@@ -43,6 +43,68 @@
   ],
   "zones": [
     {
+      "id": "e7c49ce2180fb7e29faa4fb0c7268a23",
+      "name": "agssh.dev",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-08-28T08:54:44.008938Z",
+      "created_on": "2026-08-28T08:38:37.013338Z",
+      "activated_on": "2026-08-28T08:38:37.467103Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "a295e475bc4016ddb9f581b3a74ec56c",
       "name": "aidevhost.com",
       "status": "active",
@@ -110,7 +172,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -128206442,
+      "development_mode": -128283792,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -616,6 +678,68 @@
       }
     },
     {
+      "id": "4a8aac55f241ea5e1ad7aac995c758bf",
+      "name": "fabgpt-agents.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-08-28T08:52:15.293439Z",
+      "created_on": "2026-08-28T08:52:14.805616Z",
+      "activated_on": "2026-08-28T08:52:15.185742Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "7a59c552f9ae70115d222e8e58768905",
       "name": "freecoders.org",
       "status": "active",
@@ -683,7 +807,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160684450,
+      "development_mode": -160761800,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -748,7 +872,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160003278,
+      "development_mode": -160080628,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -877,7 +1001,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -170163560,
+      "development_mode": -170240910,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1130,7 +1254,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -278318298,
+      "development_mode": -278395648,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1640,6 +1764,40 @@
     }
   ],
   "dns_records": [
+    {
+      "id": "f7d4d0879c3fed2cf46b4f19bb945d0b",
+      "name": "agssh.dev",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-08-28T09:03:48.614262Z",
+      "modified_on": "2026-08-28T09:10:34.27378Z"
+    },
+    {
+      "id": "74cb1466243f5e21324e3a702481b2f5",
+      "name": "www.agssh.dev",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-08-28T09:03:41.464056Z",
+      "modified_on": "2026-08-28T09:10:38.665514Z"
+    },
     {
       "id": "2896c2b918683dbfbbf3175c0e05a7fa",
       "name": "mx1.aidevhost.com",
