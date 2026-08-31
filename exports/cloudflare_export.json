@@ -172,7 +172,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -128370271,
+      "development_mode": -128456766,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -807,7 +807,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160848279,
+      "development_mode": -160934774,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -872,7 +872,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160167107,
+      "development_mode": -160253602,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1001,7 +1001,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -170327389,
+      "development_mode": -170413884,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1254,7 +1254,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -278482127,
+      "development_mode": -278568622,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1465,6 +1465,68 @@
       "vanity_name_servers_ips": null,
       "meta": {
         "step": 2,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "870985d2dd95bc840f7787695beda649",
+      "name": "scanprivacy.org",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-08-30T08:25:02.305704Z",
+      "created_on": "2026-08-30T08:25:01.579835Z",
+      "activated_on": "2026-08-30T08:25:02.016191Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
