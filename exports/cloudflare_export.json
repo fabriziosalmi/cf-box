@@ -172,7 +172,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -128629505,
+      "development_mode": -128720227,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -309,7 +309,7 @@
       "original_name_servers": null,
       "original_registrar": null,
       "original_dnshost": null,
-      "modified_on": "2026-08-18T17:57:45.892434Z",
+      "modified_on": "2026-09-02T17:26:19.462129Z",
       "created_on": "2026-08-18T17:57:45.386078Z",
       "activated_on": "2026-08-18T17:57:45.753951Z",
       "vanity_name_servers": [],
@@ -740,6 +740,68 @@
       }
     },
     {
+      "id": "a3b84e13d6a456a51cc82c6c83d63906",
+      "name": "fabos.cloud",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": null,
+      "original_registrar": null,
+      "original_dnshost": null,
+      "modified_on": "2026-09-02T19:14:33.339929Z",
+      "created_on": "2026-09-02T19:14:32.743334Z",
+      "activated_on": "2026-09-02T19:14:33.235403Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
       "id": "7a59c552f9ae70115d222e8e58768905",
       "name": "freecoders.org",
       "status": "active",
@@ -807,7 +869,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -161107513,
+      "development_mode": -161198235,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -872,7 +934,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160426341,
+      "development_mode": -160517063,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1001,7 +1063,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -170586623,
+      "development_mode": -170677345,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1254,7 +1316,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -278741361,
+      "development_mode": -278832083,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1654,6 +1716,71 @@
       "vanity_name_servers_ips": null,
       "meta": {
         "step": 4,
+        "custom_certificate_quota": 0,
+        "page_rule_quota": 3,
+        "phishing_detected": false
+      },
+      "owner": {
+        "id": null,
+        "type": "user",
+        "email": null
+      },
+      "account": {
+        "id": "1e7ed1e7e9b2dfdfb15ed609d30fbe52",
+        "name": "Fabrizio.salmi@gmail.com's Account"
+      },
+      "tenant": {
+        "id": null,
+        "name": null
+      },
+      "tenant_unit": {
+        "id": null
+      },
+      "permissions": [
+        "#waf:read",
+        "#zone_settings:read",
+        "#dns_records:read",
+        "#page_shield:read",
+        "#ssl:read",
+        "#zone:read"
+      ],
+      "plan": {
+        "id": "0feeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "name": "Free Website",
+        "price": 0,
+        "currency": "USD",
+        "frequency": "",
+        "is_subscribed": false,
+        "can_subscribe": false,
+        "legacy_id": "free",
+        "legacy_discount": false,
+        "externally_managed": false
+      }
+    },
+    {
+      "id": "058339795f6058007bf32836e48cb66e",
+      "name": "vodmetrics.com",
+      "status": "active",
+      "paused": false,
+      "type": "full",
+      "development_mode": 0,
+      "name_servers": [
+        "greg.ns.cloudflare.com",
+        "lucy.ns.cloudflare.com"
+      ],
+      "original_name_servers": [
+        "ns1.register.it",
+        "ns2.register.it"
+      ],
+      "original_registrar": "register spa (id: 168)",
+      "original_dnshost": null,
+      "modified_on": "2026-09-02T10:35:38.830645Z",
+      "created_on": "2026-09-02T09:39:24.742204Z",
+      "activated_on": "2026-09-02T10:35:38.830645Z",
+      "vanity_name_servers": [],
+      "vanity_name_servers_ips": null,
+      "meta": {
+        "step": 2,
         "custom_certificate_quota": 0,
         "page_rule_quota": 3,
         "phishing_detected": false
@@ -2142,6 +2269,40 @@
       "tags": [],
       "created_on": "2026-06-18T09:00:35.098691Z",
       "modified_on": "2026-06-18T09:00:35.098691Z"
+    },
+    {
+      "id": "372de7794ecc2b69a614b074abaa9bdf",
+      "name": "caddy-waf.com",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T17:28:32.304107Z",
+      "modified_on": "2026-09-02T17:28:32.304107Z"
+    },
+    {
+      "id": "4ceb0b2e0e51347121c5d5bef94ff875",
+      "name": "www.caddy-waf.com",
+      "type": "CNAME",
+      "content": "fabriziosalmi.github.io",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T17:27:23.877263Z",
+      "modified_on": "2026-09-02T17:27:23.877263Z"
     },
     {
       "id": "d173ba5139b4f9f794a65a183fd4a962",
@@ -5628,6 +5789,105 @@
       "tags": [],
       "created_on": "2021-12-12T16:20:23.51106Z",
       "modified_on": "2021-12-12T16:20:23.51106Z"
+    },
+    {
+      "id": "8380f37555f2257310ec09aa50b48117",
+      "name": "mx1.vodmetrics.com",
+      "type": "A",
+      "content": "34.17.131.255",
+      "proxiable": true,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T10:36:23.672244Z",
+      "modified_on": "2026-09-02T10:36:23.672244Z"
+    },
+    {
+      "id": "24f0aec2499b3c1ae9401fd6d463900f",
+      "name": "dev.vodmetrics.com",
+      "type": "CNAME",
+      "content": "366e33f0-7e37-49b4-9ce2-507d05a35c12.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T10:37:45.5748Z",
+      "modified_on": "2026-09-02T10:37:45.5748Z"
+    },
+    {
+      "id": "93ef5a6886237818993ba0e8faa5d818",
+      "name": "preprod.vodmetrics.com",
+      "type": "CNAME",
+      "content": "936c93f6-65eb-4939-ba98-24d965f228b4.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T10:38:32.289307Z",
+      "modified_on": "2026-09-02T10:38:32.289307Z"
+    },
+    {
+      "id": "8eb974ad0a55f8837a67a72990f17ed2",
+      "name": "vodmetrics.com",
+      "type": "CNAME",
+      "content": "f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T10:39:08.500938Z",
+      "modified_on": "2026-09-02T10:39:08.500938Z"
+    },
+    {
+      "id": "ab333080961b1c83c51b44639989c8cb",
+      "name": "www.vodmetrics.com",
+      "type": "CNAME",
+      "content": "f2b3ca2a-b25f-4529-8aa6-008e1f7ba3c5.cfargotunnel.com",
+      "proxiable": true,
+      "proxied": true,
+      "ttl": 1,
+      "settings": {
+        "flatten_cname": false
+      },
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T10:38:54.800416Z",
+      "modified_on": "2026-09-02T10:38:54.800416Z"
+    },
+    {
+      "id": "04260ff73df24e49840fb2dfc38a212c",
+      "name": "vodmetrics.com",
+      "type": "MX",
+      "content": "mx1.vodmetrics.com",
+      "priority": 10,
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 1,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-02T09:39:31.13629Z",
+      "modified_on": "2026-09-02T10:35:58.873547Z"
     },
     {
       "id": "cd8e879f3c9881e570af82269bcd0477",
