@@ -172,7 +172,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -128720227,
+      "development_mode": -128802275,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -869,7 +869,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -161198235,
+      "development_mode": -161280283,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -934,7 +934,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -160517063,
+      "development_mode": -160599111,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1063,7 +1063,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -170677345,
+      "development_mode": -170759393,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -1316,7 +1316,7 @@
       "status": "active",
       "paused": false,
       "type": "full",
-      "development_mode": -278832083,
+      "development_mode": -278914131,
       "name_servers": [
         "greg.ns.cloudflare.com",
         "lucy.ns.cloudflare.com"
@@ -2305,6 +2305,21 @@
       "modified_on": "2026-09-02T17:27:23.877263Z"
     },
     {
+      "id": "69343c85735db960414129e44b07bb09",
+      "name": "caddy-waf.com",
+      "type": "TXT",
+      "content": "\"google-site-verification=Ae-qZ5vSgfwzo_r6IfeYi70U2iZBcMasxkHj3Fw9VP0\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-03T11:49:40.070405Z",
+      "modified_on": "2026-09-03T11:49:40.070405Z"
+    },
+    {
       "id": "d173ba5139b4f9f794a65a183fd4a962",
       "name": "certmate.org",
       "type": "A",
@@ -2534,6 +2549,21 @@
       "tags": [],
       "created_on": "2026-06-25T06:17:17.958334Z",
       "modified_on": "2026-06-25T06:17:17.958334Z"
+    },
+    {
+      "id": "63e383b5e237df4efa3802f642d33964",
+      "name": "certmate.org",
+      "type": "TXT",
+      "content": "\"google-site-verification=oyybjlN5PXc8jv514O7PN6f1rTfNrGfUwP9ZY4TniJY\"",
+      "proxiable": false,
+      "proxied": false,
+      "ttl": 3600,
+      "settings": {},
+      "meta": {},
+      "comment": null,
+      "tags": [],
+      "created_on": "2026-09-03T11:48:46.908094Z",
+      "modified_on": "2026-09-03T11:48:46.908094Z"
     },
     {
       "id": "abd1e138555a9935af96e12e735ae62e",
