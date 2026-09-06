@@ -76,7 +76,8 @@ python cloudflare_ip_list_manager.py
 Feel free to submit pull requests and improve the project.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GNU Affero General Public License v3.0.
+See [LICENSE](LICENSE) for the full text.
 
 ## Disclaimer
 > This tool is not affiliated with or officially supported by Cloudflare.
