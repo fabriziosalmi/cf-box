@@ -58,6 +58,27 @@ cf-ip-manager
 cf-analytics
 ```
 
+## Two ways to run the same tools
+
+The repository carries two generations of the same three tools, and both are
+live. Knowing which one you are looking at saves confusion:
+
+| | Package | Root scripts |
+|---|---|---|
+| Code | `cf_box/` | `cloudflare_data_export.py`, `cloudflare_ip_list_manager.py`, `cloudflare_aggregated_analytics.py` |
+| How it runs | `cf-data-export` and the other entry points, `python -m cf_box.data_export`, Docker and Compose | `python3 cloudflare_data_export.py` |
+| Dependencies | `pyproject.toml`: aiohttp, SQLAlchemy, Pydantic, structlog, Jinja2, WeasyPrint | `requirements.txt`: requests, pandas, openpyxl, reportlab |
+| Used by | Everything documented above | The two scheduled workflows in `.github/workflows/` |
+| Documented in | This README | `data_export.md`, `ip_list_manager.md` |
+
+The package is the supported path: it is what the entry points, the Dockerfile
+and the Compose file use, and it is what `tests/` covers. The root scripts are
+the earlier generation, kept because the daily workflows still run them, so
+`requirements.txt` is not stale: it is what those workflows install.
+
+If you are installing cf-box, use the package. The per-tool documents describe
+the root scripts, which take the same configuration but not the same options.
+
 ## Development
 
 ### Setup Pre-commit Hooks
@@ -107,3 +128,12 @@ The project follows a modern Python package structure:
 *   **Zone Control:** [zonecontrol](https://github.com/fabriziosalmi/zonecontrol)
 *   **mTLS with AWS:** [mtls-cloudflare-aws](https://github.com/fabriziosalmi/mtls-cloudflare-aws)
 *   **DNS Redundancy:** [dnscontrol-actions](https://github.com/fabriziosalmi/dnscontrol-actions)
+
+## License
+
+cf-box is licensed under the GNU Affero General Public License v3.0. See
+[LICENSE](LICENSE) for the full text.
+
+The Affero clause is the reason for this choice rather than plain GPL: this
+toolkit is meant to be run as a scheduled service, in Docker or in CI, and the
+AGPL is the version of the GPL that reaches software offered over a network.

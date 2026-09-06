@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Cloudflare API data export and IP list management tools"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "GPL-3.0"}
+license = {text = "AGPL-3.0-only"}
 authors = [
     {name = "Fabrizio Salmi"}
 ]
@@ -16,7 +16,7 @@ keywords = ["cloudflare", "api", "export", "analytics"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
