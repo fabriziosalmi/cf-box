@@ -71,3 +71,8 @@ python3 cloudflare_data_export.py
 | **CSV** | `exports/cloudflare_dns_records.csv` | Easy-to-read tabular format |
 | **XLS (Excel)** | `exports/cloudflare_dns_records.xlsx` | Spreadsheet analysis |
 | **PDF** | `exports/cloudflare_export.pdf` | Printable summary report |
+
+> The `exports/` directory is written where you run the tool and is not committed.
+> An export lists every zone, every DNS record and the addresses behind them,
+> which is a description of your infrastructure: keep it wherever you keep that
+> kind of thing, not in a public repository.

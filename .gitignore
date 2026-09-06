@@ -30,3 +30,7 @@ ENV/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Cloudflare exports describe the infrastructure they come from: zones, DNS
+# records and origin addresses. They are generated locally and never committed.
+exports/
